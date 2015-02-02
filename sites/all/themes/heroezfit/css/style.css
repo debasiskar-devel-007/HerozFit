@@ -2914,7 +2914,7 @@ width: 394px;
 				.page-cart-checkout .fieldset-wrapper{ margin-bottom:0px;}
 			
 			
-			.page-cart-checkout  #edit-panes-comments-comments{ border:solid 1px #ddd; resize:none;} 
+			.page-cart-checkout  #edit-panes-comments-comments{ border:solid 1px #ddd; resize:none; padding:5px;} 
 			
 			
 			.page-cart-checkout  #edit-actions{ margin:0 0 30px 0!important; padding:0!important;}
