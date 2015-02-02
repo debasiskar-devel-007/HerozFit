@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38b1f542-0baf-4254-bb16-45a5f9193482" name="Default" comment="" />
+    <ignored path="herozfitcart.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="herozfitcart" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Common.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="265" column="80" selection-start="10795" selection-end="10795" vertical-scroll-proportion="0.5596708" vertical-offset="4097" max-vertical-offset="5236">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/sites/all/themes/theme.info" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/media.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/template.php" />
+        <option value="//KTA30-PC/htdocs/drupalold/sites/all/modules/debasis/debasis.module" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/Common.js" />
+        <option value="//KTA37-PC/htdocs/herozfitcart/sites/all/themes/heroezfit/theme.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/ubercart/payment/uc_authorizenet/uc_authorizenet.module" />
+        <option value="X:/Computer_Authorities/protected/modules/cms/views/page/home.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/authnet/authnet.module" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/settings.php" />
+        <option value="V:/herozfitcart/misc/jquery.js" />
+        <option value="D:/xampp/htdocs/zoomer1/src/jquery.spritezoom.js" />
+        <option value="D:/xampp/htdocs/zoomer1/examples/index.html" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DR01.000/zoomerang-master/index.html" />
+        <option value="$USER_HOME$/Desktop/torqkd/torqkdtv_datatorqkd.sql" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/okzoom.min.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/jquery.zoom.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/jquery.anythingzoomer.js" />
+        <option value="$PROJECT_DIR$/misc/jquery.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/anythingzoomer.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/lightbox2/js/lightbox.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/carosel.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/js/jquery.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroezfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroezfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="web-ide.project.structure" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="D:/xampp/htdocs/Computer_Authorities" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\herozfitcart\sites\all\themes\heroezfit\js" />
+      <recent name="D:\xampp\htdocs\herozfitcart\sites\all\themes\heroezfit\css" />
+      <recent name="D:\xampp\htdocs\herozfitcart\sites\all\themes\heroezfit\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\herozfitcart\sites\all\themes\heroezfit" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38b1f542-0baf-4254-bb16-45a5f9193482" name="Default" comment="" />
+      <created>1417607683008</created>
+      <updated>1417607683008</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12109375" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/payment/uc_authorizenet/uc_authorizenet.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="527" column="3" selection-start="20423" selection-end="20423" vertical-scroll-proportion="0.0" vertical-offset="8959" max-vertical-offset="16643" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="73" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="88" selection-start="3308" selection-end="3308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3553" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="6" selection-start="5961" selection-end="5961" vertical-scroll-proportion="0.0" vertical-offset="2584" max-vertical-offset="3553" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="6" selection-start="5961" selection-end="5961" vertical-scroll-proportion="0.0" vertical-offset="2034" max-vertical-offset="3553" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="65" selection-start="4386" selection-end="4386" vertical-scroll-proportion="0.0" vertical-offset="1779" max-vertical-offset="3094" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="13" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0" vertical-offset="1243" max-vertical-offset="2686" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/region.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105553" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="208" selection-end="208" vertical-scroll-proportion="0.023319615" vertical-offset="0" max-vertical-offset="729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="56" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.7244318" vertical-offset="102" max-vertical-offset="986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="13" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.3180593" vertical-offset="1243" max-vertical-offset="2686" />
+      </provider>
+    </entry>
+    <entry file="file:////KTA30-PC/htdocs/drupalold/sites/all/modules/debasis/debasis.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742" />
+      </provider>
+    </entry>
+    <entry file="file:////KTA30-PC/htdocs/drupalold/sites/all/modules/debasis/debasis.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="1" selection-start="88" selection-end="443" vertical-scroll-proportion="0.34442836" vertical-offset="0" max-vertical-offset="2431" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/clientside_validation/clientside_validation_field_validation/clientside_validation_field_validation.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="47" selection-start="11817" selection-end="11817" vertical-scroll-proportion="3.9018493" vertical-offset="1371" max-vertical-offset="5542" />
+      </provider>
+    </entry>
+    <entry file="file:////KTA37-PC/htdocs/herozfitcart/sites/all/themes/heroezfit/theme.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="349" selection-end="355" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/node.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7368422" vertical-offset="1924" max-vertical-offset="9129" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="509" selection-end="509" vertical-scroll-proportion="0.4511173" vertical-offset="0" max-vertical-offset="716" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/comment.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/payment/uc_authorizenet/uc_authorizenet.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="36" selection-start="1690" selection-end="1702" vertical-scroll-proportion="-0.120910384" vertical-offset="918" max-vertical-offset="16643" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="26" selection-start="2655" selection-end="2655" vertical-scroll-proportion="-5.0938835" vertical-offset="4975" max-vertical-offset="5678" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2849162" vertical-offset="0" max-vertical-offset="716" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jquery-1.9.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="268381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="163047" />
+      </provider>
+    </entry>
+    <entry file="file://V:/herozfitcart/misc/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="77" selection-start="6581" selection-end="6581" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="2958" />
+      </provider>
+    </entry>
+    <entry file="file://D:/xampp/htdocs/zoomer/src/okzoom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="3352" selection-end="3352" vertical-scroll-proportion="0.19912152" vertical-offset="0" max-vertical-offset="683" />
+      </provider>
+    </entry>
+    <entry file="file://D:/xampp/htdocs/zoomer1/src/jquery.spritezoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="27" selection-start="6338" selection-end="6338" vertical-scroll-proportion="0.0" vertical-offset="3672" max-vertical-offset="7633" />
+      </provider>
+    </entry>
+    <entry file="file://D:/xampp/htdocs/zoomer1/examples/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="1" selection-start="494" selection-end="494" vertical-scroll-proportion="0.8477089" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://D:/xampp/htdocs/zoomer1/examples/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="65" selection-start="479" selection-end="530" vertical-scroll-proportion="0.16620111" vertical-offset="0" max-vertical-offset="1394" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/torqkd/torqkdtv_datatorqkd.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6248" column="36" selection-start="426224" selection-end="427034" vertical-scroll-proportion="-4.64" vertical-offset="105868" max-vertical-offset="106845" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/datatorqkd.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4893" column="0" selection-start="448235" selection-end="448580" vertical-scroll-proportion="-8.48" vertical-offset="82757" max-vertical-offset="84507" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/jquery.zoom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="47" selection-start="5246" selection-end="5246" vertical-scroll-proportion="4.4673295" vertical-offset="408" max-vertical-offset="4012" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/anythingzoomer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="17" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.6792453" vertical-offset="465" max-vertical-offset="1207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/misc/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="93583" selection-start="93636" selection-end="93636" vertical-scroll-proportion="0.023319615" vertical-offset="0" max-vertical-offset="729" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/jquery.anythingzoomer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="387" column="10" selection-start="11880" selection-end="11880" vertical-scroll-proportion="0.75852275" vertical-offset="6045" max-vertical-offset="6749" />
+      </provider>
+    </entry>
+    <entry file="file://D:/xampp/htdocs/zoomer/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="23" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.33285093" vertical-offset="450" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/lightbox2/js/lightbox_modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="742" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/lightbox2/js/lightbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="923" column="0" selection-start="36587" selection-end="36587" vertical-scroll-proportion="0.0" vertical-offset="15249" max-vertical-offset="20587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="67" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/carosel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1575" selection-start="1721" selection-end="1723" vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="165" selection-end="165" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="5168" />
+      </provider>
+    </entry>
+    <entry file="file://D:/xampp/htdocs/Slides-SlidesJS-3/source/jquery.slides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="40" selection-start="7133" selection-end="7133" vertical-scroll-proportion="0.8163842" vertical-offset="3264" max-vertical-offset="10268" />
+      </provider>
+    </entry>
+    <entry file="file://D:/xampp/htdocs/Slides-SlidesJS-3/examples/standard/js/jquery.slides.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="11646" selection-end="11646" vertical-scroll-proportion="0.048022598" vertical-offset="0" max-vertical-offset="708" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="601" column="0" selection-start="16669" selection-end="16690" vertical-scroll-proportion="-14.615385" vertical-offset="9752" max-vertical-offset="10761" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="476" selection-end="476" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2797" column="0" selection-start="98618" selection-end="98618" vertical-scroll-proportion="0.0" vertical-offset="46909" max-vertical-offset="47651">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/contact/contact.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="321" selection-end="321" vertical-scroll-proportion="0.2849162" vertical-offset="0" max-vertical-offset="716">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="265" column="80" selection-start="10795" selection-end="10795" vertical-scroll-proportion="0.5596708" vertical-offset="4097" max-vertical-offset="5236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
