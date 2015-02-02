@@ -261,7 +261,32 @@ var flag1='';
 
             $('.lightbox-popup').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('.option').live('click',function(){
 
+
+
+
+
+                if ( $( this ).hasClass( "active-size" ) ) {
+
+                    $(this).removeClass('active-size');
+
+                }
+
+                else{
+
+                    $(this).parent().parent().find('.option').each(function(){
+                        //alert(1);
+                        $(this).removeClass('active-size');
+
+                    });
+
+                    $(this).addClass('active-size');
+
+                }
                //alert(1);
+
+
+
+
 
                 $(this).prev().prop("checked", !$(this).prev().prop("checked"));
 

@@ -1348,7 +1348,7 @@ margin-bottom: 15px; text-transform:uppercase;}
 
 .page-node-1 .form-item .form-type-checkbox .option:hover{ border:solid 2px #008081; background:#008081; color:#fff!important;}
 
-.page-node-1 .form-item .form-type-checkbox .active-size .option{ margin:0!important; padding:0!important; cursor:pointer; display:block; border:solid 2px #008081; line-height:30px; }
+.page-node-1 .form-item .form-type-checkbox .active-size{ margin:0!important; padding:0!important; cursor:pointer; display:block; border:solid 2px #008081; line-height:30px; }
 
 
 
@@ -2735,15 +2735,15 @@ width: 394px;
 		
 		.page-cart #uc-cart-view-form td{ padding:10px;  border: 1px solid #ddd !important; background:#fcfcfc ;}
 		
-		.page-cart #edit-items-0-remove{ background:none; color:#333; font-size:14px;}
-		.page-cart #edit-items-0-remove:hover{ color:#008081;}
+		.page-cart table input[type="submit"]{ background:none; color:#333; font-size:14px;}
+		.page-cart table input[type="submit"]:hover{ color:#008081;}
 	
 	
 	.page-cart #uc-cart-view-form td a{ padding:0; display:block; margin:0 auto; color:#008081; text-decoration:none; font-size:16px; width:auto; height:auto;}
 	
 	.page-cart #uc-cart-view-form td a img{ display:block; margin:0 auto; padding:0; float:none;}
 	
-	.page-cart #uc-cart-view-form #edit-items-0-qty{border: 1px solid #bfbfbf;
+	.page-cart #uc-cart-view-form input[type="text"]{border: 1px solid #bfbfbf;
     height: 32px;
     width: 70px; padding:0 10px;}
 	
@@ -2767,7 +2767,13 @@ width: 394px;
 			
 			.page-cart #edit-checkout--2{ margin:0 0px!important; float:left; height:40px;}
 			
-			.page-cart-checkout  .region-content{ text-align:left;}	
+			
+	
+			
+			
+			
+			
+.page-cart-checkout  .region-content{ text-align:left;}	
 			
 			
 			
@@ -2862,6 +2868,10 @@ width: 394px;
 .page-cart-checkout .payment-details-credit .field-suffix{ float:left; display:block; }
 	
 	
+.page-cart-checkout .form-item-panes-comments-comments label{ display:inline; float:none; text-align:left!important;}
+
+.page-cart-checkout .form-item-panes-comments-comments .form-textarea-wrapper{ float:none;}
+	
 		.page-cart-checkout  #line-items-div table,tbody,tr{ border:none!important; background:none!important;}
 	
 		.page-cart-checkout  #line-items-div td{ border:none!important; background:none!important;}
@@ -2884,8 +2894,8 @@ width: 394px;
 		
 			
 		
-		.page-cart-checkout #edit-panes-payment-details-cc-exp-month{ width:200px; height:32px; margin-left:5px; border:solid 1px #ddd;}
-		.page-cart-checkout   #edit-panes-payment-details-cc-exp-year{ width:94px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
+		.page-cart-checkout #edit-panes-payment-details-cc-exp-month{ width:300px; height:32px; margin-left:5px; border:solid 1px #ddd;}
+		.page-cart-checkout   #edit-panes-payment-details-cc-exp-year{ width:300px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
 		
 			.page-cart-checkout  #edit-panes-payment-details-cc-cvv{ width:160px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
 			
@@ -2905,8 +2915,8 @@ width: 394px;
 			
 			
 			.page-cart-checkout  #edit-actions{ margin:0 0 30px 0!important; padding:0!important;}
-			.page-cart-checkout #edit-cancel{ float:left; margin-right:10px!important;}
-			.page-cart-checkout #edit-continue{ float:left;}
+			.page-cart-checkout #edit-cancel{ float:left!important; margin-right:10px!important;}
+			.page-cart-checkout #edit-continue{ float:left!important;}
 			
 			
 			.page-cart-checkout .fieldset-description a{ color:#008081;}
@@ -2928,9 +2938,58 @@ width: 394px;
 	.page-cart-checkout .form-item-panes-billing-copy-address label{ display:inline!important; float:none!important;}
 	
 	.page-cart-checkout input{ display:inline!important; float:none!important;}	
+	
+		.page-cart-checkout  .search-div input[type="text"] {
+    background: none!important;
+    border: none!important;
+    float: left!important;
+    height: 37px!important;
+    margin: -14px 0 0 0!important;
+    width: 88%!important;
+}
+
+	.page-cart-checkout  .search-div input[type="submit"] {
+    background: url("../images/search.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0)!important;
+    border: medium none!important;
+    float: right!important;
+    font-size: 0!important;
+    margin: -4px 0 0 !important;
+    padding-bottom: 12px !important;
+    width: 20px!important;
+}
+
+
+.page-cart-checkout .form-item { overflow:inherit!important;}
+
+.page-cart-checkout .form-item-panes-billing-select-address label{ width:137px!important;}
+.page-cart-checkout .form-item-panes-billing-select-address #edit-panes-billing-select-address{ width:280px!important;}
+
+
+.page-cart-checkout .form-item-panes-delivery-select-address label{ width:137px!important;}
+.page-cart-checkout  .form-item-panes-delivery-select-address #edit-panes-billing-select-address{ width:280px!important;}
+
+.page-cart-checkout .form-item-panes-payment-details-cc-type label{ width:110px!important; } 
+.page-cart-checkout .form-item-panes-payment-details-cc-owner label{ width:110px!important; } 
+
+.page-cart-checkout .form-item-panes-payment-details-cc-number label{ width:110px!important; } 
+
+.page-cart-checkout .form-item-panes-payment-details-cc-exp-month label{ width:110px!important; } 
+
+.page-cart-checkout .form-item-panes-payment-details-cc-exp-year label{ width:110px!important; } 
+
+.page-cart-checkout .form-item-panes-payment-details-cc-cvv label{ width:110px!important; } 
+
+.page-cart-checkout .form-item label.error{ width:280px!important; margin:0px!important; float:none!important; text-align:left!important;}
+.page-cart-checkout .form-item input.error{ margin:0px!important;  width:280px!important;}
+
+
+.page-cart-checkout #customer-pane .form-item label.error{ width:300px!important; margin:0px 0 0 170px!important; float:none!important; text-align:left!important;} 
+
+
 			
     .large{
 
         display: none;
     }
+
 
