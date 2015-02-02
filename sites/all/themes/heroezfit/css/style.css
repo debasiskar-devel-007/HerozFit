@@ -2774,20 +2774,36 @@ width: 394px;
 .page-cart-checkout #uc-cart-checkout-form{ width:1140px; margin:0 auto; margin-top:25px;}		
 
 
-.page-cart-checkout legend{ border:none;}
+.page-cart-checkout legend{ border:none; padding-top:20px;}
 .page-cart-checkout #cart-pane legend .fieldset-legend{ font-family: "lane_-_narrowregular"; text-align:center; color:#008081; font-size:30px; font-weight:bold;   padding-bottom:5px; border-bottom:solid 2px #008081; width:300px; margin:0 auto; display:block;}
 
 
-.page-cart-checkout #customer-pane legend .fieldset-legend{ font-family: 'open_sansregular'; color:#008081; font-size:22px;   padding-bottom:5px; text-transform:none;}		
+.page-cart-checkout #customer-pane legend .fieldset-legend{ font-family: 'open_sansregular'; color:#008081; font-size:22px;    padding-bottom:5px; text-transform:none; overflow:hidden; clear:both;}		
 
-.page-cart-checkout #delivery-pane legend .fieldset-legend{ font-family: 'open_sansregular'; color:#008081; font-size:22px;   padding-bottom:5px; text-transform:none;}		
+.page-cart-checkout #delivery-pane legend .fieldset-legend{ font-family: 'open_sansregular'; color:#008081; font-size:22px;    padding-bottom:5px; text-transform:none;}		
 
-			
+
+.page-cart-checkout #billing-pane legend .fieldset-legend{ font-family: 'open_sansregular'; color:#008081; font-size:22px;   padding-bottom:5px; text-transform:none;}	
+
+.page-cart-checkout #payment-pane legend .fieldset-legend{ font-family: 'open_sansregular'; color:#008081; font-size:22px;   text-transform:none;}	
+
+	
+.page-cart-checkout #comments-pane	 legend .fieldset-legend{ font-family: 'open_sansregular'; color:#008081; font-size:22px;   padding-bottom:5px; text-transform:none;}	
+
+
+.page-cart-checkout .form-item{ margin-bottom:0px; clear:both; overflow:hidden;}	
+
+.page-cart-checkout .form-item .form-text{ width:280px; height:32px; border:solid 1px #ddd; display:block; float:left; padding:0 5px; background:#fff; border-radius:0px;}
+
+.page-cart-checkout .form-item label{ width:170px!important; text-align:right!important; display:block!important; float:left; padding:6px 5px 0 0; font-size:12px!important;}	
+	
+	.page-cart-checkout  .description{ overflow:hidden; padding-left:10px; display:inline;}			
+					
 	
 .page-cart-checkout #cart-pane { margin-bottom:0px;}
-.page-cart-checkout fieldset { margin-bottom:30px;}
+
 			
-		.page-cart-checkout table{ margin:0 0 25px 0;}
+
 	
 		.page-cart-checkout th {
     background: none repeat scroll 0 0 #008081 !important;
@@ -2834,8 +2850,16 @@ width: 394px;
     height: 32px;
     width: 300px;}
 	
-	.page-cart-checkout  #line-items-div{  padding:0!important; float:none!important; margin:10px 0;  margin-bottom:20px; border:none; width:100%;}
+	.page-cart-checkout  #line-items-div{  padding:0!important; float:none!important; margin:0px 0;  margin-bottom:20px; border:none; width:100%;}
 	
+	
+	.page-cart-checkout .form-type-radio label{ display:inline!important; float:none!important; }
+	.page-cart-checkout .form-type-radio input{ display:inline!important; float:none!important;}
+	
+	
+.page-cart-checkout .form-item-panes-payment-details-cc-cvv input{ display:block!important; float:left!important;}
+
+.page-cart-checkout .payment-details-credit .field-suffix{ float:left; display:block; }
 	
 	
 		.page-cart-checkout  #line-items-div table,tbody,tr{ border:none!important; background:none!important;}
@@ -2886,7 +2910,25 @@ width: 394px;
 			
 			
 			.page-cart-checkout .fieldset-description a{ color:#008081;}
+			
+			
+			.page-cart-checkout .address-pane-table td{ border:none!important; background:none!important;}
+			
+			.page-cart-checkout  .form-item-panes-billing-address-billing-street2 label{ display:none!important;}
 		
+		.page-cart-checkout  .form-item-panes-delivery-address-delivery-street2 label{ display:none!important;}
+		
+	.page-cart-checkout .address-pane-table select {
+    border: 1px solid #bfbfbf;
+    height: 32px;
+    width: 282px;
+}
+		
+		
+	.page-cart-checkout .form-item-panes-billing-copy-address label{ display:inline!important; float:none!important;}
+	
+	.page-cart-checkout input{ display:inline!important; float:none!important;}	
+			
     .large{
 
         display: none;
