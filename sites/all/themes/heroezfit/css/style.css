@@ -2775,10 +2775,12 @@ width: 394px;
 
 
 .page-cart-checkout legend{ border:none;}
-.page-cart-checkout .fieldset-legend { font-family: "lane_-_narrowregular"; text-align:center; color:#008081; font-size:30px; font-weight:bold;   padding-bottom:5px; border-bottom:solid 2px #008081;}	
-.page-cart-checkout .fieldset-legend .fieldset-legend{ display:block; margin:25px auto; width:300px; }
+.page-cart-checkout legend  span{ font-family: "lane_-_narrowregular"; text-align:center; color:#008081; font-size:30px; font-weight:bold;   padding-bottom:5px; border-bottom:solid 2px #008081;}	
+
 			
-			
+.page-cart-checkout fieldset:first-child  {width:auto; margin:25px auto; text-align:center;}		
+
+.page-cart-checkout fieldset { margin-bottom:30px;}
 			
 		.page-cart-checkout table{ margin:0 0 25px 0;}
 	
@@ -2823,7 +2825,7 @@ width: 394px;
     height: 32px;
     width: 300px;}
 	
-	.page-cart-checkout  #line-items-div{  padding:0!important; float:none!important; margin:10px 0;  margin-bottom:20px; border:none; width:220px;}
+	.page-cart-checkout  #line-items-div{  padding:0!important; float:none!important; margin:10px 0;  margin-bottom:20px; border:none; width:100%;}
 	
 	
 	
@@ -2831,8 +2833,8 @@ width: 394px;
 	
 		.page-cart-checkout  #line-items-div td{ border:none!important; background:none!important;}
 		
-		.page-cart-checkout  #line-items-div .title{ text-align:right!important;}
-		.page-cart-checkout  #line-items-div .price{ text-align:left!important;}
+		.page-cart-checkout  #line-items-div .title{ text-align:left!important; width:105px;}
+		.page-cart-checkout  #line-items-div .price{ text-align:left!important; width:auto;}
 		
 	
 		.page-cart-checkout  #line-items-div #uc-order-total-preview{ width:100%!important;}
