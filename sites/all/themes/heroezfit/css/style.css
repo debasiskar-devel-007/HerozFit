@@ -2853,7 +2853,7 @@ width: 394px;
 			
 			.page-cart-checkout  #edit-panes-delivery-select-address{ border: 1px solid #bfbfbf;
     height: 32px;
-    width: 300px;}
+    width: 281px;}
 	
 			.page-cart-checkout  select{ border: 1px solid #bfbfbf;
     height: 32px;
@@ -2964,11 +2964,11 @@ width: 394px;
 
 .page-cart-checkout .form-item { overflow:inherit!important;}
 
-.page-cart-checkout .form-item-panes-billing-select-address label{ width:137px!important;}
-.page-cart-checkout .form-item-panes-billing-select-address #edit-panes-billing-select-address{ width:280px!important;}
+.page-cart-checkout .form-item-panes-billing-select-address label{ width:119px!important;}
+.page-cart-checkout .form-item-panes-billing-select-address #edit-panes-billing-select-address{ width:281px!important;}
 
 
-.page-cart-checkout .form-item-panes-delivery-select-address label{ width:137px!important;}
+.page-cart-checkout .form-item-panes-delivery-select-address label{ width:119px!important;}
 .page-cart-checkout  .form-item-panes-delivery-select-address #edit-panes-billing-select-address{ width:280px!important;}
 
 .page-cart-checkout .form-item-panes-payment-details-cc-type label{ width:110px!important; } 
