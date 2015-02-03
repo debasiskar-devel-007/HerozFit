@@ -170,6 +170,8 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
 
     }
+	
+	
 
     if ($form_id == 'user_login') {
 
@@ -349,9 +351,10 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
 
    if($form_id=='webform_client_form_63'){
-
+       //drupal_get_messages(null, true);
        $form['#prefix'] = '<div class="FormClass">';
-       $form['#suffix'] = '</div>';
+       $form['#suffix'] = '<div class="contact-footer"><span>Like Us On:</span><a class="fb" href="#">facebook</a><a class="twit" href="#">twitter</a><a class="print" href="#">printerest</a></div></div>';
+       $form['actions']['submit']['#submit'][] = 'MYMODULE_submit11';
 
 
    }
@@ -507,6 +510,14 @@ function MYMODULE_submit7 ($form, &$form_state) {
 
 
     $form_state['redirect'] = 'event-mail-listing/'.$path[4]; //REDIRECTS TO STEP 2 after submit
+}
+
+function MYMODULE_submit11 ($form, &$form_state) {
+
+    //echo '1';
+    //exit;
+
+    drupal_get_messages(null, true);
 }
 
 function MYMODULE_submitsendemail ($form, &$form_state) {

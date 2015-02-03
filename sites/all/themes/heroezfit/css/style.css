@@ -3229,3 +3229,51 @@ width: 394px;
 .confirmation-div h1{background: url(../images/succa.png) no-repeat top center; padding-top:150px; color:#008081; font-size:34px;} 
 
 .confirmation-div a{ color:#008081;}
+
+
+
+.page-node-63 .FormClass h4{ 
+    color: #313131;
+    display: block;
+    font-family: "lane_-_narrowregular";
+    font-size: 45px;
+    margin: 30px auto;
+	margin-bottom:0px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 490px; text-transform:uppercase;}
+	
+.page-node-63 .FormClass h4::after { width:190px; height:2px; background:#008081; content:'0'; display:block; font-size:0px; margin:5px auto; margin-bottom:15px; }
+
+.page-node-63 .FormClass  p{font-family: "open_sansregular"; font-size:14px; line-height:24px; padding-bottom:20px;}
+
+.page-node-63 .FormClass .form-text{ width:600px; margin:0 auto; background:#dadada; border:solid 1px #cbcbcb; height:60px; padding:0 5px; border-radius:5px;  margin-bottom:10px!important;}
+
+.page-node-63 .FormClass  .error{ display:block; width:600px; margin:0 auto; clear:both; overflow:hidden;}
+.page-node-63 .FormClass  .grippie{ display:none;}
+
+.page-node-63 .FormClass textarea { width:600px; margin:0 auto; background:#dadada; border:solid 1px #cbcbcb; height:160px; padding:10px 5px; border-radius:5px;}
+
+.page-node-63 .FormClass .webform-submit{ width:600px; margin:0 auto!important; display:block; float:none; height:60px; text-transform:uppercase; font-size:16px; margin-top:24px!important;}
+
+.page-node-63  .contact-footer{ margin:40px auto; width:200px; clear:both; overflow:hidden; }
+.page-node-63  .contact-footer span{  font-family: "open_sansregular"; color:#008081; font-size:16px; font-weight:bold; display:block; width:100px; float:left; }
+
+.page-node-63  .contact-footer .fb{background: url(../images/fb.png) no-repeat center center; font-size:0px; width:27px; height:24px;  display:block; float:left; margin:0 2px;}
+
+.page-node-63  .contact-footer .twit{background: url(../images/tt.png) no-repeat center center; font-size:0px; width:27px; height:24px;  display:block; float:left; margin:0 2px;}
+
+.page-node-63  .contact-footer .print{background: url(../images/ig.png) no-repeat center center; font-size:0px; width:27px; height:24px;  display:block; float:left; margin:0 2px; }
+
+
+.page-node-63 .FormClass h2{ 
+    color: #008081;
+    display: block;
+    font-family: "lane_-_narrowregular";
+    font-size: 25px;
+
+    padding-bottom: 20px;
+    text-align: center;
+    width: auto; font-weight:bold; }
+	
+	.page-node-63 .messages{ display:none;}
