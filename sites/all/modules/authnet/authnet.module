@@ -251,8 +251,8 @@ function authnet_set_response($response = NULL) {
  */
 function _authnet_response_status($response) {
 
-var_dump($response);
-exit;
+//var_dump($response);
+//exit;
 
   // If the response object is an instance of AuthorizeNetCIM_Response...
   if ($response instanceof AuthorizeNetCIM_Response) {

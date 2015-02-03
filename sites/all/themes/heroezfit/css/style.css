@@ -639,7 +639,7 @@ display: none;
 
 
     width:auto;
-    border: solid 2px red;
+
     display: table-cell;
 
 
@@ -3042,3 +3042,15 @@ width: 394px;
     margin: 10px 10px 10px 0!important;
     padding: 8px 10px!important;
     width: 180px!important; float:left!important;}
+	
+	
+	.page-wishlist .maincontentwrapper{ width:1140px; margin:25px auto;}
+	
+	.page-wishlist .maincontentwrapper .region-user-menu{ background: #f0f0f0 url(../images/logowishlist.png) no-repeat center 94%; padding-bottom:134px; width:22%; }
+	
+		.page-wishlist .maincontentwrapper .region-user-menu h2{ margin:0; padding:0;  font-family: "open_sansregular"; background:#008081; color:#fff; text-align:center; font-size:22px; padding:10px 0;}
+		
+		.page-wishlist .maincontentwrapper .region-user-menu .useraccount{ border-top:solid 2px #008081; margin-top:4px;}
+		
+		.page-wishlist .maincontentwrapper .region-user-menu .useraccount ul li{ list-style:none; border-bottom:solid 1px #cecece; padding:10px;}
+		.page-wishlist .maincontentwrapper .region-user-menu .useraccount ul li a{ display:block;  font-family: "open_sansregular"; font-size:16px; color:#333;}
