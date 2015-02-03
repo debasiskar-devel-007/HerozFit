@@ -3089,3 +3089,117 @@ width: 394px;
 .page-wishlist .region-content .sticky-enabled td .form-type-item a{ text-decoration:none; color:#008081; font-size:14px;}
 
 .page-wishlist .region-content .sticky-enabled td ul li{ list-style:none; padding:0; margin:0;}
+
+
+
+/*--------*/
+
+.page-user .maincontentwrapper{ width:1140px; margin:25px auto;}
+	
+	.page-user .maincontentwrapper .region-user-menu{ background: #f0f0f0 url(../images/logowishlist.png) no-repeat center 94%; padding-bottom:134px; width:22%; }
+	
+		.page-user .maincontentwrapper .region-user-menu h2{ margin:0; padding:0;  font-family: "open_sansregular"; background:#008081; color:#fff; text-align:center; font-size:22px; padding:10px 0;}
+		
+		.page-user .maincontentwrapper .region-user-menu .useraccount{ border-top:solid 2px #008081; margin-top:4px;}
+		
+		.page-user .maincontentwrapper .region-user-menu .useraccount ul li{ list-style:none; border-bottom:solid 1px #cecece; padding:10px;}
+	.page-user .maincontentwrapper .region-user-menu .useraccount ul li a{ display:block;  font-family: "open_sansregular"; font-size:16px; color:#333;}
+		.page-user .maincontentwrapper .region-user-menu .useraccount ul li a:hover{ text-decoration:none; color:#008081;}
+		
+			.page-user .maincontentwrapper .region-user-menu .useraccount ul li a:hover::before{
+        content: "\25BA";}
+		
+				.page-user .region-content{ padding-left:2%; width:70%;  font-family: "open_sansregular"; text-align:left; vertical-align:top;}
+					
+					.page-user .region-content p{ font-size:14px; padding:0 0 10px 0; color:#008081}
+					
+					.page-user .region-content h3{ margin:0; padding:0 0 20px 0; border:none; color:#008081;}
+					
+					.page-user .region-content a{color:#008081;}
+					
+					.page-user .region-content .profile{ margin:0; padding:0; border:none;}
+							
+			.page-user .region-content .sticky-enabled{ width:100%; margin-bottom:25px;}
+			
+			
+			.page-user .region-content .sticky-enabled th {
+    background: none repeat scroll 0 0 #008081 !important;
+    border: 1px solid #ccc !important;
+    color: #fff !important;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+							
+
+.page-user .region-content .sticky-enabled td {
+    background: none repeat scroll 0 0 #fcfcfc;
+    border: 1px solid #ddd !important;
+    padding: 10px;
+}
+
+.page-user .region-content .sticky-enabled td input[type="text"]{ background:#fff; border:solid 1px #ddd; padding:0 5px; width:50px;}
+
+.page-user .region-content .sticky-enabled td .form-type-item a{ text-decoration:none; color:#008081; font-size:14px;}
+
+.page-user .region-content .sticky-enabled td ul li{ list-style:none; padding:0; margin:0;}
+
+
+/*--------*/
+
+.page-user-orders .maincontentwrapper{ width:1140px; margin:25px auto;}
+	
+	.page-user-orders  .maincontentwrapper .region-user-menu{ background: #f0f0f0 url(../images/logowishlist.png) no-repeat center 94%!important; padding-bottom:134px; width:22%; }
+	
+		.page-user-orders  .maincontentwrapper .region-user-menu h2{ margin:0; padding:0;  font-family: "open_sansregular"; background:#008081; color:#fff; text-align:center; font-size:22px; padding:10px 0;}
+		
+		.page-user-orders  .maincontentwrapper .region-user-menu .useraccount{ border-top:solid 2px #008081; margin-top:4px;}
+		
+	.page-user-orders  .maincontentwrapper .region-user-menu .useraccount ul li{ list-style:none; border-bottom:solid 1px #cecece; padding:10px;}
+.page-user-orders  .maincontentwrapper .region-user-menu .useraccount ul li a{ display:block;  font-family: "open_sansregular"; font-size:16px; color:#333;}
+	.page-user-orders  .maincontentwrapper .region-user-menu .useraccount ul li a:hover{ text-decoration:none; color:#008081;}
+		
+			.page-user-orders  .maincontentwrapper .region-user-menu .useraccount ul li a:hover::before{
+        content: "\25BA";}
+		
+			.page-user-orders  .region-content{ padding-left:2%!important; width:70%!important;  font-family: "open_sansregular"; text-align:left; vertical-align:top; margin-top:0px!important; padding-top:0px!important;}
+			
+			.page-user-orders .view-content{ width:100%!important; vertical-align:top; margin-top:0px;}
+					
+			.page-user-orders  .region-content p{ font-size:14px; padding:0 0 10px 0; color:#008081}
+					
+				.page-user-orders  .region-content h3{ margin:0; padding:0 0 20px 0; border:none; color:#008081;}
+					
+				.page-user-orders .region-content a{color:#008081;}
+					
+					.page-user .region-content .profile{ margin:0; padding:0; border:none;}
+							
+			.page-user-orders .region-content .sticky-enabled{ width:100%; margin-bottom:25px;}
+			
+			
+			.page-user-orders .region-content .sticky-enabled th {
+    background: none repeat scroll 0 0 #008081 !important;
+    border: 1px solid #ccc !important;
+    color: #fff !important;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+							
+
+.page-user-orders  .region-content .sticky-enabled td {
+    background: none repeat scroll 0 0 #fcfcfc;
+    border: 1px solid #ddd !important;
+    padding: 10px;
+}
+
+.page-user-orders  .region-content .sticky-enabled td input[type="text"]{ background:#fff; border:solid 1px #ddd; padding:0 5px; width:50px;}
+
+.page-user-orders  .region-content .sticky-enabled td .form-type-item a{ text-decoration:none; color:#008081; font-size:14px;}
+
+.page-user-orders  .region-content .sticky-enabled td ul li{ list-style:none; padding:0; margin:0;}
+
+
+.page-cart .search-div #edit-actions{ clear:inherit!important; overflow:inherit!important;}
