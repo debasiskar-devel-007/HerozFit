@@ -3006,6 +3006,8 @@ width: 394px;
 
 .page-cart-checkout-review .order-review-table td{ background:none!important; border:none!important;}
 
+.page-cart-checkout-review .order-review-table .cart-review{ width:100%!important;}
+
 .page-cart-checkout-review .order-review-table .cart-review td{ background: none repeat scroll 0 0 #fcfcfc !important;
     border: 1px solid #ddd !important;
   }
@@ -3113,11 +3115,29 @@ width: 394px;
 					
 					.page-user .region-content p{ font-size:14px; padding:0 0 10px 0; color:#008081}
 					
-					.page-user .region-content h3{ margin:0; padding:0 0 20px 0; border:none; color:#008081;}
+					.page-user .region-content h3{ margin:0; padding:10px 0 20px 0; border:none; color:#008081;}
 					
 					.page-user .region-content a{color:#008081;}
 					
 					.page-user .region-content .profile{ margin:0; padding:0; border:none;}
+					
+					.page-user .region-content .field-name-field-first-name div{ display:inline;}
+					.page-user .region-content .field-name-field-last-name div{ display:inline;}
+					.page-user .region-content .field-name-field-city div{ display:inline;}
+					
+					.page-user .region-content .field-name-field-zip div{ display:inline;}
+					
+					
+						.page-user .region-content .field-name-field-first-name{ margin:5px 0;}
+					.page-user .region-content .field-name-field-last-name{ margin:5px 0;}
+					.page-user .region-content .field-name-field-city{ margin:5px 0;}
+					
+					.page-user .region-content .field-name-field-zip{ margin:5px 0;}
+					
+						.page-user .region-content .field-label{color:#008081;}
+					
+					
+					
 							
 			.page-user .region-content .sticky-enabled{ width:100%; margin-bottom:25px;}
 			
@@ -3203,3 +3223,9 @@ width: 394px;
 
 
 .page-cart .search-div #edit-actions{ clear:inherit!important; overflow:inherit!important;}
+
+.confirmation-div{ width:480px; margin:0 auto; font-family: "open_sansregular"; padding-bottom:30px; font-size:16px; line-height:24px;}
+
+.confirmation-div h1{background: url(../images/succa.png) no-repeat top center; padding-top:150px; color:#008081; font-size:34px;} 
+
+.confirmation-div a{ color:#008081;}
