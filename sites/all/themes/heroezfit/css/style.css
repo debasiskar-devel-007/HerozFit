@@ -3054,3 +3054,38 @@ width: 394px;
 		
 		.page-wishlist .maincontentwrapper .region-user-menu .useraccount ul li{ list-style:none; border-bottom:solid 1px #cecece; padding:10px;}
 		.page-wishlist .maincontentwrapper .region-user-menu .useraccount ul li a{ display:block;  font-family: "open_sansregular"; font-size:16px; color:#333;}
+		.page-wishlist .maincontentwrapper .region-user-menu .useraccount ul li a:hover{ text-decoration:none; color:#008081;}
+		
+			.page-wishlist .maincontentwrapper .region-user-menu .useraccount ul li a:hover::before{
+        content: "\25BA";}
+		
+					.page-wishlist .region-content{ padding-left:2%; width:70%;  font-family: "open_sansregular";}
+					
+							.page-wishlist .region-content p{ font-size:14px; padding:0 0 10px 0; color:#008081}
+							
+			.page-wishlist .region-content .sticky-enabled{ width:100%; margin-bottom:25px;}
+			
+			
+			.page-wishlist .region-content .sticky-enabled th {
+    background: none repeat scroll 0 0 #008081 !important;
+    border: 1px solid #ccc !important;
+    color: #fff !important;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center !important;
+    text-transform: uppercase;
+}
+							
+
+.page-wishlist .region-content .sticky-enabled td {
+    background: none repeat scroll 0 0 #fcfcfc;
+    border: 1px solid #ddd !important;
+    padding: 10px;
+}
+
+.page-wishlist .region-content .sticky-enabled td input[type="text"]{ background:#fff; border:solid 1px #ddd; padding:0 5px; width:50px;}
+
+
+.page-wishlist .region-content .sticky-enabled td .form-type-item a{ text-decoration:none; color:#008081; font-size:14px;}
+
+.page-wishlist .region-content .sticky-enabled td ul li{ list-style:none; padding:0; margin:0;}
