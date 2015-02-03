@@ -2804,7 +2804,7 @@ width: 394px;
 
 .page-cart-checkout .form-item .form-text{ width:280px; height:32px; border:solid 1px #ddd; display:block; float:left; padding:0 5px; background:#fff; border-radius:0px;}
 
-.page-cart-checkout .form-item label{ width:170px!important; text-align:right!important; display:block!important; float:left; padding:6px 5px 0 0; font-size:12px!important;}	
+.page-cart-checkout .form-item label{ width:170px!important; text-align:right!important; display:block!important; float:left; padding:6px 5px 0 0; font-size:14px!important;}	
 	
 	.page-cart-checkout  .description{ overflow:hidden; padding-left:10px; display:inline;}			
 					
@@ -2988,7 +2988,8 @@ width: 394px;
 
 .page-cart-checkout #customer-pane .form-item label.error{ width:300px!important; margin:0px 0 0 170px!important; float:none!important; text-align:left!important;} 
 
-
+.page-cart-checkout .address-pane-table .field-label{ font-weight:normal;}
+.page-cart-checkout label{ font-weight:normal; font-size:14px;}
 			
     .large{
 
@@ -2996,3 +2997,34 @@ width: 394px;
     }
 
 
+.page-cart-checkout-review .maincontentwrapper{ width:1140px; margin:0 auto;}
+
+.page-cart-checkout-review  #review-instructions{ margin:25px 0; color:#008081; font-family: 'open_sansregular'; font-size:18px; line-height:30px; text-align:center;}
+
+
+.page-cart-checkout-review .order-review-table{ width:100%!important; margin:25px 0; border:none;}
+
+.page-cart-checkout-review .order-review-table td{ background:none!important; border:none!important;}
+
+.page-cart-checkout-review .order-review-table .cart-review td{ background: none repeat scroll 0 0 #fcfcfc !important;
+    border: 1px solid #ddd !important;
+  }
+  
+  
+ .page-cart-checkout-review .pane-title-row{ 
+
+    color: #fff;
+    font-family: "open_sansregular";
+    font-size: 18px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    text-transform: none; text-align:left; font-weight:normal; background:#008081; }
+	
+	.page-cart-checkout-review .order-review-table .title-col{ text-align:left; font-family: "open_sansregular"; font-size:14px; font-weight:normal;}
+	
+	.page-cart-checkout-review .order-review-table .data-col{ text-align:right; font-family: "open_sansregular"; font-size:14px; font-weight:normal;}
+	
+	.page-cart-checkout-review .order-review-table tr{ border-bottom:solid 1px #ddd!important; }
+	.page-cart-checkout-review .order-review-table tr .pane-title-row{ border:none!important;}
+	
+	.page-cart-checkout-review .order-review-table tr .review-button-row{ border:none!important;}
