@@ -2900,7 +2900,7 @@ width: 394px;
 		.page-cart-checkout #edit-panes-payment-details-cc-exp-month{ width:300px; height:32px; margin-left:5px; border:solid 1px #ddd;}
 		.page-cart-checkout   #edit-panes-payment-details-cc-exp-year{ width:300px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
 		
-			.page-cart-checkout  #edit-panes-payment-details-cc-cvv{ width:160px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
+			.page-cart-checkout  #edit-panes-payment-details-cc-cvv{ width:160px!important; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
 			
 			.page-cart-checkout  .uc-credit-cvv-help a{ color:#333;}
 		
@@ -3013,18 +3013,32 @@ width: 394px;
   
  .page-cart-checkout-review .pane-title-row{ 
 
-    color: #fff;
+    color: #fff!important;
     font-family: "open_sansregular";
     font-size: 18px;
     overflow: hidden;
     padding-bottom: 5px;
-    text-transform: none; text-align:left; font-weight:normal; background:#008081; }
+    text-transform: none; text-align:left; font-weight:normal; background:#008081!important; }
 	
 	.page-cart-checkout-review .order-review-table .title-col{ text-align:left; font-family: "open_sansregular"; font-size:14px; font-weight:normal;}
 	
 	.page-cart-checkout-review .order-review-table .data-col{ text-align:right; font-family: "open_sansregular"; font-size:14px; font-weight:normal;}
 	
 	.page-cart-checkout-review .order-review-table tr{ border-bottom:solid 1px #ddd!important; }
-	.page-cart-checkout-review .order-review-table tr .pane-title-row{ border:none!important;}
+	.page-cart-checkout-review .order-review-table .pane-title-row{ border:none!important;}
 	
-	.page-cart-checkout-review .order-review-table tr .review-button-row{ border:none!important;}
+	.page-cart-checkout-review .order-review-table .review-button-row{ border:none!important;}
+	
+	.page-cart-checkout-review .order-review-table #edit-actions{ width:100%!important; text-align:left!important; float:left; clear:both!important; }
+.page-cart-checkout-review .order-review-table #edit-actions #edit-submit{float:left!important; margin: 10px 10px 10px 0!important;}
+	
+.page-cart-checkout-review .order-review-table #edit-actions #edit-back{ background: none repeat scroll 0 0 #008081!important;
+    border: medium none!important;
+    border-radius: 4px!important;
+    color: #fff!important;
+    cursor: pointer!important;
+    display: block!important;
+    font-size: 16px!important;
+    margin: 10px 10px 10px 0!important;
+    padding: 8px 10px!important;
+    width: 180px!important; float:left!important;}
