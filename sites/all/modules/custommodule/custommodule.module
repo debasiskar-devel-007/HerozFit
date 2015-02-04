@@ -403,6 +403,28 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
     }
 
+    if($form_id=='user_profile_form'){
+
+        //echo "<pre>";
+        //print_r($form['user']['timezone']);
+        //exit;
+        $form['timezone']['#access']=false;
+        $form['#prefix'] = '<div> <h4>Manage Your Account</h4>';
+        $form['#suffix'] = '</div>';
+
+
+    }
+
+    if($form_id=='banner_image_node_form'){
+
+        $form['#prefix'] = '<div> <h4>Manage Banner Image & Content</h4>';
+        $form['#suffix'] = '</div>';
+
+
+
+    }
+
+
     if($form_id=='fit_report_event_mail_node_form'){
 
         $form['field_issend']['#access']=false;
@@ -616,6 +638,24 @@ function custommodule_js_alter(&$javascript) {
     if(current_path()=='node/1' || 'product-detail/34')
         //var_dump( current_path());
     $javascript['misc/jquery.js']['data'] = drupal_get_path('module', 'custommodule') . '/js/jquery.js';
+}
+
+
+
+function custommodule_node_view($node, $view_mode, $langcode){//replace your module name with MYMODULE here
+
+    $x=arg();
+    //var_dump($x);
+    //exit;
+if($x[0]){
+
+    if($node->type == 'product' && $x[0] != 'product-detail'){
+
+    header('location:/product-detail/'.$node->nid);
+
+    }
+}
+
 }
 
 

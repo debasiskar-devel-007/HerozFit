@@ -124,6 +124,7 @@ $title=@$ma[6];
   <div class="menu-div-body">
                             <ul>
                               <li><a href="<?php  echo  base_path()?>">Home</a></li>
+                              <li><a href="<?php  echo  base_path() .'node/7/edit'?>">Home Banner Image</a></li>
                               <li><a href="<?php  echo  base_path() .'node/add/image-gallery'?>">Add Gallery Image</a></li>
                                <li><a href="<?php  echo  base_path() .'image-gallery-listing'?>">Gallery Image Listing</a></li>
                                <li><a href="<?php  echo  base_path() .'node/add/video-gallery'?>">Add Gallery Video</a></li>
@@ -148,6 +149,7 @@ $title=@$ma[6];
                                     <!-- <li><a href="<?php /* echo  base_path() .'node/add/fit-article'*/?>">Add Fit Article</a></li>-->
                                      <li><a href="<?php  echo  base_path() .'report-listing'?>">Fit Report Listing</a></li>
                                      <li><a href="<?php  echo  base_path() .'node/74/edit/admin/content'?>">Edit Fit Article</a></li>
+                                     <li><a href="<?php  echo  base_path() .'general-user-listing'?>">General User Listing</a></li>
                                       <li><a href="<?php  echo  base_path() .'user/logout' ?>">Log Out</a></li>
                                       <li><a href="<?php  echo  base_path() .'admin/store/products/view' ?>">Test</a></li>
 
