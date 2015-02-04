@@ -1757,6 +1757,8 @@ margin-bottom: 15px; text-transform:uppercase;}
 		
 		
 						
+
+
 	/*---*/
 	
 .page-node-4 .view-header{ 
@@ -3646,28 +3648,28 @@ width: 394px;
 
 .page-admin-store-orders #block-system-main{font-family: "open_sansregular"; } 
 
-.page-admin-store-orders #block-system-main #order-pane-ship_to{ width:24%; padding:1%; border:solid 1px #ccc; margin: 1% 1% 0 0; height:150px;}
+.page-admin-store-orders #block-system-main #order-pane-ship_to{ width:24%; padding:1%; margin: 1% 1% 0 0; height:150px;}
 
-.page-admin-store-orders #block-system-main #order-pane-ship_to .order-pane-title{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-ship_to .order-pane-title{ color:#008081; }
 
-.page-admin-store-orders #block-system-main #order-pane-ship_to strong{ color:#008081 !important; }
-.page-admin-store-orders #block-system-main #order-pane-ship_to a{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-ship_to strong{ color:#008081;}
+.page-admin-store-orders #block-system-main #order-pane-ship_to a{ color:#008081; }
 
 .page-admin-store-orders #block-system-main #order-pane-bill_to{ width:24%; padding:1%; border:solid 1px #ccc; margin: 1% 1% 0 0; height:150px;}
 
-.page-admin-store-orders #block-system-main #order-pane-bill_to .order-pane-title{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-bill_to .order-pane-title{ color:#008081; }
 
-.page-admin-store-orders #block-system-main #order-pane-bill_to strong{ color:#008081 !important; }
-.page-admin-store-orders #block-system-main #order-pane-bill_to a{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-bill_to strong{ color:#008081; }
+.page-admin-store-orders #block-system-main #order-pane-bill_to a{ color:#008081; }
 
 .page-admin-store-orders #block-system-main #order-pane-customer{ width:24%; padding:1%; border:solid 1px #ccc; margin: 1% 1% 0 0; height:150px;}
 
 
 
-.page-admin-store-orders #block-system-main #order-pane-customer .order-pane-title{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-customer .order-pane-title{ color:#008081; }
 
-.page-admin-store-orders #block-system-main #order-pane-customer strong{ color:#008081 !important; }
-.page-admin-store-orders #block-system-main #order-pane-customer a{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-customer strong{ color:#008081; }
+.page-admin-store-orders #block-system-main #order-pane-customer a{ color:#008081; }
 
 
 .page-admin-store-orders #block-system-main #order-pane-payment{ width:24%; padding:1%; border:solid 1px #ccc; margin: 1% 0 0 0; height:150px;}
@@ -3675,13 +3677,13 @@ width: 394px;
 
 
 
-.page-admin-store-orders #block-system-main #order-pane-payment .order-pane-title{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-payment .order-pane-title{ color:#008081; }
 
-.page-admin-store-orders #block-system-main #order-pane-payment strong{ color:#008081 !important; }
-.page-admin-store-orders #block-system-main #order-pane-payment a{ color:#008081 !important; }
+.page-admin-store-orders #block-system-main #order-pane-payment strong{ color:#008081; }
+.page-admin-store-orders #block-system-main #order-pane-payment a{ color:#008081; }
 
 
-.page-admin-store-orders #order-pane-products{  margin:0!important; padding:0!important; color:#008081 !important; font-size:16px;}
+.page-admin-store-orders #order-pane-products{  margin:0; padding:0!important; color:#008081 !important; font-size:16px;}
 
 .page-admin-store-orders #order-pane-products .order-pane-title{ padding:20px 0;}
 
@@ -3767,4 +3769,104 @@ width: 394px;
 
 .node-type-banner-image #banner-image-node-form label{ display:block;}
 
+.node-type-banner-image .element-invisible{ display:none;}
+ 
 .node-type-banner-image .vertical-tabs-processed{ display:none;}
+
+.node-type-banner-image #banner-image-node-form { width:420px; margin:0 auto;}
+.node-type-banner-image #banner-image-node-form input[type="text"]{ height:32px; border:solid 1px #ccc; padding:0 5px;}
+
+.node-type-banner-image #edit-actions{ clear:both; overflow:hidden;}
+
+
+
+/*------------*/
+/*
+.page-admin-store-orders-edit  #ucOrderSubmit-processed  #block-system-main #order-pane-ship_to{ width:auto!important; padding:0!important; border:none!important; margin:0!important; height:auto!important;}
+
+
+.page-admin-store-orders #uc-order-edit-form #block-system-main #order-pane-bill_to{  width:auto!important; padding:0!important; border:none!important; margin:0!important; height:auto!important;}
+
+
+
+.page-admin-store-orders #uc-order-edit-form #block-system-main #order-pane-customer{ width:auto!important; padding:0!important; border:none!important; margin:0!important; height:auto!important;}
+
+
+
+.page-admin-store-orders #uc-order-edit-form #block-system-main #order-pane-payment{  width:auto!important; padding:0!important; border:none!important; margin:0!important; height:auto!important;}*/
+
+.page-admin-store-orders-edit .region-content div { border:none!important; width:auto!important; height:auto!important; }
+
+
+
+.page-admin-store-orders-edit .region-content div .pos-left{ float:none; width:450px!important; margin:0 auto!important; margin-top:30px!important;  padding:0!important;}
+
+.page-admin-store-orders-edit .region-content div .pos-left .order-pane-title{ color: #008081 !important;
+    font-size: 16px;
+    padding:0 0 10px 0!important; text-align:center;}
+	
+	
+.page-admin-store-orders-edit .region-content div label{ font-size:14px; color:#333;}
+
+
+.page-admin-store-orders-edit .region-content div .form-item{ margin:5px 0; padding:0;} 
+
+.page-admin-store-orders-edit .region-content div .form-item #edit-ship-to-select-address{ width:340px!important;}
+
+.page-admin-store-orders-edit .region-content div #edit-ship-to-copy{ margin:0px auto!important; margin-bottom:20px!important; padding:10px 10px!important;  font-size: 16px!important; width:250px;!important;}
+
+.page-admin-store-orders-edit .region-content div input[type="text"]{ width:326px; height:32px; border:solid 1px #ccc; padding:0 5px;}
+
+.page-admin-store-orders-edit .region-content div .form-select{ width:326px!important; height:32px; border:solid 1px #ccc; padding:0 5px;}
+
+.page-admin-store-orders-edit .region-content div  #edit-bill-to-select-address{ width:340px!important;}
+
+.page-admin-store-orders-edit .region-content div #edit-bill-to-copy{ margin:0px auto!important; margin-bottom:20px!important; padding:10px 10px!important;  font-size: 16px!important; width:250px!important;}
+
+
+.page-admin-store-orders-edit  #order-pane-customer label{ width:130px; text-align:right;}
+.page-admin-store-orders-edit  #order-pane-customer input[type="text"]{ background:#fff; width:300px!important;}
+
+.page-admin-store-orders-edit  #edit-payment-method{width:315px!important;}
+
+.page-admin-store-orders-edit  #edit-add-product-button{ float:left; margin-right:10px!important; }
+.page-admin-store-orders-edit  #edit-add-blank-line-button{ float:left; margin-right:10px!important;}
+
+.page-admin-store-orders-edit  #order-pane-products .order-pane-title{ margin:0; padding:20px 0 0 0;}
+
+.page-admin-store-orders-edit #order-edit-products{margin-top:20px!important; overflow:hidden!important; }
+
+.page-admin-store-orders-edit #order-edit-products input[type="text"]{ width:100px!important;}
+.page-admin-store-orders-edit #order-edit-products select{ width:100px!important;}
+
+.page-admin-store-orders-edit .form-wrapper{ float:none;}
+
+.page-admin-store-orders-edit  #edit-submit { float:none!important;   padding: 12px 15px!important;}
+
+.page-admin-store-orders-edit  .order-pane-icons{  display:none;}
+
+.page-admin-store-orders-edit #edit-add-line-item{ float:none!important; width:100%!important;}
+
+.page-admin-store-orders-edit #order-line-items{ float:none!important; width:100%!important; margin:25px 0 0 0;}
+
+.page-admin-store-orders-edit #order-line-items .li-amount{ text-align:left; }
+
+.page-admin-store-orders-edit #order-line-items  .line-item-table .li-title{ width:auto; text-align:left;} 
+
+.page-admin-store-orders-edit #order-line-items  .line-item-table input[type="text"]{ width:100px;}
+
+
+.page-admin-store-orders-edit  #edit-add-line-item, .order-pane #edit-add-line-item .form-item{ float:none;} 
+
+.page-admin-store-orders-edit  .item-list li{ list-style:none; line-height:25px; margin:0;}
+
+.page-admin-store-orders-edit  .item-list li a{color: #008081 !important;}
+
+.page-admin-store-orders-edit #edit-actions{ overflow:hidden; clear:both; margin:0 0 0 -5px!important; padding:0!important;} 
+
+.page-admin-store-orders-edit #edit-actions #edit-submit-changes{ float:left; margin-right:10px!important; padding:10px 0!important; }
+
+page-admin-store-orders-edit #edit-actions #edit-delete{ float:left; margin-right:10px;}
+
+.page-admin-store-orders .option{ line-height:0px!important;}
+

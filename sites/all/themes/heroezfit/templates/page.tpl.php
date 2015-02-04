@@ -15,7 +15,7 @@ $title=@$ma[6];
 <script type="text/javascript">
 
     //$.noConflict();
-    jQuery.fn.cycle.defaults.autoSelector = '.slideshow';
+    //jQuery.fn.cycle.defaults.autoSelector = '.slideshow';
 
 
     var mail='<?php echo $mail ;  ?>';

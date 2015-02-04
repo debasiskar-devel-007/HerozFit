@@ -649,8 +649,12 @@ function custommodule_node_view($node, $view_mode, $langcode){//replace your mod
     //exit;
 if($x[0]){
 
-    if($node->type == 'product' && $x[0] != 'product-detail'){
 
+
+    if($node->type == 'product' && $x[0] != 'product-detail' &&  current_path()!= 'node/1'){
+
+        //echo current_path();
+        //exit;
     header('location:/product-detail/'.$node->nid);
 
     }
