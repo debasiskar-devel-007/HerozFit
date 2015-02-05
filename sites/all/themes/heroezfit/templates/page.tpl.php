@@ -12,6 +12,15 @@ $title=@$ma[6];
 
 
 ?>
+<style>
+    .bigimageslider .item-list { float:left; margin:0px; width:356px; height:500px; overflow:hidden;  }
+    .bigimageslider .item-list ul { position:relative; top:0px;left:0px; }
+    .bigimageslider .item-list ul li { float:left; }
+
+
+    .prev {  color: black }
+    .next {  color:black }
+</style>
 <script type="text/javascript">
 
     //$.noConflict();

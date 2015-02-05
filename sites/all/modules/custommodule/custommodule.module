@@ -266,7 +266,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
             else
                 $form['#prefix'] = '<div class="FormClass"> <h4>Add Product</h4>';
             $form['#suffix'] = '</div>';
-          // $form['actions']['submit']['#submit'][] = 'MYMODULE_submit3';
+           $form['actions']['submit']['#submit'][] = 'Product';
 
         }
 
@@ -354,7 +354,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
        //drupal_get_messages(null, true);
        $form['#prefix'] = '<div class="FormClass">';
        $form['#suffix'] = '<div class="contact-footer"><span>Like Us On:</span><a class="fb" href="#">facebook</a><a class="twit" href="#">twitter</a><a class="print" href="#">printerest</a></div></div>';
-       $form['actions']['submit']['#submit'][] = 'MYMODULE_submit11';
+       //$form['actions']['submit']['#submit'][] = 'MYMODULE_submit11';
 
 
    }
@@ -542,6 +542,13 @@ function MYMODULE_submit11 ($form, &$form_state) {
     drupal_get_messages(null, true);
 }
 
+
+function Product ($form, &$form_state) {
+    //code here
+    $form_state['redirect'] = '/product-listing-admin'; //REDIRECTS TO STEP 2 after submit
+}
+
+
 function MYMODULE_submitsendemail ($form, &$form_state) {
     //code here
     $path = arg();
@@ -651,10 +658,9 @@ if($x[0]){
 
 
 
-    if($node->type == 'product' && $x[0] != 'product-detail' &&  current_path()!= 'node/1'){
+    if($node->type == 'product' && $x[0] != 'product-detail' &&  current_path()!= 'node/1' &&  current_path()!= 'product-listing-admin'){
 
-        //echo current_path();
-        //exit;
+
     header('location:/product-detail/'.$node->nid);
 
     }
