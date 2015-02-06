@@ -17,6 +17,17 @@ var flag1='';
 
 
 
+            var imglen= $('.smallproimg').find('img').length;
+            //alert(imglen);
+            for (i = 0; i < imglen-1; i++) {
+
+
+
+                $('.triggers li:first').clone().appendTo('.triggers');
+
+                $('.triggers').find('li').eq(i).text(i);
+
+            }
 
 
 
@@ -31,7 +42,7 @@ var flag1='';
             var lastElem = triggers.length-1;
             //alert(lastElem);
             var mask = $('.bigimageslider .item-list ul');
-            var imgWidth = 386;
+            var imgWidth = images.width()+25;
             var target;
 
             triggers.first().addClass('selected');
@@ -70,17 +81,16 @@ var flag1='';
                 target === lastElem ? target = 0 : target = target+1;
                 sliderResponse(target);
             }
-            // var timingRun = setInterval(function() { sliderTiming(); },5000);
-             function resetTiming() {
+             //var timingRun = setInterval(function() { sliderTiming(); },5000);
+             //function resetTiming() {
              //clearInterval(timingRun);
-            // timingRun = setInterval(function() { sliderTiming(); },5000);
-             }
+             //timingRun = setInterval(function() { sliderTiming(); },5000);
+             //}
 
 
 
 
             /*Slider*/
-
 
 
 
@@ -353,6 +363,7 @@ var flag1='';
 
                     $(this).parent().parent().find('.option').each(function(){
                         //alert(1);
+                        $(this).prev().removeAttr('checked');
                         $(this).removeClass('active-size');
 
                     });
@@ -369,7 +380,22 @@ var flag1='';
                 $(this).prev().prop("checked", !$(this).prev().prop("checked"));
 
 
-            })
+            });
+
+
+            $('.productdetailaddtocartsize').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('.option').click(function(){
+
+
+                alert($('.productdetailaddtocartsize').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('.option').length);
+
+               // $(this).prev().attr("checked", !$(this).prev().attr("checked"));
+                $(this).prev().prop("checked",'checked');
+                alert($(this).prev().attr("checked"));
+
+            });
+
+
+
 
            /* $('.lightbox-processed').click(function(){
 

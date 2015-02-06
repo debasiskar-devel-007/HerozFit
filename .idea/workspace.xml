@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Common.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Common.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="14" selection-start="2027" selection-end="2027" vertical-scroll-proportion="-18.36" vertical-offset="765" max-vertical-offset="6987">
+            <state line="392" column="39" selection-start="14073" selection-end="14073" vertical-scroll-proportion="0.4170096" vertical-offset="6360" max-vertical-offset="7429">
               <folding />
             </state>
           </provider>
@@ -35,25 +35,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4042" column="0" selection-start="149562" selection-end="149562" vertical-scroll-proportion="0.0" vertical-offset="68019" max-vertical-offset="68816">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custommodule.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="547" column="53" selection-start="15478" selection-end="15478" vertical-scroll-proportion="-354.3846" vertical-offset="0" max-vertical-offset="11798">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.tpl.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="403" selection-end="403" vertical-scroll-proportion="0.48364154" vertical-offset="0" max-vertical-offset="5236">
+            <state line="1356" column="51" selection-start="47894" selection-end="47894" vertical-scroll-proportion="-9.36" vertical-offset="22818" max-vertical-offset="70040">
               <folding />
             </state>
           </provider>
@@ -95,9 +77,9 @@
         <option value="$PROJECT_DIR$/misc/jquery.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php" />
       </list>
     </option>
   </component>
@@ -134,7 +116,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,6 +252,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroezfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -295,6 +306,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,16 +410,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780">
-          <folding />
-        </state>
+        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5202">
-          <folding />
-        </state>
+        <state line="17" column="6" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5202" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
@@ -419,23 +427,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="519" column="4" selection-start="14891" selection-end="14891" vertical-scroll-proportion="0.0" vertical-offset="8563" max-vertical-offset="11033">
-          <folding />
-        </state>
+        <state line="519" column="4" selection-start="14891" selection-end="14891" vertical-scroll-proportion="0.0" vertical-offset="8563" max-vertical-offset="11033" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780">
-          <folding />
-        </state>
+        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="5168">
-          <folding />
-        </state>
+        <state line="78" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="5168" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
@@ -447,16 +449,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780">
-          <folding />
-        </state>
+        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="5049">
-          <folding />
-        </state>
+        <state line="78" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="5049" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
@@ -633,42 +631,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780">
-          <folding />
-        </state>
+        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="14" column="1" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="547" column="53" selection-start="15478" selection-end="15478" vertical-scroll-proportion="13.106686" vertical-offset="0" max-vertical-offset="11798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.33854908" vertical-offset="0" max-vertical-offset="5100" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4042" column="0" selection-start="149562" selection-end="149562" vertical-scroll-proportion="0.0" vertical-offset="68019" max-vertical-offset="68816">
+        <state line="1356" column="51" selection-start="47894" selection-end="47894" vertical-scroll-proportion="-9.36" vertical-offset="22818" max-vertical-offset="70040">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="14" selection-start="2027" selection-end="2027" vertical-scroll-proportion="-18.36" vertical-offset="765" max-vertical-offset="6987">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="547" column="53" selection-start="15478" selection-end="15478" vertical-scroll-proportion="-354.3846" vertical-offset="0" max-vertical-offset="11798">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="27" selection-start="403" selection-end="403" vertical-scroll-proportion="0.48364154" vertical-offset="0" max-vertical-offset="5236">
+        <state line="392" column="39" selection-start="14073" selection-end="14073" vertical-scroll-proportion="0.4170096" vertical-offset="6360" max-vertical-offset="7429">
           <folding />
         </state>
       </provider>
