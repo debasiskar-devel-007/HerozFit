@@ -4048,8 +4048,15 @@ width: 394px;
     .bigimageslider .item-list ul li { float:left; }
 
 
-    .prev {  color: black }
-    .next {  color:black }
+    .prev { background: url(../images/br_prev.png) no-repeat;
+    color: #333;
+    height: 48px!important;
+    width: 28px!important; font-size:42px; padding-left:30px; color:#333; cursor:pointer;
+}
+    .next {  background: url(../images/br_next.png) no-repeat;
+    color: #333;
+    height: 48px;
+    width: 28px; font-size:42px; padding-left:30px; color:#333;  }
 
 
 
@@ -4066,7 +4073,7 @@ width: 394px;
 .page-product-detail  .views-field-display-price span{ display:block;}
 
 
-.page-product-detail  .views-field-addtocartlink{width:530px!important; display:block!important; float:right; margin-top:5px;}
+.page-product-detail  .views-field-addtocartlink{width:530px!important; display:block!important; float:right; margin-top:10px;}
 
 .page-product-detail  .views-field-addtocartlink .views-label{ display:none;}
 
@@ -4111,7 +4118,7 @@ width: 394px;
 
 
 
-.page-product-detail .views-field-addtocartlink  .form-actions .node-add-to-cart{display:block; float:none!important; margin:10px auto!important; background-color:#dadada!important; background: url(../images/cart3.png) no-repeat 35px center; color:#272727;  font-family: 'bebasregular'; font-size:24px; height:63px; width:250px; line-height:55px; border-radius:0px; text-align:left; padding-left:90px;}
+.page-product-detail .views-field-addtocartlink  .form-actions .node-add-to-cart{display:block; float:none!important; margin:10px auto!important; background-color:#dadada!important; background: url(../images/cart3.png) no-repeat 35px center; color:#272727;  font-family: 'bebasregular'; font-size:24px; height:63px; width:250px; line-height:55px; border-radius:0px; text-align:left; padding-left:90px; margin-top:20px!important;}
 
 .page-product-detail .views-field-addtocartlink  .form-actions .node-add-to-wishlist{ display:block; float:none!important; margin:10px auto!important; background-color:#fff!important; color:#272727; background: url(../images/wishlist2.png) no-repeat left center; width:auto; border-radius:0px; padding:10px 0 4px 27px; text-transform:capitalize;}
 
@@ -4130,3 +4137,59 @@ width: 394px;
 .page-product-detail  .views-field-body .field-content ::before {   content:'Description'; display:block; font-size:22px!important; margin:10px auto;  text-align:center; border-bottom:solid 2px #b4b6b5; border-top:solid 2px #b4b6b5; padding:5px 0 8px 0; }
 
 .page-product-detail  .views-field-nid-1{width:530px!important; display:block!important; float:right;}
+
+.page-product-detail  .views-field-nid-1 .seedetails1{ background: url(../images/d1.png) no-repeat; background-size:32px; width:32px; height:32px; display:inline-block; padding:0 5px; font-size:0px; margin:0 4px;}
+
+.page-product-detail  .views-field-nid-1 .seedetails2{ background: url(../images/d2.png) no-repeat; background-size:32px; width:32px; height:32px; display:inline-block; padding:0 5px; font-size:0px;  margin:0 4px;}
+
+.page-product-detail  .views-field-nid-1 .seedetails3{ background: url(../images/d3.png) no-repeat; background-size:32px; width:32px; height:32px; display:inline-block; padding:0 5px; font-size:0px;  margin:0 4px;}
+
+.page-product-detail  .views-field-nid-1 .seedetails4{ background: url(../images/d4.png) no-repeat; background-size:32px; width:32px; height:32px; display:inline-block; padding:0 5px; font-size:0px;  margin:0 4px;}
+
+
+.page-product-detail  .views-field-nid-1{ display:block; width:480px; padding-top:10px;  }
+
+
+
+
+.bigimageslider ul li {
+
+
+
+    position: relative;
+    cursor: none;
+
+    border:2px solid black;
+    margin: 3px;
+    display:inline-block;
+
+    /* magnifying glass overlay */
+
+
+    /*To solve overlap bug at the edges during magnification*/
+
+}
+
+.glass {
+    z-index:999999999; /* always on top? */
+    width: 150px; height: 150px;
+    position: absolute;
+    border-radius: 100%;
+    background-repeat:no-repeat;
+    background-color:white;
+   /* background-position:476px 516px!important;*/
+
+    /* Multiple box shadows to achieve the glass effect*/
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85),
+    0 0 7px 7px rgba(0, 0, 0, 0.25),
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+
+    /*hide the glass by default*/
+    display: none !important;
+
+    cursor:pointer;
+}
+
+
+
+
