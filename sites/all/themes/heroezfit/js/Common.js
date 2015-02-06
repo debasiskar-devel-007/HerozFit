@@ -383,16 +383,55 @@ var flag1='';
             });
 
 
-            $('.productdetailaddtocartsize').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('.option').click(function(){
+            $('.view-product-detail').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('lebel').click(function(){
 
 
-                alert($('.productdetailaddtocartsize').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('.option').length);
 
-               // $(this).prev().attr("checked", !$(this).prev().attr("checked"));
-                $(this).prev().prop("checked",'checked');
-                alert($(this).prev().attr("checked"));
+                    //$(this).addClass('active-size');
+
+                                //alert($('.productdetailaddtocartsize').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('.option').length);
+
+               $(this).prev().prop("checked", !$(this).prev().prop("checked"));
+                //$(this).prev().prop("checked",'checked');
+               // alert($(this).prev().attr("checked"));
 
             });
+
+
+            $('.view-product-detail').find('.ajax-cart-submit-form').find('.form-type-checkbox').find('.option').click(function(){
+
+
+                if ( $( this ).hasClass( "active-size" ) ) {
+
+                    $(this).removeClass('active-size');
+
+                }
+
+                else{
+
+                    $(this).parent().parent().find('.option').each(function(){
+                        //alert(1);
+                        $(this).prev().removeAttr('checked');
+                        $(this).removeClass('active-size');
+
+                    });
+
+                    $(this).addClass('active-size');
+
+                }
+
+
+
+            });
+
+
+
+
+           // $('.form-type-checkbox').find('.form-checkbox').click(function(){
+
+               // alert(9);
+
+            //});
 
 
 

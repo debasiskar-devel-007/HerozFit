@@ -1354,7 +1354,7 @@ margin-bottom: 15px; text-transform:uppercase;}
 
 
 
-.page-node-1 .form-item .form-type-checkbox input{ }
+.page-node-1 .form-item .form-type-checkbox input{ display:none;}
 			
 .page-node-1 #frameHoverNav {
     position: absolute;
@@ -4040,7 +4040,7 @@ width: 394px;
 
 .page-product-detail .item-list  ul li .smallproimg img{ margin-bottom:11px; width:77px; height:77px; border:solid 1px #dbdada;}
 
-.page-product-detail .item-list  ul li .bigimageslider{ width:480px; height:520px; border:solid 1px #dbdada; float:left;  overflow:hidden; margin:0 20px;  display:block!important;  }
+.page-product-detail .item-list  ul li .bigimageslider{ width:480px; height:522px; border:solid 1px #dbdada; float:left;  overflow:hidden; margin:0 20px;  display:block!important; padding-top:2px;  }
 
 
   .bigimageslider .item-list { float:left; margin:0px; width:476px; height:516px; overflow:hidden;  }
@@ -4057,7 +4057,7 @@ width: 394px;
 
 .page-product-detail .bigimageslider .item-list ul li{ list-style:none; overflow:inherit; clear:inherit; width:480px!important; margin:0!important; padding:0!important;} 
 
-.page-product-detail  .views-field-title{ width:538px!important; display:block!important; float:right;  font-family: "open_sansregular";
+.page-product-detail  .views-field-title{ width:530px!important; display:block!important; float:right;  font-family: "open_sansregular";
     font-size: 24px; color:#444444; margin-bottom:20px; text-align:center; }
 
 
@@ -4066,7 +4066,7 @@ width: 394px;
 .page-product-detail  .views-field-display-price span{ display:block;}
 
 
-.page-product-detail  .views-field-addtocartlink{width:538px!important; display:block!important; float:right; margin-top:12px;}
+.page-product-detail  .views-field-addtocartlink{width:530px!important; display:block!important; float:right; margin-top:5px;}
 
 .page-product-detail  .views-field-addtocartlink .views-label{ display:none;}
 
@@ -4104,11 +4104,29 @@ width: 394px;
     margin: 0 !important;
     padding: 0 !important;
 }
-.page-product-detail  .views-field-addtocartlink .form-type-checkboxes .form-item input {
-   
-}
 
 
 
 
-.page-product-detail .views-field-addtocartlink  .form-actions { background:#000;}
+
+
+
+.page-product-detail .views-field-addtocartlink  .form-actions .node-add-to-cart{display:block; float:none!important; margin:10px auto!important; background-color:#dadada!important; background: url(../images/cart3.png) no-repeat 35px center; color:#272727;  font-family: 'bebasregular'; font-size:24px; height:63px; width:250px; line-height:55px; border-radius:0px; text-align:left; padding-left:90px;}
+
+.page-product-detail .views-field-addtocartlink  .form-actions .node-add-to-wishlist{ display:block; float:none!important; margin:10px auto!important; background-color:#fff!important; color:#272727; background: url(../images/wishlist2.png) no-repeat left center; width:auto; border-radius:0px; padding:10px 0 4px 27px; text-transform:capitalize;}
+
+.view-products .bigzoomimg {display: none}
+.page-product-detail .views-field-addtocartlink .form-type-checkboxes .form-item .form-checkbox {display: none!important}
+.page-product-detail .triggers {display: none!important}
+.page-product-detail .views-field-uc-product-image-3 {display: none!important}
+.page-product-detail .views-field-php{display: none!important}
+.page-product-detail .views-field-php-1 {display: none!important}
+
+
+
+.page-product-detail  .views-field-body{ text-align:center;    font-family: "open_sansregular";  font-size:14px!important; line-height:25px; text-align:left; width:530px!important; display:block!important; float:right; }
+
+
+.page-product-detail  .views-field-body .field-content ::before {   content:'Description'; display:block; font-size:22px!important; margin:10px auto;  text-align:center; border-bottom:solid 2px #b4b6b5; border-top:solid 2px #b4b6b5; padding:5px 0 8px 0; }
+
+.page-product-detail  .views-field-nid-1{width:530px!important; display:block!important; float:right;}

@@ -641,8 +641,10 @@ function MYMODULE_preprocess_page(&$variables){
 
 
 function custommodule_js_alter(&$javascript) {
+
+    $x=arg();
     // Swap out jQuery to use an updated version of the library.
-    if(current_path()=='node/1' || 'product-detail/34')
+    if(current_path()=='node/1' || $x[0]=='product-detail')
         //var_dump( current_path());
     $javascript['misc/jquery.js']['data'] = drupal_get_path('module', 'custommodule') . '/js/jquery.js';
 }
