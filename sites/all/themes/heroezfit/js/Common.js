@@ -97,136 +97,10 @@ var flag1='';
 setTimeout(function(){
 
 
-            var Magnifier = (function($){
-                var LIB = {
-                    /* standard selection */
-                    selectors : {
-                        magnify : $('.bigimageslider ul li')
-                        , glass_class : 'glass' // lame
-                        , glass : '.glass'
-                        , thumb : $('.bigimageslider ul li img')
-                        , active_class : 'active'
-                    }
-                    ,
-                    /* remember dom elements */
-                    $el : { }
-                    ,
-                    /* prepare all stuff */
-                    init : function(){
-                        // get dom elements
-                        LIB.$el.magnifiers = $(LIB.selectors.magnify);
-
-                        //add glass to each magnifier
-                        var $glass = $('<div></div>').addClass(LIB.selectors.glass_class);
-
-                        // get the native image size of each magnifier source image
-                        LIB.$el.magnifiers.each(function(i,o){
-                            var $magnifier = $(o)
-                                , $thumb = $magnifier.find(LIB.selectors.thumb)
-                                ;
-
-                            // use Image object to get the dimensions
-                            var image_object = new Image();
-                            var srcimg=$thumb.attr("src");
-                            var srcimg2=srcimg.replace('newprobigimg','zoom_image');
-
-                            //alert(srcimg2);
-
-                            image_object.src = srcimg2;
-
-
-
-                            // save for later
-                            $magnifier.data({"native_w":image_object.width, "native_h":image_object.height});
-
-                            // attach behaviors
-                            $magnifier
-                                .mousemove(LIB.behaviors.mousemove)
-                            ;
-
-                            // add glass
-                            //alert();
-                            $thumb.before( $glass.clone().css('background-image', 'url(' + srcimg2 + ')') );
-                        });
-
-                    }//--        fn        init
-                    ,
-                    behaviors : {
-                        /* delay for...fade */
-                        fadeDelay : 300
-                        ,
-                        /* fade in/out glass overlay if mouse is outside container */
-                        isHover : function(cw, ch, mx, my){
-                            return (mx < cw && my < ch && mx > 0 && my > 0);
-                        }//--        fn hover
-                        ,
-                        /* move glass overlay */
-                        mousemove : function(e){
-                            var $magnifier = $(this)
-                                , offset = $magnifier.offset() // relative position
-                                , mx = e.pageX - offset.left // relative to mouse
-                                , my = e.pageY - offset.top // relative to mouse
-                                , $glass = $magnifier.find(LIB.selectors.glass)
-                                , $thumb = $magnifier.find(LIB.selectors.thumb)
-                                , rx, ry, bgp // relative ratios
-                                , native_width = $magnifier.data('native_w')
-                                , native_height = $magnifier.data('native_h')
-                                , glass_width = $glass.width()
-                                , glass_height = $glass.height()
-                                ;
-
-
-                            if( LIB.behaviors.isHover($magnifier.width(), $magnifier.height(), mx, my) ) {
-                                // show
-                                $glass.fadeIn(LIB.behaviors.fadeDelay);
-                               // $('.glass').css('display','!important');
-
-                                //The background position of .glass will be changed according to the position
-                                //of the mouse over the .small image. So we will get the ratio of the pixel
-                                //under the mouse pointer with respect to the image and use that to position the
-                                //large image inside the magnifying glass
-                                rx = Math.round(mx/$thumb.width()*native_width - glass_width/2)*-1;
-                                ry = Math.round(my/$thumb.height()*native_height - glass_height/2)*-1;
-                               // alert(rx+'--'+ry);
-                                bgp = rx + "px " + ry + "px";
-                                //alert(bgp);
-
-                                //The logic is to deduct half of the glass's width and height from the
-                                //mouse coordinates to place it with its center at the mouse coordinates
-                                $glass.css({
-                                    left: mx - glass_width/2
-                                    , top: my - glass_height/2
-                                    , backgroundPosition:bgp
-                                    //,display:'block !important'
-
-
-                                });
-
-                            }//-- if visible
-                            else {
-                                // hide
-                                $glass.fadeOut(LIB.behaviors.fadeDelay);
-                            }//-- if !visible
-                        }//--        fn mousemove
-                    }//--        behaviors
-                    ,
-                    /* include execution in page, with .ready wrapper */
-                    ready : function(){
-                        // ready
-                        $(function(){
-                            // setup
-                            LIB.init();
-                        });
-                    }//--    fn    ready
-
-                };////----        LIB
-
-                return LIB;
-            })(jQuery);
 
 
 // engage
-            Magnifier.ready();
+
 
 
 },2000);
@@ -235,18 +109,193 @@ setTimeout(function(){
 
             //end of the zoom
 
-            $('.view-product-detail').find('.bigimageslider').find('li').find('img').mouseover(function(){
+            $('.view-product-detail').find('.bigimageslider').find('li').find('img').mouseenter(function(){
 
-                alert(2);
+               // $('.glass').css('background-position','');
+                //alert($(document.activeElement).attr('class'));
+                //alert(9);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                var Magnifier = (function($){
+                    var LIB = {
+                        /* standard selection */
+                        selectors : {
+                            magnify : $('.bigimageslider ul li')
+                            , glass_class : 'glass' // lame
+                            , glass : '.glass'
+                            , thumb : $('.bigimageslider ul li img')
+                            , active_class : 'active'
+                        }
+                        ,
+                        /* remember dom elements */
+                        $el : { }
+                        ,
+                        /* prepare all stuff */
+                        init : function(){
+                            // get dom elements
+                            LIB.$el.magnifiers = $(LIB.selectors.magnify);
+
+                            //add glass to each magnifier
+                            var $glass = $('<div></div>').addClass(LIB.selectors.glass_class);
+
+                            // get the native image size of each magnifier source image
+                            LIB.$el.magnifiers.each(function(i,o){
+                                var $magnifier = $(o)
+                                    , $thumb = $magnifier.find(LIB.selectors.thumb)
+                                    ;
+
+                                // use Image object to get the dimensions
+                                var image_object = new Image();
+                                var srcimg=$thumb.attr("src");
+                                var srcimg2=srcimg.replace('newprobigimg','zoom_image');
+
+                                //alert(srcimg2);
+
+                                image_object.src = srcimg2;
+
+
+
+                                // save for later
+                                $magnifier.data({"native_w":image_object.width, "native_h":image_object.height});
+
+                                // attach behaviors
+                                $magnifier
+                                    .mousemove(LIB.behaviors.mousemove)
+                                ;
+
+                                // add glass
+                                //alert();
+                                $thumb.before( $glass.clone().css('background-image', 'url(' + srcimg2 + ')') );
+                            });
+
+                        }//--        fn        init
+                        ,
+                        behaviors : {
+                            /* delay for...fade */
+                            fadeDelay : 300
+                            ,
+                            /* fade in/out glass overlay if mouse is outside container */
+                            isHover : function(cw, ch, mx, my){
+                                return (mx < cw && my < ch && mx > 0 && my > 0);
+                            }//--        fn hover
+                            ,
+                            /* move glass overlay */
+                            mousemove : function(e){
+                                var $magnifier = $(this)
+                                    , offset = $magnifier.offset() // relative position
+                                    , mx = e.pageX - offset.left // relative to mouse
+                                    , my = e.pageY - offset.top // relative to mouse
+                                    , $glass = $magnifier.find(LIB.selectors.glass)
+                                    , $thumb = $magnifier.find(LIB.selectors.thumb)
+                                    , rx, ry, bgp // relative ratios
+                                    , native_width = $magnifier.data('native_w')
+                                    , native_height = $magnifier.data('native_h')
+                                    , glass_width = $glass.width()
+                                    , glass_height = $glass.height()
+                                    ;
+
+
+                                if( LIB.behaviors.isHover($magnifier.width(), $magnifier.height(), mx, my) ) {
+                                    // show
+                                    $glass.fadeIn(LIB.behaviors.fadeDelay);
+                                    // $('.glass').css('display','!important');
+
+                                    //The background position of .glass will be changed according to the position
+                                    //of the mouse over the .small image. So we will get the ratio of the pixel
+                                    //under the mouse pointer with respect to the image and use that to position the
+                                    //large image inside the magnifying glass
+                                    rx = Math.round(mx/$thumb.width()*native_width - glass_width/2)*-1;
+                                    ry = Math.round(my/$thumb.height()*native_height - glass_height/2)*-1;
+                                    // alert(rx+'--'+ry);
+                                    bgp = rx + "px " + ry + "px";
+                                    //alert(bgp);
+
+                                    //The logic is to deduct half of the glass's width and height from the
+                                    //mouse coordinates to place it with its center at the mouse coordinates
+                                    $glass.css({
+                                        left: mx - glass_width/2
+                                        , top: my - glass_height/2
+                                        , backgroundPosition:bgp
+                                        //,display:'block !important'
+
+
+                                    });
+
+                                }//-- if visible
+                                else {
+                                    // hide
+                                    $glass.fadeOut(LIB.behaviors.fadeDelay);
+                                }//-- if !visible
+                            }//--        fn mousemove
+                        }//--        behaviors
+                        ,
+                        /* include execution in page, with .ready wrapper */
+                        ready : function(){
+                            // ready
+                            $(function(){
+                                // setup
+                                LIB.init();
+                            });
+                        }//--    fn    ready
+
+                    };////----        LIB
+
+                    return LIB;
+                })(jQuery);
+
+
+                Magnifier.ready();
+
+
 
             });
 
 
-        $('.view-product-detail').find('.bigimageslider').find('li').find('img').mouseout(function(){
 
-           alert(1);
+
+        $('.view-product-detail').find('.bigimageslider').find('li').mouseleave(function(e){
+
+
+            //($(this).removeAttr('style'));
+            //alert($(document.activeElement).attr('class'));
+           // alert(("e.pageX: " + e.pageX + ", e.pageY: " + e.pageY));
+            //alert($(this).offset().top+$(this).height()+'===='+$(this).offset().left+$(this).width());
+            $('.glass').remove();
+
+            //alert($(this).prev().css('display'));
+
+
+            //$('.glass').setAttribute('style', element.style.cssText +'display' + ':' + 'none' + ((important) ? ' !important' : '') + ';');
 
         });
+
+
+            $('.view-product-detail').find('.smallproimg').find('img').click(function(){
+                var curimg=$(this);
+
+                var valimg=$('.view-product-detail').find('.smallproimg').find('img').index(curimg);
+
+                $('.view-product-detail').find('.triggers').find('li').eq(valimg).click();
+
+
+            });
+
+            $('.view-product-detail').find('.smallimg').prepend("<a href=javascript:void(0) class=previous>Prev</a>");
+            $('.view-product-detail').find('.smallimg').append("<a href=javascript:void(0)>Next</a>");
+            //$('.view-product-detail').find('.smallimg').append("<span class=next>next</span>");
 
 
 
@@ -309,8 +358,9 @@ setTimeout(function(){
             // $(".fe").html('<a href="mailto:email:test.com">email@test.com</a>');
 
             var src= $('.front').find('.view-id-feature_gallery_image1').find('.views-field-field-gallery-image').find('img').eq(2).attr('src');
-            //alert(typeof(src));
+
             if(typeof(src)!='undefined'){
+                //alert(1);
 
                 var src=src.replace("feature_gallery1","feature_gallery2");
                 $('.front').find('.view-id-feature_gallery_image1').find('.views-field-field-gallery-image').find('img').eq(2).attr('src',src).attr('width','269').attr('height','869');
@@ -318,12 +368,17 @@ setTimeout(function(){
 
             var src1= $('.front').find('.view-id-feature_gallery_image1').find('.views-field-field-gallery-image').find('img').eq(3).attr('src');
             if(typeof(src1)!='undefined'){
+
+                //alert(2);
+
                 var src1=src1.replace("feature_gallery1","feature_gallery3");
                 $('.front').find('.view-id-feature_gallery_image1').find('.views-field-field-gallery-image').find('img').eq(3).attr('src',src1).attr('width','601').attr('height','270');
             }
 
             var src2= $('.front').find('.view-id-feature_gallery_image1').find('.views-field-field-gallery-image').find('img').eq(4).attr('src');
             if(typeof(src2)!='undefined'){
+                //alert(3);
+
                 var src2=src2.replace("feature_gallery1","feature_gallery4");
                 $('.front').find('.view-id-feature_gallery_image1').find('.views-field-field-gallery-image').find('img').eq(4).attr('src',src2).attr('width','269').attr('height','270');
             }

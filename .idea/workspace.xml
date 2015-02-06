@@ -22,35 +22,7 @@
     <favorites_list name="herozfitcart" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Common.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="94" selection-start="8839" selection-end="8839" vertical-scroll-proportion="0.6296296" vertical-offset="3570" max-vertical-offset="10625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4189" column="19" selection-start="156363" selection-end="156363" vertical-scroll-proportion="-20.68" vertical-offset="70696" max-vertical-offset="71417">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custommodule.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="663" column="0" selection-start="18164" selection-end="18164" vertical-scroll-proportion="-18.23077" vertical-offset="10712" max-vertical-offset="11832">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -86,10 +58,10 @@
         <option value="$PROJECT_DIR$/misc/jquery.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
         <option value="//KTA39-PC/htdocs/newpro/test.php" />
         <option value="//KTA39-PC/htdocs/newpro/index.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js" />
       </list>
     </option>
@@ -414,7 +386,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -422,7 +394,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -698,23 +670,23 @@
         <state line="14" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.33854908" vertical-offset="0" max-vertical-offset="5100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="663" column="0" selection-start="18164" selection-end="18164" vertical-scroll-proportion="-18.23077" vertical-offset="10712" max-vertical-offset="11832">
+        <state line="4187" column="31" selection-start="156344" selection-end="156374" vertical-scroll-proportion="1.3863636" vertical-offset="70203" max-vertical-offset="71417">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4189" column="19" selection-start="156363" selection-end="156363" vertical-scroll-proportion="-20.68" vertical-offset="70696" max-vertical-offset="71417">
+        <state line="646" column="109" selection-start="17786" selection-end="17786" vertical-scroll-proportion="-10.692307" vertical-offset="10619" max-vertical-offset="11832">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="94" selection-start="8839" selection-end="8839" vertical-scroll-proportion="0.6296296" vertical-offset="3570" max-vertical-offset="10625">
+        <state line="379" column="18" selection-start="13905" selection-end="13905" vertical-scroll-proportion="0.6036932" vertical-offset="6018" max-vertical-offset="11560">
           <folding />
         </state>
       </provider>
