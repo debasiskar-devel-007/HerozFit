@@ -707,6 +707,12 @@ display: none;
 .page-user-wishlist .sticky-enabled td .form-submit{ text-align:center;  background:url(../images/shoping_cart.png) no-repeat  left center; color:#333; border-radius:0; width:140px!important; margin:15px auto!important; float:none!important; display:block!important;} 
 
 
+.page-user-wishlist  td { vertical-align:middle; text-align:center;}
+.page-user-wishlist  td .form-type-item{ text-align:center;  } 
+
+.page-user-wishlist td .form-submit{ text-align:center;  background:url(../images/shoping_cart.png) no-repeat  left center; color:#333; border-radius:0; width:140px!important; margin:15px auto!important; float:none!important; display:block!important;} 
+
+
 .page-user-wishlist .form-item-expiration{ display:none;}
 
 
@@ -4257,9 +4263,10 @@ width: 394px;
 
 
 .page-product-detail .messages{ display:inline-block; border:none!important; background:none!important; padding:0 0 0px 0!important; overflow:inherit!important;} 
-.page-product-detail .status{ display:inline-block; border:none!important; background:none!important; padding:0 0 0px 0!important; overflow:inherit!important; color:#333;} 
+.page-product-detail .status{ display:inline-block; border:none!important; padding:0 0 0px 0!important; overflow:inherit!important; color:#333;} 
 
-.page-product-detail .status *{ font-weight:normal; color:#333;}
+.page-product-detail .status *{ font-weight:normal; color:#333; }
+
 
 .page-product-detail .submit-by-enter-processed{ margin-top:5px;}
 
