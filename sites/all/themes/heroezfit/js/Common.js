@@ -42,7 +42,7 @@ var flag1='';
             var lastElem = triggers.length-1;
             //alert(lastElem);
             var mask = $('.bigimageslider .item-list ul');
-            var imgWidth = images.width()+5;
+            var imgWidth = images.width();
             var target;
 
             triggers.first().addClass('selected');
@@ -104,6 +104,9 @@ setTimeout(function(){
 
 
 },2000);
+
+
+            $('.control').text('');
 
 
 
@@ -293,8 +296,8 @@ setTimeout(function(){
 
             });
 
-            $('.view-product-detail').find('.smallimg').prepend("<a href=javascript:void(0) class=previous>Prev</a>");
-            $('.view-product-detail').find('.smallimg').append("<a href=javascript:void(0)>Next</a>");
+            //$('.view-product-detail').find('.smallimg').prepend("<a href=javascript:void(0) class=previous>Prev</a>");
+            //$('.view-product-detail').find('.smallimg').append("<a href=javascript:void(0)>Next</a>");
             //$('.view-product-detail').find('.smallimg').append("<span class=next>next</span>");
 
 
