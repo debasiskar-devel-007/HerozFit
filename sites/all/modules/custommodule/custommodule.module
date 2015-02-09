@@ -699,9 +699,54 @@ function custommodule_mail($key, &$message, $params) {
 
 function custommodule_testmail() {
 
-    $x=uc_order_load(74);
-    var_dump($x);
+    //$orderid=$_GET['orderid'];
+    //$orderid=$_GET['orderid'];
+
+
+
+    $x=uc_order_load(84);
+    echo '<pre>';
+    print_r($x);
     exit;
+    $i=1;
+    $producthtml='';
+
+    foreach($x->products as $row){
+        $html='';
+
+        $attr=($row->data['attributes']);
+
+        foreach($attr as $aindex=>$val)
+        {
+            //echo $aindex;
+            $html="<div>:".$aindex;
+            //var_dump( $attr[$aindex]);
+            foreach($attr[$aindex] as $attrval)
+            {
+                $html.="<span>".$attrval."</span>";
+
+
+            }
+            //exit;
+            $html.="</div>";
+        }
+        //exit;
+
+        $producthtml.='<tr>
+    <td colspan="4">
+    	<table width="100%" cellspacing="0" cellpadding="0" style="border-top:#b4b6b5 solid 2px;">
+  <tr>
+    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">'.$i++.'</td>
+    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">'.$row->title.'<br>'.$html.'</td>
+    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">'.$row->qty.'</td>
+    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">$'.$row->price.'</td>
+  </tr>
+</table>
+    </td>
+  </tr>';
+
+    }
+
 
     //if ($node->type == 'dynamic_content') {
         $params['subject'] = 'test';
@@ -737,49 +782,19 @@ function custommodule_testmail() {
 	</td>
   </tr>
 
-  <tr>
-    <td colspan="4">
-    	<table width="100%" cellspacing="0" cellpadding="0" style="border-top:#b4b6b5 solid 2px;">
-  <tr>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">1</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">Lorem Ipsum Dolor Sit Amet.</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">1</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">$45.50</td>
-  </tr>
-</table>
-    </td>
-  </tr>
 
-  <tr>
-    <td colspan="4">
-    	<table width="100%" cellspacing="0" cellpadding="0" style="border-top:#b4b6b5 solid 2px;">
-  <tr>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">1</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">Lorem Ipsum Dolor Sit Amet.</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">1</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">$45.50</td>
-  </tr>
-</table>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="4">
-    	<table width="100%" cellspacing="0" cellpadding="0" style="border-top:#b4b6b5 solid 2px;">
-  <tr>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">1</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">Lorem Ipsum Dolor Sit Amet.</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">1</td>
-    <td width="25%" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#202020; text-align:center; padding:15px 0;">$45.50</td>
-  </tr>
-</table>
-    </td>
-  </tr>
+
+'.$producthtml.'
+
+
+
+
   <tr>
     <td colspan="4" bgcolor="#008081" style="padding:10px 0;">
     	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#ffffff;">
   <tr>
-    <td width="50%" style="padding:5px 0 5px 10px;"><span style="color:#8ce5e6;">Shipping Address:</span><br /><br />Lorem Ipsum, 12257 lorem ipsum dolor sit amet, Florida, Miami</td>
-    <td width="50%" style="padding:5px 10px 5px 0px; text-align:right; font-size:15px;"><span style="color:#8ce5e6;">Total Amount:</span> $'.$x->order_total.'<br /><br /><span style="color:#8ce5e6;">Shipping Charges:</span> $0<br /><br /><span style="color:#8ce5e6;">Payable Amount:</span> $15</td>
+    <td width="50%" style="padding:5px 0 5px 10px;"><span style="color:#8ce5e6;">Billing Address:</span><br /><br />'.''.$x->billing_street1.','.$x->billing_city.','.$x->billing_postal_code.', USA</td>
+    <td width="50%" style="padding:5px 10px 5px 0px; text-align:right; font-size:15px;"><span style="color:#8ce5e6;">Total Amount:</span> $'.$x->line_items[0]['amount'].'<br /><br /><span style="color:#8ce5e6;">Shipping Charges:</span> $0<br /><br /><span style="color:#8ce5e6;">Payable Amount:</span> $'.$x->order_total.'</td>
   </tr>
 </table>
 
@@ -799,7 +814,7 @@ function custommodule_testmail() {
 
 </body>';
         //$to = variable_get('site_mail', '');
-        $to = 'bhaskar.involutiontech@gmail.com';
+        $to = $x->primary_email;
         $from = variable_get('site_mail', '');
         $lang = language_default();
         drupal_mail('custommodule', 'custommodule_mail', $to, $lang, $params, $from);

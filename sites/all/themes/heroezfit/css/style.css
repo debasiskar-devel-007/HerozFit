@@ -2912,7 +2912,7 @@ width: 394px;
 
 .page-cart-checkout .form-item{ margin-bottom:0px; clear:both; overflow:hidden;}	
 
-.page-cart-checkout .form-item .form-text{ width:280px; height:32px; border:solid 1px #ddd; display:block; float:left; padding:0 5px; background:#fff; border-radius:0px;}
+.page-cart-checkout .form-item .form-text{ width:430px; height:32px; border:solid 1px #ddd; display:block; float:left; padding:0 5px; background:#fff; border-radius:0px;}
 
 .page-cart-checkout .form-item label{ width:170px!important; text-align:right!important; display:block!important; float:left; padding:6px 5px 0 0; font-size:14px!important;}	
 	
@@ -2922,7 +2922,9 @@ width: 394px;
 .page-cart-checkout #cart-pane { margin-bottom:0px;}
 
 			
+.page-cart-checkout #delivery-pane{ width:560px; float:left;}
 
+.page-cart-checkout #billing-pane{ width:560px; float:right;}
 	
 		.page-cart-checkout th {
     background: none repeat scroll 0 0 #008081 !important;
@@ -2963,7 +2965,7 @@ width: 394px;
 			
 			.page-cart-checkout  #edit-panes-delivery-select-address{ border: 1px solid #bfbfbf;
     height: 32px;
-    width: 281px;}
+    width: 432px;}
 	
 			.page-cart-checkout  select{ border: 1px solid #bfbfbf;
     height: 32px;
@@ -3044,7 +3046,7 @@ width: 394px;
 	.page-cart-checkout .address-pane-table select {
     border: 1px solid #bfbfbf;
     height: 32px;
-    width: 282px;
+    width: 432px;
 }
 		
 		
@@ -3075,7 +3077,7 @@ width: 394px;
 .page-cart-checkout .form-item { overflow:inherit!important;}
 
 .page-cart-checkout .form-item-panes-billing-select-address label{ width:119px!important;}
-.page-cart-checkout .form-item-panes-billing-select-address #edit-panes-billing-select-address{ width:281px!important;}
+.page-cart-checkout .form-item-panes-billing-select-address #edit-panes-billing-select-address{ width:432px!important;}
 
 
 .page-cart-checkout .form-item-panes-delivery-select-address label{ width:119px!important;}
