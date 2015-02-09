@@ -2925,6 +2925,8 @@ width: 394px;
 .page-cart-checkout #delivery-pane{ width:560px; float:left;}
 
 .page-cart-checkout #billing-pane{ width:560px; float:right;}
+
+.page-cart-checkout #payment-pane{ width:100%; float:none; overflow:hidden; clear:both;}
 	
 		.page-cart-checkout th {
     background: none repeat scroll 0 0 #008081 !important;
@@ -3004,15 +3006,15 @@ width: 394px;
 		
 		.page-cart-checkout  .payment-details-credit #edit-panes-payment-details-cc-type{ width:300px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
 		
-		.page-cart-checkout  #edit-panes-payment-details-cc-owner{ width:300px; padding:0 5px;height:32px; margin-left:5px; border:solid 1px #ddd;}
-		.page-cart-checkout  #edit-panes-payment-details-cc-number{ width:300px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
+		.page-cart-checkout  #edit-panes-payment-details-cc-owner{ width:300px!important; padding:0 5px!important;height:32px!important; margin-left:5px!important; border:solid 1px #ddd!important;}
+		.page-cart-checkout  #edit-panes-payment-details-cc-number{ width:300px!important; padding:0 5px;!important height:32px!important; margin-left:5px!important; border:solid 1px #ddd!important;}
 		
 			
 		
-		.page-cart-checkout #edit-panes-payment-details-cc-exp-month{ width:300px; height:32px; margin-left:5px; border:solid 1px #ddd;}
-		.page-cart-checkout   #edit-panes-payment-details-cc-exp-year{ width:300px; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
+		.page-cart-checkout #edit-panes-payment-details-cc-exp-month{ width:300px!important; height:32px!important; margin-left:5px!important; border:solid 1px #ddd!important;}
+		.page-cart-checkout   #edit-panes-payment-details-cc-exp-year{ width:300px!important; padding:0 5px!important; height:32px!important; margin-left:5px!important; border:solid 1px #ddd!important;}
 		
-			.page-cart-checkout  #edit-panes-payment-details-cc-cvv{ width:160px!important; padding:0 5px; height:32px; margin-left:5px; border:solid 1px #ddd;}
+			.page-cart-checkout  #edit-panes-payment-details-cc-cvv{ width:160px!important; padding:0 5px!important; height:32px!important; margin-left:5px!important; border:solid 1px #ddd!important;}
 			
 			.page-cart-checkout  .uc-credit-cvv-help a{ color:#333;}
 		
