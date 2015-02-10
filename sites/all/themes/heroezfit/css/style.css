@@ -4277,8 +4277,18 @@ width: 394px;
 .page-product-detail .views-field-php-2{ display:block!important; width:100%!important; clear:both!important; overflow:hidden!important; padding:25px 0!important; }
 
 
-.page-product-detail .views-field-php-2 .views-label-php-2{ display:block!important; width:100%!important; overflow:hidden!important;  background: url(../images/devider.png) no-repeat center center; background-size:100%; margin:25px 0;}
+.page-product-detail .views-field-php-2 .views-label-php-2{ display:block!important; width:100%!important; overflow:hidden!important;  background: url(../images/devider.png) no-repeat center center; background-size:100%; margin:25px 0; font-family: "open_sansregular"; font-size:24px;}
 
+.page-product-detail .views-field-php-2 .similarproduct{ width:360px; float:left; margin:10px; }
+
+.page-product-detail .views-field-php-2 .similarproduct img{ width:356px;  border:solid 2px #ccc;}
+
+.page-product-detail .views-field-php-2 .similarproduct span{ font-family: 'bebasregular'; font-size:26px; color:#008081; display:block; padding:20px 0 0 0;}
+.page-product-detail .views-field-php-2 .similarproduct h1{ margin:0; padding:5px 0;  font-family: "open_sansregular"; font-size:18px; color:#333;}
+
+.imgLiquid img{
+    visibility:hidden;
+}
 .bigimageslider ul li {
 
 

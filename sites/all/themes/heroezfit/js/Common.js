@@ -9,7 +9,7 @@ var flag1='';
         attach: function (context, settings) {
 
 
-
+            $(".imgLiquid").imgLiquid();
 
             //var jq = $.noConflict();
 
