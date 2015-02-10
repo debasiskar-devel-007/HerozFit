@@ -89,6 +89,13 @@ function custommodule_menu() {
         'type' => MENU_CALLBACK,
     );
 
+    $items['custommodule/samecat'] = array(
+        'page callback' => 'custommodule_samecat',
+        //'page arguments' => array(3),
+        'access arguments' => array('access content'),
+        'type' => MENU_CALLBACK,
+    );
+
 
 
     return $items;
@@ -281,6 +288,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
                 $form['#prefix'] = '<div class="FormClass"> <h4>Add Product</h4>';
             $form['#suffix'] = '</div>';
            $form['actions']['submit']['#submit'][] = 'Product';
+
 
         }
 
@@ -695,13 +703,30 @@ class MymoduleMailSystem extends DefaultMailSystem {
 
 
 function custommodule_mail($key, &$message, $params) {
+    $order=$_GET['orderid'];
+
+
     switch ($key) {
         case 'custommodule_mail':
             $message['headers']['Content-Type'] = 'text/html; charset=UTF-8;';
             $message['subject'] = $params['subject'];
             $message['body'][] = $params['body'];
             break;
+
+        case 'custommodule_mail1':
+            $message['headers']['Content-Type'] = 'text/html; charset=UTF-8;';
+            $message['subject'] = $params['subject'];
+            $message['body'][] = $params['body'];
+            break;
+
     }
+
+    if($key=='custommodule_mail')
+        drupal_goto('checkout-confirmation');
+    else
+        drupal_goto('/admin/store/orders/'.$order);
+
+
 }
 
 function custommodule_testmail() {
@@ -831,6 +856,8 @@ function custommodule_testmail() {
         $from = variable_get('site_mail', '');
         $lang = language_default();
         drupal_mail('custommodule', 'custommodule_mail', $to, $lang, $params, $from);
+
+    //header('location:checkout-confirmation');
     //}
 }
 
@@ -964,12 +991,75 @@ function custommodule_orderstatusmail() {
     $to = $x->primary_email;
     $from = variable_get('site_mail', '');
     $lang = language_default();
-    drupal_mail('custommodule', 'custommodule_mail', $to, $lang, $params, $from);
+    drupal_mail('custommodule', 'custommodule_mail1', $to, $lang, $params, $from);
 
 
 
     //}
 }
+
+function custommodule_samecat(){
+
+
+    $node = node_load(62);
+    $curentcatid=($node->field_category['und'][0]['tid']);
+    //var_dump(($node));
+
+
+
+
+
+
+
+
+    $query = new EntityFieldQuery();
+
+    $query->entityCondition('entity_type', 'node')
+        ->entityCondition('bundle', 'product')
+        ->propertyCondition('status', NODE_PUBLISHED)
+        //->fieldCondition('field_news_types', 'value', 'spotlight', '=')
+        ->fieldCondition('field_category', 'tid', $curentcatid, '=')
+        // ->fieldCondition('field_faculty_tag', 'tid', $value)
+        //->propertyCondition('nid',62 )
+       // ->fieldOrderBy('field_category_priority', 'value', 'DESC')
+        //->range(0, 100)
+        ->addMetaData('account', user_load(1)); // Run the query as user 1.
+
+    $result = $query->execute();
+    if (isset($result['node'])) {
+        $news_items_nids = array_keys($result['node']);
+        $news_items = entity_load('node', $news_items_nids);
+    }
+
+
+    //var_dump($news_items);
+    foreach($news_items as $val)
+    {
+        var_dump($val->title);
+        //var_dump($val);
+        echo "<br>";
+        var_dump($val->nid);
+        echo "<br>";
+
+        var_dump($val->uc_product_image['und'][0]['filename']);
+        echo "<br>";
+
+        var_dump($val->price);
+        echo "<br>";
+    }
+
+
+    exit;
+
+
+
+
+
+
+}
+
+
+
 
 
 

@@ -23,21 +23,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custommodule.module" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custommodule.module" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="968" column="0" selection-start="30130" selection-end="30130" vertical-scroll-proportion="-84.26923" vertical-offset="12004" max-vertical-offset="14773">
+            <state line="1048" column="5" selection-start="32135" selection-end="32135" vertical-scroll-proportion="0.79941005" vertical-offset="17189" max-vertical-offset="18479">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2288" column="34" selection-start="81707" selection-end="81712" vertical-scroll-proportion="-9.36" vertical-offset="38662" max-vertical-offset="73695">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uc_order-invoice-page.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="7" selection-start="739" selection-end="739" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="663">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/misc/jquery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9300" column="13" selection-start="359118" selection-end="359118" vertical-scroll-proportion="0.0" vertical-offset="157405" max-vertical-offset="158202">
               <folding>
-                <element signature="n#custommodule_testmail#0;n#!!top" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/misc/jquery.js">
+      <file leaf-file-name="jquery-1.11.2.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/jquery-1.11.2.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2798354" vertical-offset="0" max-vertical-offset="42738">
+            <state line="0" column="0" selection-start="0" selection-end="95931" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -80,11 +107,12 @@
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php" />
         <option value="//KTA39-PC/htdocs/newpro/test.php" />
         <option value="//KTA39-PC/htdocs/newpro/index.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install" />
-        <option value="$PROJECT_DIR$/misc/jquery.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
+        <option value="$PROJECT_DIR$/misc/jquery.js" />
       </list>
     </option>
   </component>
@@ -249,7 +277,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroezfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,46 +304,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custommodule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herozfitcart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="herozfitcart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="misc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,6 +320,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -361,7 +358,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -427,21 +424,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="5202" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="519" column="4" selection-start="14891" selection-end="14891" vertical-scroll-proportion="0.0" vertical-offset="8563" max-vertical-offset="11033" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
       <provider selected="true" editor-type-id="text-editor">
         <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
@@ -632,11 +614,6 @@
         <state line="14" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="0.33854908" vertical-offset="0" max-vertical-offset="5100" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4187" column="31" selection-start="156344" selection-end="156374" vertical-scroll-proportion="1.3863636" vertical-offset="70203" max-vertical-offset="71417" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/misc/jquery.once.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445" />
@@ -646,7 +623,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="95931" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,18 +659,51 @@
         <state line="112" column="29" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.7229081" vertical-offset="1377" max-vertical-offset="11611" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="968" column="0" selection-start="30130" selection-end="30130" vertical-scroll-proportion="-84.26923" vertical-offset="12004" max-vertical-offset="14773">
+        <state line="28" column="7" selection-start="739" selection-end="739" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2288" column="34" selection-start="81707" selection-end="81712" vertical-scroll-proportion="-9.36" vertical-offset="38662" max-vertical-offset="73695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="-40.431374" vertical-offset="19460" max-vertical-offset="22695">
           <folding>
-            <element signature="n#custommodule_testmail#0;n#!!top" expanded="false" />
+            <marker date="1413964848000" expanded="true" signature="-1:-1" placeholder="SELECT uid F..." />
+            <marker date="1413964848000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1413964848000" expanded="true" signature="-1:-1" placeholder="SELECT uid, ..." />
+            <marker date="1413964848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="95931" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/misc/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="390" selection-end="390" vertical-scroll-proportion="0.2798354" vertical-offset="0" max-vertical-offset="42738">
+        <state line="9300" column="13" selection-start="359118" selection-end="359118" vertical-scroll-proportion="0.0" vertical-offset="157405" max-vertical-offset="158202">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1048" column="5" selection-start="32135" selection-end="32135" vertical-scroll-proportion="0.79941005" vertical-offset="17189" max-vertical-offset="18479">
           <folding />
         </state>
       </provider>
