@@ -23,49 +23,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custommodule.module" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custommodule.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1048" column="5" selection-start="32135" selection-end="32135" vertical-scroll-proportion="0.79941005" vertical-offset="17189" max-vertical-offset="18479">
+            <state line="668" column="6" selection-start="18395" selection-end="18395" vertical-scroll-proportion="-4.627451" vertical-offset="11035" max-vertical-offset="18717">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2288" column="34" selection-start="81707" selection-end="81712" vertical-scroll-proportion="-9.36" vertical-offset="38662" max-vertical-offset="73695">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uc_order-invoice-page.tpl.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="uc_order-invoice-page.tpl.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="7" selection-start="739" selection-end="739" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="663">
+            <state line="29" column="20" selection-start="760" selection-end="760" vertical-scroll-proportion="0.58036983" vertical-offset="0" max-vertical-offset="703">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/misc/jquery.js">
+      <file leaf-file-name="uc_order.admin.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.admin.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9300" column="13" selection-start="359118" selection-end="359118" vertical-scroll-proportion="0.0" vertical-offset="157405" max-vertical-offset="158202">
+            <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="-686.53845" vertical-offset="3672" max-vertical-offset="22695">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1413964848000" expanded="true" signature="16534:16579" placeholder="SELECT uid F..." />
+                <marker date="1413964848000" expanded="false" signature="19667:19698" placeholder="..." />
+                <marker date="1413964848000" expanded="true" signature="22185:22233" placeholder="SELECT uid, ..." />
+                <marker date="1413964848000" expanded="true" signature="40156:40236" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.11.2.min.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/jquery-1.11.2.min.js">
+      <file leaf-file-name="uc-order-view-row-invoice.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/views/uc-order-view-row-invoice.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="95931" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+            <state line="12" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uc_order.info" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.info">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uc_order.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1284" column="63" selection-start="39561" selection-end="39591" vertical-scroll-proportion="-5.098039" vertical-offset="21568" max-vertical-offset="41259">
+              <folding>
+                <element signature="e#7#334#0" expanded="true" />
+                <marker date="1413964848000" expanded="true" signature="42659:42715" placeholder="SELECT * FRO..." />
+                <marker date="1413964848000" expanded="true" signature="49644:49697" placeholder="SELECT order..." />
+                <marker date="1413964848000" expanded="true" signature="59260:59293" placeholder="SELECT * FRO..." />
+                <marker date="1413964848000" expanded="true" signature="59385:59443" placeholder="SELECT * FRO..." />
+                <marker date="1413964848000" expanded="true" signature="59560:59614" placeholder="SELECT * FRO..." />
+                <marker date="1413964848000" expanded="false" signature="70841:70866" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,10 +129,10 @@
         <option value="//KTA39-PC/htdocs/newpro/index.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js" />
         <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install" />
-        <option value="$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
         <option value="$PROJECT_DIR$/misc/jquery.js" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php" />
       </list>
     </option>
   </component>
@@ -306,6 +326,152 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubercart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubercart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubercart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubercart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -424,21 +590,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="5168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/authnet/authnet.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="270" column="52" selection-start="7685" selection-end="7685" vertical-scroll-proportion="0.0" vertical-offset="4590" max-vertical-offset="5780" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="5049" />
@@ -659,29 +810,10 @@
         <state line="112" column="29" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.7229081" vertical-offset="1377" max-vertical-offset="11611" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="7" selection-start="739" selection-end="739" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2288" column="34" selection-start="81707" selection-end="81712" vertical-scroll-proportion="-9.36" vertical-offset="38662" max-vertical-offset="73695">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.admin.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="-40.431374" vertical-offset="19460" max-vertical-offset="22695">
-          <folding>
-            <marker date="1413964848000" expanded="true" signature="-1:-1" placeholder="SELECT uid F..." />
-            <marker date="1413964848000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1413964848000" expanded="true" signature="-1:-1" placeholder="SELECT uid, ..." />
-            <marker date="1413964848000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -694,16 +826,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/misc/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9300" column="13" selection-start="359118" selection-end="359118" vertical-scroll-proportion="0.0" vertical-offset="157405" max-vertical-offset="158202">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="1" column="35" selection-start="34" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="158202">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1048" column="5" selection-start="32135" selection-end="32135" vertical-scroll-proportion="0.79941005" vertical-offset="17189" max-vertical-offset="18479">
+        <state line="668" column="6" selection-start="18395" selection-end="18395" vertical-scroll-proportion="-4.627451" vertical-offset="11035" max-vertical-offset="18717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="-686.53845" vertical-offset="3672" max-vertical-offset="22695">
+          <folding>
+            <marker date="1413964848000" expanded="true" signature="16534:16579" placeholder="SELECT uid F..." />
+            <marker date="1413964848000" expanded="false" signature="19667:19698" placeholder="..." />
+            <marker date="1413964848000" expanded="true" signature="22185:22233" placeholder="SELECT uid, ..." />
+            <marker date="1413964848000" expanded="true" signature="40156:40236" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/views/uc-order-view-row-invoice.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1284" column="63" selection-start="39561" selection-end="39591" vertical-scroll-proportion="-5.098039" vertical-offset="21568" max-vertical-offset="41259">
+          <folding>
+            <element signature="e#7#334#0" expanded="true" />
+            <marker date="1413964848000" expanded="true" signature="42659:42715" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="true" signature="49644:49697" placeholder="SELECT order..." />
+            <marker date="1413964848000" expanded="true" signature="59260:59293" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="true" signature="59385:59443" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="true" signature="59560:59614" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="false" signature="70841:70866" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="760" selection-end="760" vertical-scroll-proportion="0.58036983" vertical-offset="0" max-vertical-offset="703">
           <folding />
         </state>
       </provider>

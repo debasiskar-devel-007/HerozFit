@@ -666,7 +666,7 @@ function custommodule_js_alter(&$javascript) {
 //var_dump(current_path());
     $x=arg();
     // Swap out jQuery to use an updated version of the library.
-    if(current_path()=='node/1' || $x[0]=='product-detail' ||current_path()=='node' ||current_path()=='node/4')
+    //if(current_path()=='node/1' || $x[0]=='product-detail' ||current_path()=='node' ||current_path()=='node/4')
         //var_dump( current_path());
     $javascript['misc/jquery.js']['data'] = drupal_get_path('module', 'custommodule') . '/js/jquery.js';
 }
@@ -1032,11 +1032,27 @@ function custommodule_samecat(){
     }
 
 
+
+    $html='';
     //var_dump($news_items);
     foreach($news_items as $val)
     {
-        var_dump($val->title);
-        //var_dump($val);
+
+        if($val->nid!=62)
+        {
+
+
+
+        $html.='<div><a href="/product-detail/'.$val->nid.'">
+        <img src="'.$GLOBALS['base_url'].'/sites/default/files/styles/productlisting/public/'.$val->uc_product_image['und'][0]['filename'].'?itok=QS_a_NZt" >
+        </a><br />
+        <span>'.$val->title.'</span>
+        <h1>'.$val->price.'</h1></div>';
+
+        }
+
+       /* var_dump($val->title);
+
         echo "<br>";
         var_dump($val->nid);
         echo "<br>";
@@ -1045,14 +1061,12 @@ function custommodule_samecat(){
         echo "<br>";
 
         var_dump($val->price);
-        echo "<br>";
+        echo "<br>";*/
     }
 
+    var_dump($html);
 
     exit;
-
-
-
 
 
 

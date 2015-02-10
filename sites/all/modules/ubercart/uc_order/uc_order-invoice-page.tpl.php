@@ -27,7 +27,7 @@
     }
   </style>
 </head>
-<body>
+<body class="invoice">
   <div class="buttons">
     <input type="button" value="<?php print t('Print invoice'); ?>" onclick="window.print();" />
   </div>

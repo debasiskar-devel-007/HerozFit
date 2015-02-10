@@ -4274,6 +4274,10 @@ width: 394px;
 
 .page-product-detail .submit-by-enter-processed{ margin-top:5px;}
 
+.page-product-detail .views-field-php-2{ display:block!important; width:100%!important; clear:both!important; overflow:hidden!important; padding:25px 0!important; }
+
+
+.page-product-detail .views-field-php-2 .views-label-php-2{ display:block!important; width:100%!important; overflow:hidden!important;  background: url(../images/devider.png) no-repeat center center; background-size:100%; margin:25px 0;}
 
 .bigimageslider ul li {
 
