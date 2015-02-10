@@ -847,9 +847,9 @@ function custommodule_orderstatusmail() {
 
 
     $x=uc_order_load($orderid);
-    echo '<pre>';
-    print_r($x);
-    exit;
+    //echo '<pre>';
+    //print_r($x);
+    //exit;
     $i=1;
     $producthtml='';
 
@@ -907,8 +907,8 @@ function custommodule_orderstatusmail() {
   <tr>
     <td colspan="4" style="padding:15px 0;">
     <a href="#"><img style="display:block; margin:0 auto;" src="http://influxhostserver.com/herozfitcart/sites/default/files/logo.png" border="0" /></a>
-    <p style="padding:15px 0 0 0; font-family:Arial, Helvetica, sans-serif; color:#828383; text-align:center; line-height:25px;">Thank you for your order!<br /><br />
-    We will send you another email once the items in your order have been shipped. Meanwhile, you can check the status of your order on'.' '.$sitename.'.com
+    <p style="padding:15px 0 0 0; font-family:Arial, Helvetica, sans-serif; color:#828383; text-align:center; line-height:25px;">Greetings from'.' '.$sitename.' <br /><br />
+    We would like to inform you that we are processing your'.' '.$x->order_status.' request for the following items in the Order '.$x->order_id .'.
     </p>    </td>
   </tr>
   <tr>
@@ -960,10 +960,14 @@ function custommodule_orderstatusmail() {
 
 </body>';
     //$to = variable_get('site_mail', '');
+    //$to = 'bhaskar.involutiontech@gmail.com';
     $to = $x->primary_email;
     $from = variable_get('site_mail', '');
     $lang = language_default();
     drupal_mail('custommodule', 'custommodule_mail', $to, $lang, $params, $from);
+
+
+
     //}
 }
 
