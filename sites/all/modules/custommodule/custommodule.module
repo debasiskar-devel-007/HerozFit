@@ -735,7 +735,18 @@ function custommodule_testmail() {
 
     $orderid=@$_GET['orderid'];
     //$orderid=$_GET['orderid'];
+    //$order_data = "Attachment file text";
+    //$filepath = file_directory_temp() . '/' . 'order' .$orderid . '.txt';
+    //file_put_contents($filepath, $order_data);
 
+
+    $attachment = array(
+        'filecontent' => "Attachment file text",
+        'filename' => 'test',
+        'filemime' => 'application/pdf'
+    );
+
+//exit;
 
 
     $x=uc_order_load($orderid);
@@ -851,6 +862,9 @@ function custommodule_testmail() {
 </table>
 
 </body>';
+    //$params['attachment']=$attachment;
+
+
         //$to = variable_get('site_mail', '');
         $to = $x->primary_email;
         $from = variable_get('site_mail', '');
@@ -1071,6 +1085,10 @@ function custommodule_samecat(){
 
 
 }
+
+
+
+
 
 
 

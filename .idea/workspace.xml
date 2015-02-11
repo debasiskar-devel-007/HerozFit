@@ -26,34 +26,25 @@
       <file leaf-file-name="custommodule.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1046" column="84" selection-start="32052" selection-end="32066" vertical-scroll-proportion="-10.627451" vertical-offset="17155" max-vertical-offset="18717">
+            <state line="873" column="10" selection-start="25791" selection-end="25791" vertical-scroll-proportion="0.0" vertical-offset="14841" max-vertical-offset="19108">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.info" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="theme.info" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+            <state line="10" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.23578364" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Common.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Common.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="40" selection-start="170" selection-end="170" vertical-scroll-proportion="0.2641243" vertical-offset="0" max-vertical-offset="11611">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uc_order-invoice-page.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="939" selection-end="939" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="663">
+            <state line="30" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="11730">
               <folding />
             </state>
           </provider>
@@ -62,7 +53,7 @@
       <file leaf-file-name="uc_order.admin.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.admin.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="-686.53845" vertical-offset="3672" max-vertical-offset="22695">
+            <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="0.0" vertical-offset="21573" max-vertical-offset="22746">
               <folding>
                 <marker date="1413964848000" expanded="true" signature="16534:16579" placeholder="SELECT uid F..." />
                 <marker date="1413964848000" expanded="false" signature="19667:19698" placeholder="..." />
@@ -76,8 +67,26 @@
       <file leaf-file-name="uc-order-view-row-invoice.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/views/uc-order-view-row-invoice.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+            <state line="12" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uc_order-invoice-page.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="30" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1343">
+              <folding>
+                <marker date="1423647358272" expanded="true" signature="433:2253" placeholder="..." />
+                <marker date="1423647358272" expanded="true" signature="441:2054" placeholder="..." />
+                <marker date="1423647358272" expanded="true" signature="1859:1950" placeholder="..." />
+                <marker date="1423647358272" expanded="true" signature="1874:1933" placeholder="{...}" />
+                <marker date="1423647358272" expanded="true" signature="1990:2046" placeholder="..." />
+                <marker date="1423647358272" expanded="true" signature="2005:2033" placeholder="{...}" />
+                <marker date="1423647358272" expanded="true" signature="2077:2245" placeholder="..." />
+                <marker date="1423647358272" expanded="true" signature="2101:2207" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,9 +103,8 @@
       <file leaf-file-name="uc_order.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1363" column="32" selection-start="41650" selection-end="41650" vertical-scroll-proportion="-12.431373" vertical-offset="22537" max-vertical-offset="41259">
+            <state line="1363" column="32" selection-start="41650" selection-end="41650" vertical-scroll-proportion="0.0" vertical-offset="22537" max-vertical-offset="41259">
               <folding>
-                <element signature="e#7#334#0" expanded="true" />
                 <marker date="1413964848000" expanded="true" signature="42659:42715" placeholder="SELECT * FRO..." />
                 <marker date="1413964848000" expanded="true" signature="49644:49697" placeholder="SELECT order..." />
                 <marker date="1413964848000" expanded="true" signature="59260:59293" placeholder="SELECT * FRO..." />
@@ -147,10 +155,10 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
         <option value="$PROJECT_DIR$/misc/jquery.js" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info" />
       </list>
     </option>
   </component>
@@ -315,15 +323,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="heroezfit" />
+              <option name="myItemId" value="sites" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubercart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ubercart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uc_order" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,7 +453,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -405,7 +461,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -414,34 +470,12 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12109375" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12109375" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -462,6 +496,46 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.admin.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="0.0" vertical-offset="21573" max-vertical-offset="22746">
+          <folding>
+            <marker date="1413964848000" expanded="true" signature="16534:16579" placeholder="SELECT uid F..." />
+            <marker date="1413964848000" expanded="false" signature="19667:19698" placeholder="..." />
+            <marker date="1413964848000" expanded="true" signature="22185:22233" placeholder="SELECT uid, ..." />
+            <marker date="1413964848000" expanded="true" signature="40156:40236" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/views/uc-order-view-row-invoice.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1363" column="32" selection-start="41650" selection-end="41650" vertical-scroll-proportion="0.0" vertical-offset="22537" max-vertical-offset="41259">
+          <folding>
+            <marker date="1413964848000" expanded="true" signature="42659:42715" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="true" signature="49644:49697" placeholder="SELECT order..." />
+            <marker date="1413964848000" expanded="true" signature="59260:59293" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="true" signature="59385:59443" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="true" signature="59560:59614" placeholder="SELECT * FRO..." />
+            <marker date="1413964848000" expanded="false" signature="70841:70866" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="0" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="5049" />
@@ -639,24 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/misc/jquerynew1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="95931" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jquery-1.1.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="67241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="42738" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="1" selection-start="470" selection-end="470" vertical-scroll-proportion="0.42677826" vertical-offset="0" max-vertical-offset="717" />
+        <state line="0" column="0" selection-start="0" selection-end="95931" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ctools/ctools.install">
@@ -667,48 +724,25 @@
         <state line="35" column="23" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.84517044" vertical-offset="0" max-vertical-offset="4607" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="317" selection-end="5856" vertical-scroll-proportion="0.22141823" vertical-offset="0" max-vertical-offset="691" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2288" column="34" selection-start="81707" selection-end="81712" vertical-scroll-proportion="-9.36" vertical-offset="38662" max-vertical-offset="73695">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/jquery-1.11.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="95931" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="2288" column="34" selection-start="81707" selection-end="81712" vertical-scroll-proportion="-9.36" vertical-offset="38662" max-vertical-offset="73695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/misc/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="35" selection-start="34" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="158202">
-          <folding />
-        </state>
+        <state line="1" column="35" selection-start="34" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="158202" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.admin.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="-686.53845" vertical-offset="3672" max-vertical-offset="22695">
+        <state line="1269" column="3" selection-start="40043" selection-end="40043" vertical-scroll-proportion="0.0" vertical-offset="21573" max-vertical-offset="22746">
           <folding>
             <marker date="1413964848000" expanded="true" signature="16534:16579" placeholder="SELECT uid F..." />
             <marker date="1413964848000" expanded="false" signature="19667:19698" placeholder="..." />
             <marker date="1413964848000" expanded="true" signature="22185:22233" placeholder="SELECT uid, ..." />
             <marker date="1413964848000" expanded="true" signature="40156:40236" placeholder="SELECT * FRO..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/views/uc-order-view-row-invoice.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,9 +755,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1363" column="32" selection-start="41650" selection-end="41650" vertical-scroll-proportion="-12.431373" vertical-offset="22537" max-vertical-offset="41259">
+        <state line="1363" column="32" selection-start="41650" selection-end="41650" vertical-scroll-proportion="0.0" vertical-offset="22537" max-vertical-offset="41259">
           <folding>
-            <element signature="e#7#334#0" expanded="true" />
             <marker date="1413964848000" expanded="true" signature="42659:42715" placeholder="SELECT * FRO..." />
             <marker date="1413964848000" expanded="true" signature="49644:49697" placeholder="SELECT order..." />
             <marker date="1413964848000" expanded="true" signature="59260:59293" placeholder="SELECT * FRO..." />
@@ -734,30 +767,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/views/uc-order-view-row-invoice.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order-invoice-page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="939" selection-end="939" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="663">
-          <folding />
+        <state line="56" column="30" selection-start="1982" selection-end="1982" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1343">
+          <folding>
+            <marker date="1423647358272" expanded="true" signature="433:2253" placeholder="..." />
+            <marker date="1423647358272" expanded="true" signature="441:2054" placeholder="..." />
+            <marker date="1423647358272" expanded="true" signature="1859:1950" placeholder="..." />
+            <marker date="1423647358272" expanded="true" signature="1874:1933" placeholder="{...}" />
+            <marker date="1423647358272" expanded="true" signature="1990:2046" placeholder="..." />
+            <marker date="1423647358272" expanded="true" signature="2005:2033" placeholder="{...}" />
+            <marker date="1423647358272" expanded="true" signature="2077:2245" placeholder="..." />
+            <marker date="1423647358272" expanded="true" signature="2101:2207" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1046" column="84" selection-start="32052" selection-end="32066" vertical-scroll-proportion="-10.627451" vertical-offset="17155" max-vertical-offset="18717">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+        <state line="873" column="10" selection-start="25791" selection-end="25791" vertical-scroll-proportion="0.0" vertical-offset="14841" max-vertical-offset="19108">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="170" selection-end="170" vertical-scroll-proportion="0.2641243" vertical-offset="0" max-vertical-offset="11611">
+        <state line="30" column="0" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="11730">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.23578364" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>

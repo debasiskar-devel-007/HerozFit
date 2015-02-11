@@ -13,7 +13,14 @@ var flag1='';
 
             //var jq = $.noConflict();
 
+            $('.imageslider').bxSlider({
+                slideWidth: 360,
+                minSlides: 3,
+                maxSlides: 3,
+                slideMargin:10
+            });
 
+            //$('.bx-clone').css('width','360px');
 
 
 
