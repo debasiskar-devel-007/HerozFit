@@ -199,6 +199,34 @@
     width: 100%;
 }
 
+.page-wishlist .maincontentwrapper{ width:940px; margin:25px auto;}
+
+
+.page-wishlist .maincontentwrapper .region-user-menu{  width:25%; }
+	
+.page-wishlist .region-content{ width:65%;}
+
+
+.page-user-orders  .maincontentwrapper{ width:940px; margin:25px auto;}
+
+
+.page-user-orders  .maincontentwrapper .region-user-menu{  width:25%; }
+	
+.page-user-orders  .region-content{ width:65%;}
+
+
+
+
+.page-user  .maincontentwrapper{ width:940px; margin:25px auto;}
+
+
+.page-user  .maincontentwrapper .region-user-menu{  width:25%; }
+	
+.page-user  .region-content{ width:65%;}
+
+
+.page-cart #uc-cart-view-form { width:940px; margin:0 auto;}
+
 }
 
 
@@ -263,7 +291,54 @@
  
  .page-node-2 .block-views h2{ width:auto;}
   .page-node-1 img{ margin:0px; padding:0; display:block; margin:0 auto;}
+  
+  
+.page-node-63 .FormClass h4{
+
+    font-size: 36px;
+
+    text-align: center;
+    width: 100%; text-transform:uppercase;}
+	
+		.page-node-63 .webform-results-per-page{ width:80%; margin:0 auto; font-family: "open_sansregular"; text-align:right; margin-top:10px; color:#008081;}
+		
+		.page-node-63 .FormClass .form-text{ width:80%; margin:0 auto; background:#dadada!important; border:solid 1px #cbcbcb!important; height:60px; padding:0 5px!important; border-radius:5px;  margin-bottom:10px!important;}
+
+.page-node-63 .FormClass  .error{ display:block; width:80%; margin:0 auto; clear:both; overflow:hidden;}
+.page-node-63 .FormClass  .grippie{ display:none;}
+
+.page-node-63 .FormClass textarea { width:80%; margin:0 auto; background:#dadada!important; border:solid 1px #cbcbcb!important; height:160px; padding:10px 5px!important; border-radius:5px;}
+
+.page-node-63 .FormClass .webform-submit{ width:80%; margin:0 auto!important; display:block; float:none; height:60px; text-transform:uppercase; font-size:16px; margin-top:24px!important;}
+
+.page-wishlist .maincontentwrapper{ width:720px; margin:25px auto;}
+
+
+	.page-wishlist .maincontentwrapper .region-user-menu{  width:100%; float:none; display:block; height:auto; }
+	
+	.page-wishlist .region-content{ width:100%; float:none; display:block; height:auto; padding:0; margin-top:40px;}
+	
+	 .page-wishlist #edit-update{ display:block; margin:0 auto;}
+	
+.page-user-orders  .maincontentwrapper{ width:720px; margin:25px auto;}
+
+
+.page-user-orders .maincontentwrapper .region-user-menu{  width:100%; float:none; display:block; height:auto; }
+	
+.page-user-orders .region-content{ width:100%!important; float:none; display:block; height:auto; padding:0!important; margin-top:40px!important; margin-left:0px!important;}
+
+
+.page-user  .maincontentwrapper{ width:720px; margin:25px auto;}
+
+.page-user .maincontentwrapper .region-user-menu{  width:100%; float:none; display:block; height:auto; }
+	
+.page-user .region-content{ width:100%!important; float:none; display:block; height:auto; padding:0!important; margin-top:40px!important; margin-left:0px!important;}
+
+.page-user-addresses .region-content h2{ font-size:28px;}
+
+.page-cart #uc-cart-view-form { width:720px; margin:0 auto;}
 }
+
 
 @media screen and (max-width:767px) {
 .view-content{ width:94%; margin:20px auto;}
@@ -310,6 +385,34 @@
 
     width: 100%;
 }
+
+
+.page-wishlist .maincontentwrapper{ width:90%; margin:25px auto;}
+
+.page-user-orders  .maincontentwrapper{ width:90%; margin:25px auto;}
+
+
+.page-user  .maincontentwrapper{ width:90%; margin:25px auto;}
+
+
+
+.page-user-edit .form-item-pass-pass1 label{ text-align:left;}
+
+.page-user-edit .form-item-pass-pass2 label{ text-align:left;}
+
+.page-user-edit .form-item-pass-pass1 input[type="password"]{ width:90%!important; }
+
+.page-user-edit .form-item-pass-pass2 input[type="password"]{ width:90%!important; }
+
+.page-user-edit .password-strength{ margin-left:0px!important;}
+
+.page-cart #uc-cart-view-form { width:90%; margin:0 auto;}
+
+
+.page-cart #uc-cart-view-form  thead{ display:block; width:20%; float:left;}
+
+.page-cart #uc-cart-view-form  tbody{ display:block; width:80%; float:left;}
+
 }
 
 
@@ -328,6 +431,8 @@
 .page-node-2 .view-content{ width:80%; margin:20px auto;}
 
 .page-node-4 .imagegal{ display:block;}
+
+.page-user-edit h4{ font-size:28px;}
 }
 
 @media screen and (max-width:700px) {
@@ -339,9 +444,46 @@
 }
 
 
+
+
+
 @media screen and (max-width:680px) {
 .footer-bottom ul li{ list-style:none; float:left; width:42%; margin:5px 4%; padding-bottom:4px; border-bottom: solid 1px #444444; }
 .loginForm{ width:80%; margin:25px auto; }
+
+.page-wishlist .region-content{ width:100%; float:none; display:block; height:auto; padding:0; margin-top:40px;}
+
+.page-wishlist .region-content table,tbody,tr,td{ display:block!important;}
+.page-wishlist .region-content th{ display:none;}
+
+.page-wishlist .region-content table,tbody,tr{ margin-bottom:20px;}
+
+
+
+.page-user-orders .region-content table,tbody,tr,td{ display:block!important;}
+.page-user-orders .region-content th{ display:none;}
+
+.page-user-orders .region-content table,tbody,tr{ margin-bottom:20px;}
+
+
+.page-user-edit .region-content{ display:inherit; width:auto;}
+
+.page-user-addresses .address-book .default-addresses .address-item{ float:none!important; width:95%!important; margin:0 auto!important;}
+
+.page-user-addresses .address-book .default-addresses .address-item table{ display:block; width:100%!important;} 
+
+.page-user-addresses .address-book .default-addresses .address-item table, tbody, tr {
+    margin-bottom:0px;
+}
+
+.page-user-addresses .address-book  .title-col{ float:left; display:block;}
+
+.page-user-addresses .address-book  .data-col{ float:left; display:block;}
+
+
+
+.page-user-addresses .address-book .additional-addresses .address-item { float:none!important; width:90%!important; margin:0 auto; margin-bottom:20px;}
+
 }
 
 
@@ -427,6 +569,65 @@
  .page-node-1 .item-list ul li .product-image img{ width:100%; height:auto; }
  
  .page-node-2  .social-feed{ width:380px!important; float:none; }
+ 
+ 
+ .page-user-edit #edit-field-city label{ width:55px; padding-right:0px; text-align:left;  }
+
+.page-user-edit #edit-field-city input[type="text"] { width:90%!important; }
+
+.page-user-edit #edit-field-phone label{ width:55px; padding-right:0px; text-align:left;  }
+
+.page-user-edit #edit-field-phone input[type="text"] { width:90%!important; }
+
+
+
+.page-user-edit #edit-field-state label{ width:55px; padding-right:0px; text-align:left;  }
+
+.page-user-edit #edit-field-state input[type="text"] { width:90%!important; }
+
+
+.page-user-edit #edit-field-zip label{ width:55px; padding-right:0px; text-align:left;  }
+
+.page-user-edit #edit-field-zip input[type="text"] { width:90%!important; }
+
+.page-user-edit #edit-field-state select{ width:90%!important; }
+
+
+
+.page-user-edit #field-last-name-add-more-wrapper input[type="text"]{ width:90%!important; }
+.page-user-edit #edit-field-first-name input[type="text"]{ width:90%!important; }
+
+.page-user-edit .form-item-name label{ text-align:left;}
+.page-user-edit .form-item-mail label{ text-align:left;}
+
+
+.page-user-edit .form-item-name input[type="text"]{ width:90%!important; }
+.page-user-edit .form-type-password input[type="password"]{ width:90%!important; }
+.page-user-edit .form-item-mail input[type="text"]{ width:90%!important; }
+
+
+.page-user-edit .form-item-pass-pass1 label{ text-align:left;}
+
+.page-user-edit .form-item-pass-pass2 label{ text-align:left;}
+
+.page-user-edit .form-item-pass-pass1 input[type="password"]{ width:90%!important; }
+
+.page-user-edit .form-item-pass-pass2 input[type="password"]{ width:90%!important; }
+
+
+.page-user-edit .password-strength{ margin-left:0px!important;}
+
+.page-user-edit #edit-submit{ float:none!important; margin:0 auto!important;}
+
+.page-user-edit #edit-cancel{ float:none; margin:15px auto;}
+
+
+.page-user-addresses .address-book  .title-col{ float:left; display:block; width:50%;}
+
+.page-user-addresses .address-book  .data-col{ float:left; display:block; width:50%;}
+
+.page-user-addresses .address-book { font-size:12px;}
+
 }
 
 @media screen and (max-width: 407px) {
