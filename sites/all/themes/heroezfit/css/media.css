@@ -227,6 +227,14 @@
 
 .page-cart #uc-cart-view-form { width:940px; margin:0 auto;}
 
+
+.page-cart-checkout #uc-cart-checkout-form{ width:940px;}
+
+
+ .page-cart-checkout #delivery-pane{ float:none!important; width:100%!important;}
+ 
+ .page-cart-checkout #billing-pane{ float:none!important; width:100%!important;}
+
 }
 
 
@@ -337,6 +345,8 @@
 .page-user-addresses .region-content h2{ font-size:28px;}
 
 .page-cart #uc-cart-view-form { width:720px; margin:0 auto;}
+
+.page-cart-checkout #uc-cart-checkout-form{ width:720px;}
 }
 
 
@@ -409,11 +419,26 @@
 .page-cart #uc-cart-view-form { width:90%; margin:0 auto;}
 
 
-.page-cart #uc-cart-view-form  thead{ display:block; width:20%; float:left;}
+.page-cart #uc-cart-view-form  thead{ display:none; }
 
-.page-cart #uc-cart-view-form  tbody{ display:block; width:80%; float:left;}
+
+.page-cart table input[type="submit"]{ display:block; float:none; margin:0 auto;}
+
+.page-cart #uc-cart-view-form td{ text-align:center;}
+
+.page-cart #edit-actions a{ display:block; float:none; margin:5px auto!important; }
+
+.page-cart #edit-update{ float:none; margin:10px auto!important;}
+
+.page-cart #edit-checkout--2{ float:none; margin:5px auto!important;}
+
+
+.page-cart-checkout #uc-cart-checkout-form{ width:90%;}
+ 
+ 
 
 }
+
 
 
 
@@ -484,6 +509,18 @@
 
 .page-user-addresses .address-book .additional-addresses .address-item { float:none!important; width:90%!important; margin:0 auto; margin-bottom:20px;}
 
+
+
+
+.page-cart-checkout #uc-cart-checkout-form table{ display:table; width:100%!important; text-align:center;}
+
+.page-cart-checkout #uc-cart-checkout-form thead{ display:none; }
+
+.page-cart-checkout #uc-cart-checkout-form table tr{ display:table-row; margin-bottom:10px;}
+
+.page-cart-checkout #uc-cart-checkout-form table td{ display:table-cell; text-align:center!important;}
+
+.page-cart-checkout #uc-cart-checkout-form table th{ display:table-cell; text-align:center!important;}
 }
 
 

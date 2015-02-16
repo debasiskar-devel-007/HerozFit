@@ -4213,7 +4213,7 @@ width: 394px;
 
 .page-product-detail .item-list ul li{ list-style:none; overflow:hidden; clear:both; margin:0!important; padding:0!important; display:block; position:relative;}
 
-.page-product-detail .item-list  ul li div{ display:inline; overflow:hidden;}
+
 
 .page-product-detail .item-list  ul li .smallimg{ width:82px!important; float:left;height:520px!important; overflow:hidden;  }
 
@@ -4356,15 +4356,15 @@ width: 394px;
 
 
 
+.bx-wrapper .bx-viewport{ background:none!important; box-shadow:none!important; height:auto!important; width:auto!important;}
 
 
 
-
-.imgLiquid{ display:block!important;}
+/*.imgLiquid{ display:block!important;}
 
 .imgLiquid img{
     visibility:hidden;
-}
+}*/
 .bigimageslider ul li {
 
 
