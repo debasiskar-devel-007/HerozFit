@@ -705,45 +705,53 @@ class MymoduleMailSystem extends DefaultMailSystem {
 function custommodule_mail($key, &$message, $params) {
     $order=$_GET['orderid'];
 
-echo $key;
-    exit;
+//echo $key;
+    //exit;
 
 
     switch ($key) {
-        case 'custommodule_mail':
+        case 'checkout':
             $message['headers']['Content-Type'] = 'text/html; charset=UTF-8;';
             $message['subject'] = $params['subject'];
             $message['body'][] = $params['body'];
+            drupal_goto('checkout-confirmation');
             break;
 
-        case 'custommodule_mail1':
+        case 'orderupdate':
             $message['headers']['Content-Type'] = 'text/html; charset=UTF-8;';
             $message['subject'] = $params['subject'];
             $message['body'][] = $params['body'];
+            drupal_goto('/admin/store/orders/'.$order);
             break;
+
+
 
     }
 
-    if($key=='custommodule_mail'){
+   // if($key=='custommodule_mail'){
 
         //echo 1;
         //exit;
 
-        drupal_goto('checkout-confirmation');
-    }
+        //drupal_goto('checkout-confirmation');
+    //}
 
 
-    else
-        drupal_goto('/admin/store/orders/'.$order);
+    //else
+        //drupal_goto('/admin/store/orders/'.$order);
 
 
 }
+
+
 
 function custommodule_testmail() {
 
 
 
     $orderid=@$_GET['orderid'];
+    //echo "check out";
+    //exit;
     //$orderid=$_GET['orderid'];
     //$order_data = "Attachment file text";
     //$filepath = file_directory_temp() . '/' . 'order' .$orderid . '.txt';
@@ -874,7 +882,7 @@ function custommodule_testmail() {
         $to = $x->primary_email;
         $from = variable_get('site_mail', '');
         $lang = language_default();
-        drupal_mail('custommodule', 'custommodule_mail', $to, $lang, $params, $from);
+        drupal_mail('custommodule', 'checkout', $to, $lang, $params, $from);
 
     //header('location:checkout-confirmation');
     //}
@@ -888,6 +896,15 @@ function custommodule_orderstatusmail() {
 
 
     $orderid=@$_GET['orderid'];
+    $urlpath=$_SERVER['HTTP_REFERER'];
+    if (strpos($urlpath, "checkout")==true){
+
+        custommodule_testmail();
+
+        return false;
+
+    }
+
     //$orderid=$_GET['orderid'];
 
 
@@ -1010,7 +1027,7 @@ function custommodule_orderstatusmail() {
     $to = $x->primary_email;
     $from = variable_get('site_mail', '');
     $lang = language_default();
-    drupal_mail('custommodule', 'custommodule_mail1', $to, $lang, $params, $from);
+    drupal_mail('custommodule', 'orderupdate', $to, $lang, $params, $from);
 
 
 

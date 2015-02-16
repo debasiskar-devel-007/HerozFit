@@ -13,20 +13,41 @@ function authnet_requirements($phase) {
 
   if ($phase == 'runtime') {
 
-    // Check to see if the Authorize.net SDK is available.
-    $library = authnet_sdk_path(TRUE);
-    if (file_exists($library)) {
-      $requirements['authnet_sdk'] = array(
-        'title' => $t('Authorize.net SDK'),
-        'severity' => REQUIREMENT_OK,
-        'value' => $t('Installed: %path', array('%path' => $library)),
+    $info = libraries_load('anet_php_sdk');
+    if (!$info['loaded']) {
+      $requirements['anet_php_sdk'] = array(
+        'severity' => REQUIREMENT_ERROR,
+        'title' => $t('Authorize.net API'),
+        'value' => $t('Authorize.net SDK not installed.'),
+        'description' => $t('Please download the <a href="!url">Authorize.net SDK</a>, extract the archive, rename the extracted folder to %folder, and move it to your libraries folder. The final path should be %path.',
+          array(
+            '!url' => $info['download url'],
+            '%folder' => $info['name'],
+            '%path' => $info["library path"],
+          )
+        ),
+      );
+    }
+    else if(!$info['version'] || version_compare($info['version'], AUTHNET_MINIMUM_VERSION) < 0) {
+      $requirements['anet_php_sdk'] = array(
+        'severity' => REQUIREMENT_ERROR,
+        'title' => $t('Authorize.net API'),
+        'value' => $t('Incorrect version of Authorize.net SDK installed.'),
+                'description' => $t('Please download <a href="!url">Authorize.net SDK version !version</a> or greater, extract the archive, rename the extracted folder to %folder, and move it to your libraries folder. The final path should be %path.',
+          array(
+            '!url' => $info['download url'],
+            '!version' => AUTHNET_MINIMUM_VERSION,
+            '%folder' => $info['name'],
+            '%path' => $info["library path"],
+          )
+        ),
       );
     }
     else {
-      $requirements['authnet_sdk'] = array(
-        'title' => $t('Authorize.net SDK'),
-        'severity' => REQUIREMENT_ERROR,
-        'value' => $t('Authorize.net SDK not installed. You need to download the !authorizenet and put it in your %path directory.', array('!authorizenet' => l(t('Authorize.net SDK Library'), 'http://developer.authorize.net/downloads/'), '%path' => authnet_sdk_path())),
+      $requirements['anet_php_sdk'] = array(
+        'severity' => REQUIREMENT_OK,
+        'title' => $t('Authorize.net API'),
+        'value' => $t('Authorize.net SDK !version installed.', array('!version' => $info['version'])),
       );
     }
   }
