@@ -3094,9 +3094,11 @@ width: 394px;
 		.page-cart-checkout  .form-item-panes-delivery-address-delivery-street2 label{ display:none!important;}
 
 	.page-cart-checkout .address-pane-table select {
-    border: 1px solid #bfbfbf;
+    border: 1px solid #bfbfbf!important;
     height: 32px;
-    width: 432px;
+    width: 432px!important;
+	text-align:left!important;
+	margin-left:0px!important;
 }
 
 

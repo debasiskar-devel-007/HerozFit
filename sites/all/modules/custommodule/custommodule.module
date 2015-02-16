@@ -714,7 +714,7 @@ function custommodule_mail($key, &$message, $params) {
             $message['headers']['Content-Type'] = 'text/html; charset=UTF-8;';
             $message['subject'] = $params['subject'];
             $message['body'][] = $params['body'];
-            drupal_goto('checkout-confirmation');
+
             break;
 
         case 'orderupdate':
@@ -882,7 +882,8 @@ function custommodule_testmail() {
         $to = $x->primary_email;
         $from = variable_get('site_mail', '');
         $lang = language_default();
-        drupal_mail('custommodule', 'checkout', $to, $lang, $params, $from);
+        $x=drupal_mail('custommodule', 'checkout', $to, $lang, $params, $from);
+    drupal_goto('checkout-confirmation');
 
     //header('location:checkout-confirmation');
     //}

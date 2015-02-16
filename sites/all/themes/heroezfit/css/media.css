@@ -593,7 +593,7 @@
 .page-cart-checkout .address-pane-table .field-field{ display:block!important; width:100%!important; text-align:left!important; vertical-align:middle!important;}
 
 .page-cart-checkout .form-item .form-text{ width:100%;}
-.page-cart-checkout .address-pane-table select{ width:100%;}
+.page-cart-checkout .address-pane-table select{ width:100%!important;}
 
 .page-cart-checkout .form-item-panes-delivery-select-address label{ width:100%!important; text-align:left!important;}
 
@@ -766,22 +766,38 @@
 
 .page-cart-checkou #edit-panes-payment-details-cc-type{ width:160px;}
 
-.page-cart-checkout .payment-details-credit #edit-panes-payment-details-cc-type{ width:80%;}
+.page-cart-checkout .payment-details-credit #edit-panes-payment-details-cc-type{ width:90%; }
 
-.page-cart-checkout #edit-panes-payment-details-cc-owner{ width:160px!important;}
+.page-cart-checkout #edit-panes-payment-details-cc-owner{ width:90%!important;}
 
-.page-cart-checkout #edit-panes-payment-details-cc-number{ width:160px!important;}
+.page-cart-checkout #edit-panes-payment-details-cc-number{ width:90%!important;}
 
-.page-cart-checkout #edit-panes-payment-details-cc-exp-month{ width:160px!important;}
-.page-cart-checkout #edit-panes-payment-details-cc-exp-year{ width:160px!important;}
+.page-cart-checkout #edit-panes-payment-details-cc-exp-month{ width:90%!important;}
+.page-cart-checkout #edit-panes-payment-details-cc-exp-year{ width:90%!important;}
 
-.page-cart-checkout #edit-panes-payment-details-cc-cvv{ width:160px!important;}
+.page-cart-checkout #edit-panes-payment-details-cc-cvv{ width:90%!important;}
 
-.page-cart-checkout .uc-credit-cvv-help{ display:block; float:left; margin-left:160px;}
+.page-cart-checkout .uc-credit-cvv-help{ display:block; float:left; margin-left:0;}
 
 .page-cart-checkou .payment-pane{ width:300px!important; float:none!important; margin:0!important;}
 
+.page-cart-checkout .form-item-panes-payment-details-cc-cvv label{ width:80%!important; text-align:left!important; padding-top:5px;}
+
+.page-cart-checkout .form-item-panes-payment-details-cc-exp-year label{ width:80%!important; text-align:left!important;  padding-top:5px;}
+
+.page-cart-checkout .form-item-panes-payment-details-cc-exp-month label{ width:80%!important; text-align:left!important;  padding-top:5px;}
+
+.page-cart-checkout .form-item-panes-payment-details-cc-number label{ width:80%!important; text-align:left!important;  padding-top:5px;}
+
+.page-cart-checkout .form-item-panes-payment-details-cc-owner label{ width:80%!important; text-align:left!important;  padding-top:5px;}
+
+.page-cart-checkout .form-item-panes-payment-details-cc-type label{ width:80%!important; text-align:left!important;  padding-top:5px;}
+
+.page-cart-checkout #edit-cancel{ float:none!important; margin:10px auto!important; display:block!important;}
+
+.page-cart-checkout #edit-continue{ float:none!important; margin:0px auto!important; display:block!important;}
 }
+
 
 @media screen and (max-width: 407px) {
 

@@ -115,7 +115,7 @@ function authnet_sdk_include() {
   if (!$loaded) {
 
     // Load the library file.
-    require_once(AuthorizeNet.php(TRUE));
+    require_once('payment_anet/AuthorizeNet.php');
 
     // Remember that we loaded it already.
     $loaded = TRUE;
