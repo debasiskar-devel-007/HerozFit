@@ -705,6 +705,9 @@ class MymoduleMailSystem extends DefaultMailSystem {
 function custommodule_mail($key, &$message, $params) {
     $order=$_GET['orderid'];
 
+echo $key;
+    exit;
+
 
     switch ($key) {
         case 'custommodule_mail':
@@ -721,8 +724,15 @@ function custommodule_mail($key, &$message, $params) {
 
     }
 
-    if($key=='custommodule_mail')
+    if($key=='custommodule_mail'){
+
+        //echo 1;
+        //exit;
+
         drupal_goto('checkout-confirmation');
+    }
+
+
     else
         drupal_goto('/admin/store/orders/'.$order);
 
@@ -740,18 +750,13 @@ function custommodule_testmail() {
     //file_put_contents($filepath, $order_data);
 
 
-    $attachment = array(
-        'filecontent' => "Attachment file text",
-        'filename' => 'test',
-        'filemime' => 'application/pdf'
-    );
 
 //exit;
 
 
     $x=uc_order_load($orderid);
     //echo '<pre>';
-    //print_r($x->primary_email);
+    //print_r($x);
     //exit;
     $i=1;
     $producthtml='';

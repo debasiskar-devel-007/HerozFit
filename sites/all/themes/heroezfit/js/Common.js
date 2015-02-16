@@ -9,12 +9,12 @@ var flag1='';
         attach: function (context, settings) {
 
 
-            //$(".imgLiquid").imgLiquid();
+            $(".imgLiquid").imgLiquid();
 
             //var jq = $.noConflict();
 
          $('.imageslider').bxSlider({
-                 slideWidth: 200,
+                 slideWidth: 400,
                 minSlides: 3,
                 maxSlides: 3,
                 slideMargin:10

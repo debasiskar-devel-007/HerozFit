@@ -234,6 +234,10 @@
  .page-cart-checkout #delivery-pane{ float:none!important; width:100%!important;}
  
  .page-cart-checkout #billing-pane{ float:none!important; width:100%!important;}
+ 
+ .page-admin-store-customers-wishlist-delete .region-content{ width:940px;}
+ 
+.page-product-detail .item-list  ul li .smallimg{ display:none;}
 
 }
 

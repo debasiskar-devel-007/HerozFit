@@ -4240,7 +4240,7 @@ width: 394px;
     width: 28px; font-size:42px; padding-left:80px; color:#333; cursor:pointer;  display:block; float:right;  margin-top:15px; }
 
 
-
+.bx-pager{ display:none;}
 
 
 .page-product-detail .bigimageslider .item-list ul li{ list-style:none; overflow:hidden; clear:inherit; width:480px!important; margin:0!important; padding:0!important;}
