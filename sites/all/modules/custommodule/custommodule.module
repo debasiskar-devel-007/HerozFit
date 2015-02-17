@@ -721,7 +721,7 @@ function custommodule_mail($key, &$message, $params) {
             $message['headers']['Content-Type'] = 'text/html; charset=UTF-8;';
             $message['subject'] = $params['subject'];
             $message['body'][] = $params['body'];
-            drupal_goto('/admin/store/orders/'.$order);
+            //drupal_goto('/admin/store/orders/'.$order);
             break;
 
 
@@ -1028,7 +1028,8 @@ function custommodule_orderstatusmail() {
     $to = $x->primary_email;
     $from = variable_get('site_mail', '');
     $lang = language_default();
-    drupal_mail('custommodule', 'orderupdate', $to, $lang, $params, $from);
+    $x=drupal_mail('custommodule', 'orderupdate', $to, $lang, $params, $from);
+    drupal_goto('/admin/store/orders/'.$orderid);
 
 
 

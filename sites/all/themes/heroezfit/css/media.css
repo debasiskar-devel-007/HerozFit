@@ -260,6 +260,9 @@
 
 .page-product-detail  .views-field-nid-1{ width:200px!important; margin:0 auto!important; float:none!important;}
 
+
+.page-cart-checkout-review .maincontentwrapper{ width:940px; margin:0 auto;}
+
 }
 
 
@@ -385,6 +388,8 @@
 .page-node-1 .ficon{ float:none; margin:25px auto!important; width:100px; margin-bottom:10px;}
 
 .page-node-1 .ficon img{ float:left; margin:0 0 0 5px;}
+
+.page-cart-checkout-review .maincontentwrapper{ width:720px; margin:0 auto;}
 }
 
 
@@ -472,6 +477,9 @@
 
 
 .page-cart-checkout #uc-cart-checkout-form{ width:90%;}
+
+
+.page-cart-checkout-review .maincontentwrapper{ width:90%; margin:0 auto;}
  
  
 
