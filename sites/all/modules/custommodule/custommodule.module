@@ -708,21 +708,41 @@ function custommodule_js_alter(&$javascript) {
 function custommodule_node_view($node, $view_mode, $langcode){//replace your module name with MYMODULE here
 
     $x=arg();
-    //var_dump($x);
+    //$str=
+    //var_dump(current_path());
     //exit;
 if($x[0]){
 
 
 
-    if($node->type == 'product' && $x[0] != 'product-detail' &&  current_path()!= 'node/1' &&  current_path()!= 'product-listing-admin'){
+    if($node->type == 'product' && $x[0] != 'product-detail' &&  current_path()!= 'node/1' &&  current_path()!= 'product-listing-admin' ){
 
 
-    header('location:/product-detail/'.$node->nid);
+        if(strpos(current_path(),'search/node')!=0){
+
+            header('location:/product-detail/'.$node->nid);
+
+        }
+
 
     }
 }
 
 }
+
+function custommodule_preprocess_search_result(&$variables) {
+    $result = $variables['result'];
+    if (isset($result['node'])) {
+        $variables['snippet'] = $result['node']->rendered;
+    }
+}
+
+
+function custommodule_search($node) {
+    echo 1;
+    exit;
+}
+
 
 
 class MymoduleMailSystem extends DefaultMailSystem {
