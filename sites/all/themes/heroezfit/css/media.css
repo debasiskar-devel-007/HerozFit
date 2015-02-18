@@ -263,10 +263,17 @@
 
 .page-cart-checkout-review .maincontentwrapper{ width:940px; margin:0 auto;}
 
+
+.fid-box .form-item{  width: 230px;}
+
+.fid-box .form-item input[type="text"]{width:100%;}
+
 }
 
 
 @media screen and (max-width:991px) {
+
+.fid-box .form-item{  width: 320px;}
 
 .home-about-contaon{ width:80%;} 
 
@@ -534,7 +541,9 @@
 .view-content{ font-size:12px;}
 .view-content th,td{ padding:10px 5px; }
 
-
+.fid-box .form-item{ width:80%; float:none; margin:0 auto;}
+.fid-box .form-item input[type="text"]{ width:100%;}
+	.fid-box  .form-actions{ float:none!important;  margin:5px auto!important; margin-top:15px!important;  display:block;}
 }
 
 

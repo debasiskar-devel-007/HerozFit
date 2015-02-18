@@ -160,6 +160,13 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
          //var_dump($form);
 
      }
+    if($form_id=='subscribed_mail_node_form'){
+
+        $form['title']['#access'] = FALSE;
+        $form['actions']['submit']['#submit'][] = 'Subscribemail_submit';
+
+
+    }
 
 
     if ($form_id == 'user_register_form') {
@@ -538,11 +545,28 @@ function MYMODULE_submit8 ($form, &$form_state) {
 
 function MYMODULE_submit6 ($form, &$form_state) {
     //code here
+    global $base_url;
     $path = current_path();
     //var_dump($path);
     drupal_get_messages(null, true);
     drupal_set_message(t(' Thank you for getting in touch ! We will contact you shortly with more info.'));
-    $form_state['redirect'] ='fit-report';
+    $form_state['redirect'] =$base_url.'/fit-report?r=submit';
+    //REDIRECTS TO STEP 2 after submit
+    //header('Location:fit-report?r=submit');
+    //drupal_goto('fit-report?r=submit');
+
+}
+
+
+function Subscribemail_submit($form, &$form_state) {
+    //code here
+    global $base_url;
+    $path = current_path();
+    //var_dump($path);
+    //exit;
+    //drupal_get_messages(null, true);
+    //drupal_set_message(t(' Thank you for getting in touch ! We will contact you shortly with more info.'));
+    $form_state['redirect'] =$base_url.'/'.$path.'?subcription=submit';
     //REDIRECTS TO STEP 2 after submit
     //header('Location:fit-report?r=submit');
     //drupal_goto('fit-report?r=submit');
@@ -671,7 +695,7 @@ function custommodule_js_alter(&$javascript) {
 //var_dump(current_path());
     $x=arg();
     // Swap out jQuery to use an updated version of the library.
-    //if(current_path()=='node/1' || $x[0]=='product-detail' ||current_path()=='node' ||current_path()=='node/4')
+    if(current_path()=='node/1' || $x[0]=='product-detail' ||current_path()=='node' ||current_path()=='node/4')
         //var_dump( current_path());
     $javascript['misc/jquery.js']['data'] = drupal_get_path('module', 'custommodule') . '/js/jquery.js';
 }

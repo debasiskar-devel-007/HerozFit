@@ -71,6 +71,11 @@ padding:0px 0 0 0;
 }
 /* second level */
 
+#nav li:hover ul {
+	display: block;
+	left: 0;
+	right: 0;
+}
  #nav li:not( :first-child ):hover ul {
  left: -1px;
 }
@@ -91,45 +96,52 @@ padding:0px 0 0 0;
 }
 
 
-  #nav li ul {
-  padding: 0;
-  position: absolute;
-  top: 35px;
-  left: 0;
-  width: 250px;
-  z-index:999;
-  height:auto!important;
+ @media screen and (max-width:1199px) {
+ 
+ #nav {
 
- 
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  overflow:hidden!important;
- 
+	margin-top:10px;
+	
 }
- #nav li ul li { 
-  background: #333; 
-font-family: "Flaticon"; color:#fff; font-size:22px;
-	 display:block;
+ #nav li a {
+   
 
-padding:10px 9px !important;
-border-bottom:solid 1px #555;
-cursor:pointer;
-position:relative;
- height:auto!important;
+padding:0 8px !important;
 
-
-  
 }
 
+#nav > ul > li > a{
+	font-size:24px;
 
+
+}
+#nav li ul a {font-size:18px;}
+ }
  
- #nav li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
+ 
+ 
+ @media screen and (max-width:991px) {
+ #nav::before { 
+        content: 'MENU '; font-family: "Flaticon";  color:#333; font-size:26px; text-align:center; height:30px; line-height:30px;
+		 
+	
+		
+		
 }
 
- #nav li ul li ul{ display:none!important;  height:auto!important; overflow:hidden!important;}
+ #nav { overflow:hidden; height:auto; clear:both; margin-bottom:16px; margin-top:-4px;  height:32px; text-align:center; cursor:pointer; }
+  #nav:hover{ height:auto;}
+#nav > ul > li{
+width:100%; text-align:center;
+
+}
+	#nav > ul > li{  border-bottom: 1px solid #000; line-height:48px; background:#008081;}
+		#nav > ul > li a{ color:#fff;}
+		
+		 #nav > ul > li:hover > a,  #nav > ul:not( :hover ) > li.active > a {
  
-  #nav li ul li:hover ul{ display:block!important;}
+ color:#fff ;
+ text-decoration:none;
+  background:#333;
+}
+}

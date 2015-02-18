@@ -15,6 +15,9 @@ var flag1='';
             if(r=='submit')
                 bootbox.dialog({message:'Thank you for getting in touch ! We will contact you shortly with more info.'});
 
+            var s=getUrlParameter('subcription');
+            if(s=='submit')
+                bootbox.dialog({message:'Thank you for Your Subcription!'});
 
 
 
@@ -28,6 +31,14 @@ var flag1='';
                 maxSlides: 3,
                 slideMargin:10
              });
+
+
+           // $('.menu').find('li').eq(1).hover(function(){
+
+               var htmlmenu=$('#block-block-3').find('ul').eq(0).html();
+            //alert(htmlmenu);
+                $('.menu').find('li').eq(1).append('<ul>'+htmlmenu+'</ul>');
+            //});
 
 
 

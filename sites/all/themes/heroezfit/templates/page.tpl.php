@@ -152,7 +152,7 @@ $title=@$ma[6];
                                      <li><a href="<?php  echo  base_path() .'node/74/edit/admin/content'?>">Edit Fit Article</a></li>
                                      <li><a href="<?php  echo  base_path() .'general-user-listing'?>">General User Listing</a></li>
                                       <li><a href="<?php  echo  base_path() .'user/logout' ?>">Log Out</a></li>
-                                      <li><a href="<?php  echo  base_path() .'admin/store/products/view' ?>">Test</a></li>
+                                      <li><a href="<?php  echo  base_path() .'subcribed-mail-listing' ?>">Subscription Emails</a></li>
 
                                <div class="clear"></div>
                                 </ul>
@@ -237,7 +237,16 @@ print render($page['content']); ?>
 <div class="footer-top">
     <div class="container">
         <div class="row">
-            <div class="col-md-8"><p>Email Newsletter :</p> <div class="fid-box"><input type="text" class="sinput" placeholder="Enter email here..." /><input type="submit" class="sbtn" value="Subscribe Now!" /></div>
+<!--            <div class="col-md-8"><p>Email Newsletter :</p> <div class="fid-box"><input type="text" class="sinput" placeholder="Enter email here..." /><input type="submit" class="sbtn" value="Subscribe Now!" /></div>-->
+            <div class="col-md-8"><p>Email Newsletter :</p> <div class="fid-box"><?php
+
+                    module_load_include('inc', 'node', 'node.pages');
+
+                    $form = node_add('subscribed_mail');
+                    $output = drupal_render($form);
+                    print $output;
+
+                    ?></div>
                 <div class="clear"></div>
             </div>
             <div class="col-md-4"><div class="ficon"><a href="#"><img src="<?php  echo  base_path() . path_to_theme().'/images/i1.png'?>" alt="#" /></a><a href="#"><img src="<?php  echo   base_path() . path_to_theme().'/images/i2.png'?>" alt="#" /></a><a href="#"><img src="<?php  echo   base_path() . path_to_theme().'/images/i3.png'?>" alt="#" /></a></div>
