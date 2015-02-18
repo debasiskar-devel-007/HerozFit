@@ -168,7 +168,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
         //$form['#validate'][] = 'custom_registration_form_validation';
 
         $form['#prefix'] = '<div class="loginForm"><h2> <span>Sign</span> up </h2>';
-        $form['#suffix'] = '<span class="sign-up-text">Have an account with Bargain Community? <a href="'.$GLOBALS['base_url'].'/user/login"> Login</a></span></div>';
+        $form['#suffix'] = '<span class="sign-up-text">Already Have An Account With Heroez Fit?<a href="'.$GLOBALS['base_url'].'/user/login"> Login</a></span></div>';
 
        /* $form['name']['#attributes']['placeholder'] = t( 'Username' );
         $form['pass']['#attributes']['placeholder'] = t( 'Password' );
@@ -176,6 +176,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
         $form['account']['name']['#attributes']['placeholder'] = t( 'Desired Username' );
         $form['account']['mail']['#attributes']['placeholder'] = t( 'E-mail' );
+        $form['actions']['submit']['#value'] = t('Create A New Account');
         //$form['account']['pass']['#attributes']['placeholder'] = t( 'Confirm E-mail' );
         //$form['account']['pass']['#default_value'] = t( 'Confirm E-mail..............' );
         //$form['account']['conf_mail']['#attributes']['placeholder'] = t( 'Confirm E-mail' );
@@ -201,7 +202,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
         $form['name']['#attributes']['placeholder'] = t( 'Username' );
         $form['pass']['#attributes']['placeholder'] = t( 'Password' );
         $form['#prefix'] = '<div class="loginForm"><h2> <span>Log</span> in</h2>';
-        $form['#suffix'] = '<span class="sign-up-text">Forgot You Password? <a href="'.$GLOBALS['base_url'].'/user/password"> Click Here</a></span></div>';
+        $form['#suffix'] = '<span class="sign-up-text">Forgot Your Password? <a href="'.$GLOBALS['base_url'].'/user/password"> Click Here</a></span></div>';
         //$form['actions']['submit']['#submit'][] = 'MYMODULE_submit';
 
 
@@ -213,7 +214,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
         //$form['#validate'][] = 'custom_registration_form_validation';
         $form['name']['#attributes']['placeholder'] = t( 'Username Or Email' );
-        $form['#prefix'] = '<div class="loginForm"><h2> <span>Reset</span> Password</h2>';
+        $form['#prefix'] = '<div class="loginForm"><h2> <span>Forgot</span> Password</h2><br />Please enter the email address registered on your account.';
         $form['#suffix'] = '<span class="sign-up-text">Back To Login? <a href="'.$GLOBALS['base_url'].'/user/login"> Login</a></span></div>';
 
 
@@ -541,7 +542,11 @@ function MYMODULE_submit6 ($form, &$form_state) {
     //var_dump($path);
     drupal_get_messages(null, true);
     drupal_set_message(t(' Thank you for getting in touch ! We will contact you shortly with more info.'));
-    $form_state['redirect'] = 'fit-report'; //REDIRECTS TO STEP 2 after submit
+    $form_state['redirect'] ='fit-report';
+    //REDIRECTS TO STEP 2 after submit
+    //header('Location:fit-report?r=submit');
+    //drupal_goto('fit-report?r=submit');
+
 }
 
 function MYMODULE_submit7 ($form, &$form_state) {
@@ -823,8 +828,7 @@ function custommodule_testmail() {
   <tr>
     <td colspan="4" style="padding:15px 0;">
     <a href="#"><img style="display:block; margin:0 auto;" src="http://influxhostserver.com/herozfitcart/sites/default/files/logo.png" border="0" /></a>
-    <p style="padding:15px 0 0 0; font-family:Arial, Helvetica, sans-serif; color:#828383; text-align:center; line-height:25px;">Thank you for your order!<br /><br />
-    We will send you another email once the items in your order have been shipped. Meanwhile, you can check the status of your order on'.' '.$sitename.'.com
+    <p style="padding:15px 0 0 0; font-family:Arial, Helvetica, sans-serif; color:#828383; text-align:center; line-height:25px;">Thanks for ordering from '.$sitename.' . Here is a summary of your order.<br />
     </p>    </td>
   </tr>
   <tr>

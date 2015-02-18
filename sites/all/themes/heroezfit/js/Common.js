@@ -5,8 +5,17 @@ var flag1='';
 
 
 
+
+
     Drupal.behaviors.myBehavior = {
         attach: function (context, settings) {
+
+
+            var r = getUrlParameter('r');
+            if(r=='submit')
+                bootbox.dialog({message:'Thank you for getting in touch ! We will contact you shortly with more info.'});
+
+
 
 
             $(".imgLiquid").imgLiquid();
@@ -19,6 +28,8 @@ var flag1='';
                 maxSlides: 3,
                 slideMargin:10
              });
+
+
 
             $('.bx-clone').css('width','360px!important');
 
@@ -669,8 +680,8 @@ setTimeout(function(){
                 alert($(this).val());
             });
 			*/
-			
-			
+
+
 			
 			
 
@@ -682,3 +693,16 @@ setTimeout(function(){
 })(jQuery);
 
 
+function getUrlParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++)
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam)
+        {
+            return sParameterName[1];
+        }
+    }
+}

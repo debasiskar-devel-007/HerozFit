@@ -255,25 +255,16 @@ print render($page['content']); ?>
         <div class="row">
             <div class="col-md-6">
                 <ul>
-                    <li><a href="#">Home / About Us</a></li>
-                    <li><a href="#">Home / About Us</a></li>
-                    <li><a href="#">Home / About Us</a></li>
+                    <?php
 
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">Lorem Ipsum</a></li>
-                    <li><a href="#">Dolor Sit Amet</a></li>
-                    <li><a href="#">Dolor Sit Amet</a></li>
-                    <li><a href="#">Dolor Sit Amet</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Lorem</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+
+                    if (module_exists('i18n_menu')) {
+                        $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
+                    } else {
+                        $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+                    }
+                    print drupal_render($main_menu_tree);
+                    ?>
 
 
                 </ul>
@@ -282,7 +273,7 @@ print render($page['content']); ?>
             </div>
             <div class="col-md-4">
                 <h1><a href="tel:+1 (123) 123-4567">+1 (123) 123-4567</a></h1>
-                <h2><a href="mailto:info@drivinglessonsdublin.ie">info@drivinglessonsdublin.ie</a></h2>
+                <h2><a href="mailto:CustomerService@HeroezFit.com">CustomerService@HeroezFit.com</a></h2>
 
             </div>
             <div class="col-md-2">

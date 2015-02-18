@@ -6,17 +6,20 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/bootstrap.css
 stylesheets[all][] = css/menu.css
 stylesheets[all][] = css/media.css
+;stylesheets[all][] = css/facebox.css
 stylesheets[all][] = css/jquery.bxslider.css
 
 stylesheets[all][] = css/responsiveslides.css
 stylesheets[all][] = css/anythingzoomer.css
 scripts[] = js/bootstrap.min.js
+scripts[] = js/bootbox.min.js
 scripts[] = js/Common.js
 scripts[] = js/imgLiquid.js
+;scripts[] = js/facebox.js
+
 scripts[] = js/jquery.anythingzoomer.js
 scripts[] = js/jquery.bxslider.min.js
-;scripts[] = js/jquery.slides.min.js
-;scripts[] = js/jquery.spritezoom.js
+
 scripts[] = js/responsiveslides.min.js
 regions[header_first]=First Header
 regions[header_logo]=Header Logo
