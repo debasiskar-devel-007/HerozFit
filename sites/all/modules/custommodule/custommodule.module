@@ -96,6 +96,14 @@ function custommodule_menu() {
         'type' => MENU_CALLBACK,
     );
 
+    $items['custommodule/menucat'] = array(
+        'page callback' => 'custommodule_menucat',
+        //'page arguments' => array(3),
+        'access arguments' => array('access content'),
+        'type' => MENU_CALLBACK,
+    );
+
+
 
 
     return $items;
@@ -1172,9 +1180,91 @@ function custommodule_samecat(){
 
 
 }
+function custommodule_menucat(){
+
+?>
+<p><?php //echo 78;
+
+
+$query = new EntityFieldQuery();
+
+$query->entityCondition('entity_type', 'node')
+    ->entityCondition('bundle', 'category')
+    ->propertyCondition('status', NODE_PUBLISHED)
+    //->fieldCondition('field_news_types', 'value', 'spotlight', '=')
+    //->fieldCondition('field_photo', 'fid', 'NULL', '!=')
+    // ->fieldCondition('field_faculty_tag', 'tid', $value)
+    // ->fieldCondition('field_news_publishdate', 'value', $year . '%', 'like')
+    ->fieldOrderBy('field_category_priority', 'value', 'DESC')
+    ->range(0, 100)
+    ->addMetaData('account', user_load(1)); // Run the query as user 1.
+
+$result = $query->execute();
+if (isset($result['node'])) {
+    $news_items_nids = array_keys($result['node']);
+    $news_items = entity_load('node', $news_items_nids);
+}
+
+if(is_array($news_items))
+{
+   foreach($news_items as $a)
+   {
+       $termid=($a->field_parent_category['und'][0]['tid']);
+       if($termid>0)
+       {
+           //echo $termid;
+           $term = taxonomy_term_load($termid);
+           //var_dump($term->name);
+           $parr[$termid]['tid']=$termid;
+           $parr[$termid]['pcatname']=$term->name;
+           $parr[$termid]['catname'][]=$a->field_category_name['und'][0]['tid'];
+           $parr[$termid]['title'][]=$a->title;
+
+           //var_dump($a);
+       }
+   }
+
+//var_dump($parr);
+if(is_array($parr))
+{
+?></p>
+
+<p>&nbsp;</p>
+
+
+        <ul><?php
+            foreach($parr as $arr)
+            {
+                ?>
+                <li><?php echo $arr['pcatname'] ?><?php
+                if(count($arr['catname'])>0)
+                {
+                    ?>
+                    <ul><?php
+                        foreach($arr['catname'] as $catid=> $catn)
+                        {
+                            $cterm = taxonomy_term_load($catn);
+                            ?>
+                            <li><a href="/shop?catid=<?php echo $catn ;?>"><?php echo $arr['title'][$catid]; ?></a></li>
+                        <?php
+
+                        } //var_dump($cterm ->name);
+                        ?>
+                    </ul>
+                    </li>
+                <?php
+
+                }
+            }
+            }
+            }
+
+            ?>
+        </ul>
 
 
 
+<?php } ?>
 
 
 

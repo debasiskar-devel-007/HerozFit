@@ -41,7 +41,7 @@ var flag1='';
 
 
            $(this).children().eq(0).addClass('imgLiquid');
-           $(this).children().eq(0).css('width','300').css('height','400');
+           $(this).children().eq(0).css('width','356').css('height','500');
            $(this).children().eq(0).css('cursor','pointer');
            //$(this).children().eq(0).click(function(){
               // alert(i);

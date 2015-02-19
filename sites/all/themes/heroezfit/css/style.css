@@ -1706,8 +1706,8 @@ margin-bottom: 15px; text-transform:uppercase;}
 
 	.page-node-add-video-gallery #edit-field-video-und-0-video-url{ border: 1px solid #bfbfbf!important;
     height: 32px; width:372px;}
-	
-	
+
+
 	/*---*/
 
 	/*---*/
@@ -2625,10 +2625,10 @@ width: 394px;
 
 		.page-admin-store-orders-view .views-exposed-form{ margin-top:0px; overflow:hidden;}
 
-		
-		
-		.page-admin-store-orders-view  .views-exposed-widget{ height:auto; padding:0; margin:20px 20px 0 0;} 
-		
+
+
+		.page-admin-store-orders-view  .views-exposed-widget{ height:auto; padding:0; margin:20px 20px 0 0;}
+
 		.page-admin-store-orders-view  .views-exposed-widget #edit-submit-uc-orders{ margin:36px 0 0 10px;}
 
 
@@ -4211,7 +4211,7 @@ width: 394px;
 			.page-admin-store-orders-create .form-wrapper #edit-actions{ display:inline!important;}
 
 
-.page-admin-store-orders-create #uc-order-customer-results{ display:block!important; overflow:hidden!important; clear:both!important;} 
+.page-admin-store-orders-create #uc-order-customer-results{ display:block!important; overflow:hidden!important; clear:both!important;}
 
 /*---------------------*/
 
@@ -4432,7 +4432,7 @@ width: 394px;
     margin: 10px 10px !important;
     padding: 8px 10px;
     width: 180px; text-align: center;}
-	
+
 	.page-user-cancel #edit-cancel:hover{ text-decoration:none;}
 
 
@@ -4493,19 +4493,19 @@ padding:0 6px!important;
     border: medium none;
     height: 37px;
 	border:solid 1px #e5e5e5!important;
-   
+
     width: 325px;}
-	
+
 	.fid-box  .form-actions{ display:block!important; float: left!important; width:130px!important;}
-	
+
 		.fid-box label.error{ text-align:center; font-weight:normal; display:block; width:100%; padding:8px 0 0 0;}
-	
+
 .fid-box input[type="submit"]{background: #000000!important;
     border:  none!important;
     border-radius: 4px!important;
     color: #dadada!important;
     cursor: pointer!important;
-  
+
     font-family: "open_sansregular";
     font-size: 14px!important;
     font-style: italic!important;
@@ -4513,8 +4513,8 @@ padding:0 6px!important;
     line-height: 3px!important;
     margin: 5px!important;
     width: 130px!important;}
-	
-	
+
+
 #block-block-3{ display:none;}
 
 
@@ -4531,3 +4531,57 @@ padding:0 6px!important;
 
 .search-result .field-name-uc-product-image .field-items > .field-item:first-child{display: block}
 
+
+
+.page-search .search-results { width:1140px; margin:0 auto; clear:both; overflow:hidden;}
+
+
+.page-search #block-system-main h2 {
+    color: #313131;
+    display: block;
+    font-family: "lane_-_narrowregular";
+    font-size: 45px;
+    margin: 30px auto 0;
+    padding-bottom: 5px;
+    text-align: center;
+    width: auto;
+	text-transform:uppercase;
+}
+.page-search #block-system-main  h2::after {
+    background: none repeat scroll 0 0 #008081;
+    content: "0";
+    display: block;
+    font-size: 0;
+    height: 2px;
+    margin: 10px auto;
+    width: 190px;
+	margin-bottom:40px;
+}
+
+
+.page-search .search-results  li{ width:360px; height:590px; float:left; margin:0 10px 20px 10px; padding:0; overflow:hidden; position:relative;}
+
+.page-search .search-results  li .field-name-body{ display:none;}
+
+.page-search .search-results  li .display-price{ display:none;}
+
+.page-search .search-results  li .field-type-image .field-label{ display:none;}
+
+.page-search .search-results  li .add-to-cart{ display:none;}
+
+.page-search .search-results  li .search-snippet-info{ padding:0;}
+
+.page-search .search-results  li .search-snippet{ margin:0; padding:0;}
+
+.page-search .search-results  li .title{ position:absolute; width:100%; text-align:center; top:500px; color: #000;
+    font-family: "open_sansregular";
+    font-size: 14px;  background: url("../images/product-border.png") no-repeat scroll center top rgba(0, 0, 0, 0); padding-top:15px;}
+
+	.page-search .search-results  li .title a{   font-family: "open_sansregular"; color: #000;
+    font-size: 14px;}
+
+
+.page-search .search-results  li  .product-info{ position:absolute; bottom:0; text-align:center; width:100%;  font-family: "Times New Roman",Times,serif;
+    font-size: 24px;
+    font-style: italic;
+}
