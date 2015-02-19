@@ -1,5 +1,6 @@
 <?php
 
+
 /**
  * @file
  * Default theme implementation for displaying a single search result.
@@ -70,23 +71,25 @@
 
 
 
-
-<?php
-/* image start */
-// product
+<!--
+--><?php
+/*
 $node = node_load($node->entity_id);
 if (file_exists($node->field_product_picture['und'][0]['uri'])) {
-// theme $title as image with theme_image()
-    $product_img = theme('image_style', array('style_name' => 'thumbnail', 'path' => $node->field_product_picture['und'][0]['uri'], 'getsize' => TRUE, 'attributes' => array('class' => 'thumb')));
+
+    $product_img = theme('image_style', array('style_name' => 'productlisting', 'path' => $node->field_product_picture['und'][0]['uri'], 'getsize' => TRUE, 'attributes' => array('class' => 'thumb')));
     print '<span>' . $product_img . '</span>';
+    //exit;
 }
 
 
-//var_dump($node);
-?>
+
+*/?>
 
 
-<?php if (isset($node->field_article_image[0]['filepath'])): ?>
+<?php
+
+if (isset($node->field_article_image[0]['filepath'])): ?>
     <span class="search-image"><?php print theme('imagecache', 'search-thumb', $node->field_article_image[0]['filepath']); ?></span>
 <?php endif; ?>
 <li class="<?php print $classes; ?>"<?php print $attributes; ?>>

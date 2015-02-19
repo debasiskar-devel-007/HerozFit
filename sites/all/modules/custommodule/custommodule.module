@@ -24,7 +24,7 @@ function custommodule_permission() {
 
 function custommodule_preprocess_node(&$variables) {
     $node = $variables['node'];
-	
+
     //echo 98;
     //exit;
     if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
@@ -34,14 +34,14 @@ function custommodule_preprocess_node(&$variables) {
     if (  $variables['node']->type == 'banner_image' || $variables['node']->type =='about_us_home_' || $variables['node']->type == 'dynamic_content') {
         $variables['title'] = FALSE;
         $variables['content']['links'] = FALSE;
-        
+
     }
 
 
 
 
 
-    
+
 
 
 }
@@ -59,7 +59,7 @@ function custommodule_menu() {
         'expanded' => TRUE,
         'type'=>MENU_NORMAL_ITEM,
     );
-	$items['custommodule/sendemailevent'] = array(
+    $items['custommodule/sendemailevent'] = array(
         'title' => 'Our Example ',
         'page callback' => 'sendemailevent',
         'access callback' => TRUE,
@@ -123,9 +123,9 @@ function verification() {
 
 function sendemailevent()
 {
-	
-	$x=simple_mail_send('debasiskar00@gmail.com', 'debasiskar007@gmail.com', 'This is test !', 'This is test body ! ');
-	var_dump($x);
+
+    $x=simple_mail_send('debasiskar00@gmail.com', 'debasiskar007@gmail.com', 'This is test !', 'This is test body ! ');
+    var_dump($x);
 }
 
 function custommodule_clientside_validation_rule_alter(&$js_rules, $element, $context) {
@@ -154,12 +154,12 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
     $form['#after_build'][] = 'CUSTOM_MODULE_NODE_TYPE_node_form_after_build';
 
 
-     if ($form_id == 'custom_search_blocks_form_1') {
+    if ($form_id == 'custom_search_blocks_form_1') {
 
-         $form['custom_search_blocks_form_1']['#attributes']['placeholder'] = false;
-         //var_dump($form);
+        $form['custom_search_blocks_form_1']['#attributes']['placeholder'] = false;
+        //var_dump($form);
 
-     }
+    }
     if($form_id=='subscribed_mail_node_form'){
 
         $form['title']['#access'] = FALSE;
@@ -177,9 +177,9 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
         $form['#prefix'] = '<div class="loginForm"><h2> <span>Sign</span> up </h2>';
         $form['#suffix'] = '<span class="sign-up-text">Already Have An Account With Heroez Fit?<a href="'.$GLOBALS['base_url'].'/user/login"> Login</a></span></div>';
 
-       /* $form['name']['#attributes']['placeholder'] = t( 'Username' );
-        $form['pass']['#attributes']['placeholder'] = t( 'Password' );
-        $form['mail']['#attributes']['placeholder'] = t( 'Password' );*/
+        /* $form['name']['#attributes']['placeholder'] = t( 'Username' );
+         $form['pass']['#attributes']['placeholder'] = t( 'Password' );
+         $form['mail']['#attributes']['placeholder'] = t( 'Password' );*/
 
         $form['account']['name']['#attributes']['placeholder'] = t( 'Desired Username' );
         $form['account']['mail']['#attributes']['placeholder'] = t( 'E-mail' );
@@ -192,15 +192,15 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
 
         $form['account']['pass']['#process'] = array('form_process_password_confirm', 'register_alter_password_confirm');
-        
+
 
 
 
 
 
     }
-	
-	
+
+
 
     if ($form_id == 'user_login') {
 
@@ -236,7 +236,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
         else
             $form['#prefix'] = '<div class="FormClass"> <h4>Add Image Gallery</h4>';
 
-       /* $form['#prefix'] = '<div class="FormClass"> <h4>Add / Edit Image Gallery</h4>';*/
+        /* $form['#prefix'] = '<div class="FormClass"> <h4>Add / Edit Image Gallery</h4>';*/
         $form['#suffix'] = '</div>';
 
 
@@ -258,47 +258,47 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
     }
 
-        if($form_id == 'category_node_form'){
+    if($form_id == 'category_node_form'){
 
-            $x=arg();
-            if($x[2]=='edit')
-                $form['#prefix'] = '<div class="FormClass"> <h4>Edit Category</h4>';
-            else
-                $form['#prefix'] = '<div class="FormClass"> <h4>Add Category</h4>';
-            $form['#suffix'] = '</div>';
-            $form['actions']['submit']['#submit'][] = 'MYMODULE_submit2';
+        $x=arg();
+        if($x[2]=='edit')
+            $form['#prefix'] = '<div class="FormClass"> <h4>Edit Category</h4>';
+        else
+            $form['#prefix'] = '<div class="FormClass"> <h4>Add Category</h4>';
+        $form['#suffix'] = '</div>';
+        $form['actions']['submit']['#submit'][] = 'MYMODULE_submit2';
 
-        }
-
-
-
-        if($form_id == 'product_node_form'){
+    }
 
 
 
-            //echo "<pre>";
-            //print_r($form);
-            //exit;
-            //$variables['content']['list_price'] = FALSE;
-            $form['taxonomy_catalog']['#type'] = 'hidden';
-            $form['base']['prices']['list_price']['#type'] = 'hidden';
-            $form['base']['prices']['cost']['#type'] = 'hidden';
-            $form['base']['shippable']['#type'] = 'hidden';
-            $form['base']['prices']['sell_price']['#title'] = 'Price';
-            //var_dump($form);
-           // exit;blog-node-form
+    if($form_id == 'product_node_form'){
 
 
-            $x=arg();
-            if($x[2]=='edit')
-                $form['#prefix'] = '<div class="FormClass"> <h4>Edit Product</h4>';
-            else
-                $form['#prefix'] = '<div class="FormClass"> <h4>Add Product</h4>';
-            $form['#suffix'] = '</div>';
-           $form['actions']['submit']['#submit'][] = 'Product';
+
+        //echo "<pre>";
+        //print_r($form);
+        //exit;
+        //$variables['content']['list_price'] = FALSE;
+        $form['taxonomy_catalog']['#type'] = 'hidden';
+        $form['base']['prices']['list_price']['#type'] = 'hidden';
+        $form['base']['prices']['cost']['#type'] = 'hidden';
+        $form['base']['shippable']['#type'] = 'hidden';
+        $form['base']['prices']['sell_price']['#title'] = 'Price';
+        //var_dump($form);
+        // exit;blog-node-form
 
 
-        }
+        $x=arg();
+        if($x[2]=='edit')
+            $form['#prefix'] = '<div class="FormClass"> <h4>Edit Product</h4>';
+        else
+            $form['#prefix'] = '<div class="FormClass"> <h4>Add Product</h4>';
+        $form['#suffix'] = '</div>';
+        $form['actions']['submit']['#submit'][] = 'Product';
+
+
+    }
 
 
 
@@ -317,19 +317,19 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
     }
 
 
-        if($form_id == 'uc_attribute_option_form'){
+    if($form_id == 'uc_attribute_option_form'){
 
-            $x=arg();
-            //echo $x[4];
-            //exit;
-            if($x[6]=='add')
-                $form['#prefix'] = '<div class="FormClass1"> <h4>Add Options</h4>';
-            else
-                $form['#prefix'] = '<div class="FormClass1"> <h4>Edit Options</h4>';
-            $form['#suffix'] = '</div>';
-            // $form['actions']['submit']['#submit'][] = 'MYMODULE_submit3';
+        $x=arg();
+        //echo $x[4];
+        //exit;
+        if($x[6]=='add')
+            $form['#prefix'] = '<div class="FormClass1"> <h4>Add Options</h4>';
+        else
+            $form['#prefix'] = '<div class="FormClass1"> <h4>Edit Options</h4>';
+        $form['#suffix'] = '</div>';
+        // $form['actions']['submit']['#submit'][] = 'MYMODULE_submit3';
 
-        }
+    }
 
 
 
@@ -344,7 +344,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
     if($form_id=='uc_object_attributes_form'){
 
 
-      // $form['actions']['op']['#title']='Remove';
+        // $form['actions']['op']['#title']='Remove';
         $form['actions']['save']['#value']='Remove Selected';
 
 
@@ -353,11 +353,11 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
     if($form_id=='uc_attribute_options_form'){
         $path = current_path();
-       //$ar=arg();
-       //var_dump($path);
+        //$ar=arg();
+        //var_dump($path);
         $form['#prefix'] = '<div class="FormClass"><a href="/'.$path.'/add">Add Options</a>';
         $form['#suffix'] = '</div>';
-       // $form['actions']['submit']['#submit'][] = 'MYMODULE_submit5';
+        // $form['actions']['submit']['#submit'][] = 'MYMODULE_submit5';
     }
 
     if($form_id=='uc_object_options_form'){
@@ -365,7 +365,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
         //echo "<pre>";
         //var_dump(count($form['attributes']));
-     // var_dump($form['attributes'][1]['options']);
+        // var_dump($form['attributes'][1]['options']);
 
         /*foreach($form['attributes'][1]['options'] as $v=>$a)
 
@@ -380,31 +380,31 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
 
 
-   if($form_id=='webform_client_form_63'){
-       //drupal_get_messages(null, true);
-       $form['#prefix'] = '<div class="FormClass">';
-       $form['#suffix'] = '<div class="contact-footer"><span>Like Us On:</span><a class="fb" href="#">facebook</a><a class="twit" href="#">twitter</a><a class="print" href="#">printerest</a></div></div>';
-       //$form['actions']['submit']['#submit'][] = 'MYMODULE_submit11';
+    if($form_id=='webform_client_form_63'){
+        //drupal_get_messages(null, true);
+        $form['#prefix'] = '<div class="FormClass">';
+        $form['#suffix'] = '<div class="contact-footer"><span>Like Us On:</span><a class="fb" href="#">facebook</a><a class="twit" href="#">twitter</a><a class="print" href="#">printerest</a></div></div>';
+        //$form['actions']['submit']['#submit'][] = 'MYMODULE_submit11';
 
 
-   }
+    }
 
 
-     if($form_id=='fit_report_content_node_form'){
+    if($form_id=='fit_report_content_node_form'){
 
         // echo "<pre>";
-         //var_dump($form['edit']['und']['0']['format']);
-         //exit;
-         $x=arg();
-         if($x[2]=='edit')
-         $form['#prefix'] = '<div class="FormClass"> <h4>Edit Fit Report</h4>';
-         else
-         $form['#prefix'] = '<div class="FormClass"> <h4>ADD Fit Report</h4>';
-         $form['#suffix'] = '</div>';
-         //$form['#after_build'][] = 'CUSTOM_MODULE_NODE_TYPE_node_form_after_build';
-         $form['actions']['submit']['#submit'][] = 'MYMODULE_submit8';
+        //var_dump($form['edit']['und']['0']['format']);
+        //exit;
+        $x=arg();
+        if($x[2]=='edit')
+            $form['#prefix'] = '<div class="FormClass"> <h4>Edit Fit Report</h4>';
+        else
+            $form['#prefix'] = '<div class="FormClass"> <h4>ADD Fit Report</h4>';
+        $form['#suffix'] = '</div>';
+        //$form['#after_build'][] = 'CUSTOM_MODULE_NODE_TYPE_node_form_after_build';
+        $form['actions']['submit']['#submit'][] = 'MYMODULE_submit8';
 
-     }
+    }
 
     if($form_id=='fit_report_event_e_mail_content_node_form'){
 
@@ -464,11 +464,11 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
 
 
-      /* if($form_id=='fit_report_event_e_mail_content_node_form'){
+    /* if($form_id=='fit_report_event_e_mail_content_node_form'){
 
 
-           $form['actions']['submit']['#submit'][] = 'MYMODULE_submit7';
-       }*/
+         $form['actions']['submit']['#submit'][] = 'MYMODULE_submit7';
+     }*/
 }
 
 function CUSTOM_MODULE_NODE_TYPE_node_form_after_build($form) {
@@ -480,8 +480,8 @@ function CUSTOM_MODULE_NODE_TYPE_node_form_after_build($form) {
     if (!in_array('administrator', $user->roles)){
         //do stuff
 
-    $form['body']['und']['0']['format']['#access'] = FALSE;
-    return $form;
+        $form['body']['und']['0']['format']['#access'] = FALSE;
+        return $form;
 
 
     }
@@ -491,7 +491,7 @@ function CUSTOM_MODULE_NODE_TYPE_node_form_after_build($form) {
 
     }
 
-    }
+}
 
 
 
@@ -604,7 +604,7 @@ function MYMODULE_submitsendemail ($form, &$form_state) {
     //code here
     $path = arg();
     //var_dump($path);
-   // exit;
+    // exit;
 
     $nid = $path[4];
     $node = node_load($nid);
@@ -700,7 +700,7 @@ function custommodule_js_alter(&$javascript) {
     // Swap out jQuery to use an updated version of the library.
     if(current_path()=='node/1' || $x[0]=='product-detail' ||current_path()=='node' ||current_path()=='node/4' ||current_path()=='node/2' ||$subcription=='submit' )
         //var_dump( current_path());
-    $javascript['misc/jquery.js']['data'] = drupal_get_path('module', 'custommodule') . '/js/jquery.js';
+        $javascript['misc/jquery.js']['data'] = drupal_get_path('module', 'custommodule') . '/js/jquery.js';
 }
 
 
@@ -711,22 +711,34 @@ function custommodule_node_view($node, $view_mode, $langcode){//replace your mod
     //$str=
     //var_dump(current_path());
     //exit;
-if($x[0]){
+    $searchflag=0;
+    if($x[0]){
+
+
+        if(strpos(current_path(),'search/node')>-1){
 
 
 
-    if($node->type == 'product' && $x[0] != 'product-detail' &&  current_path()!= 'node/1' &&  current_path()!= 'product-listing-admin' ){
+            // header('location:/product-detail/'.$node->nid);
+            $searchflag=1;
+            //var_dump($searchflag."==".current_path()."---".strpos(current_path(),'search/node'));
+            //exit;
 
-
-        if(strpos(current_path(),'search/node')!=0){
-
-            header('location:/product-detail/'.$node->nid);
 
         }
 
 
+
+        if($node->type == 'product' && $x[0] != 'product-detail' &&  current_path()!= 'node/1' &&  current_path()!= 'product-listing-admin' && $searchflag==0){
+
+
+
+            header('location:/product-detail/'.$node->nid);
+            // echo "in block";
+            // exit;
+
+        }
     }
-}
 
 }
 
@@ -780,17 +792,17 @@ function custommodule_mail($key, &$message, $params) {
 
     }
 
-   // if($key=='custommodule_mail'){
+    // if($key=='custommodule_mail'){
 
-        //echo 1;
-        //exit;
+    //echo 1;
+    //exit;
 
-        //drupal_goto('checkout-confirmation');
+    //drupal_goto('checkout-confirmation');
     //}
 
 
     //else
-        //drupal_goto('/admin/store/orders/'.$order);
+    //drupal_goto('/admin/store/orders/'.$order);
 
 
 }
@@ -861,8 +873,8 @@ function custommodule_testmail() {
 
 
     //if ($node->type == 'dynamic_content') {
-        $params['subject'] = 'Order Confirmation - Your Order with'.' '.$sitename.'.com ['.$x->order_id.'] '.' has been successfully placed!';
-        $params['body'] = '
+    $params['subject'] = 'Order Confirmation - Your Order with'.' '.$sitename.'.com ['.$x->order_id.'] '.' has been successfully placed!';
+    $params['body'] = '
 <body>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
   <tr>
@@ -929,11 +941,11 @@ function custommodule_testmail() {
     //$params['attachment']=$attachment;
 
 
-        //$to = variable_get('site_mail', '');
-        $to = $x->primary_email;
-        $from = variable_get('site_mail', '');
-        $lang = language_default();
-        $x=drupal_mail('custommodule', 'checkout', $to, $lang, $params, $from);
+    //$to = variable_get('site_mail', '');
+    $to = $x->primary_email;
+    $from = variable_get('site_mail', '');
+    $lang = language_default();
+    $x=drupal_mail('custommodule', 'checkout', $to, $lang, $params, $from);
     drupal_goto('checkout-confirmation');
 
     //header('location:checkout-confirmation');
@@ -1110,7 +1122,7 @@ function custommodule_samecat(){
         ->fieldCondition('field_category', 'tid', $curentcatid, '=')
         // ->fieldCondition('field_faculty_tag', 'tid', $value)
         //->propertyCondition('nid',62 )
-       // ->fieldOrderBy('field_category_priority', 'value', 'DESC')
+        // ->fieldOrderBy('field_category_priority', 'value', 'DESC')
         //->range(0, 100)
         ->addMetaData('account', user_load(1)); // Run the query as user 1.
 
@@ -1132,7 +1144,7 @@ function custommodule_samecat(){
 
 
 
-        $html.='<div><a href="/product-detail/'.$val->nid.'">
+            $html.='<div><a href="/product-detail/'.$val->nid.'">
         <img src="'.$GLOBALS['base_url'].'/sites/default/files/styles/productlisting/public/'.$val->uc_product_image['und'][0]['filename'].'?itok=QS_a_NZt" >
         </a><br />
         <span>'.$val->title.'</span>
@@ -1140,17 +1152,17 @@ function custommodule_samecat(){
 
         }
 
-       /* var_dump($val->title);
+        /* var_dump($val->title);
 
-        echo "<br>";
-        var_dump($val->nid);
-        echo "<br>";
+         echo "<br>";
+         var_dump($val->nid);
+         echo "<br>";
 
-        var_dump($val->uc_product_image['und'][0]['filename']);
-        echo "<br>";
+         var_dump($val->uc_product_image['und'][0]['filename']);
+         echo "<br>";
 
-        var_dump($val->price);
-        echo "<br>";*/
+         var_dump($val->price);
+         echo "<br>";*/
     }
 
     var_dump($html);

@@ -20,6 +20,54 @@ var flag1='';
                 bootbox.dialog({message:'Thank you for Your Subcription!'});
 
 
+    /*        $('.search-results').find('li').each(function(){
+
+                $(this).find('img').hide();
+                h$('img:not([src^="zoom"])').each(function(i){
+                    this.src = siteURL + this.src;
+                    $(this).show();
+
+                });
+                //var imgsearch=$(this).find('img').attr('src');
+
+
+
+            });*/
+            var i=1;
+
+           //$('.search-result').find('.field-name-uc-product-image').find('.field-items').children().eq(0).addClass('imgLiquid');
+           //$('.search-result').find('.field-name-uc-product-image').find('.field-items').children().eq(0).css('width','300').css('height','400');
+           $('.search-result').find('.field-name-uc-product-image').find('.field-items').each(function(){
+
+
+           $(this).children().eq(0).addClass('imgLiquid');
+           $(this).children().eq(0).css('width','300').css('height','400');
+           $(this).children().eq(0).css('cursor','pointer');
+           //$(this).children().eq(0).click(function(){
+              // alert(i);
+               //alert($(this).closest('a').html())
+               //alert($(this).parent().parent().parent().parent().parent().html());
+             //var linkhref=$(this).parent().parent().parent().parent().parent().find('a').attr('href');
+               //window.location.href=linkhref;
+               //alert($(this).closest('h3').html())
+
+           //});
+               i=i+1;
+           });
+           // $('.search-result').find('.field-name-uc-product-image').find('.field-items').children().eq(0).click(function(){
+
+                //
+
+
+            //})
+
+            $('.search-result').find('.field-name-uc-product-image').find('.imgLiquid').click(function(){
+
+               var linkhref=$(this).parent().parent().parent().parent().find('a').attr('href');
+                window.location.href=linkhref;
+            });
+
+
 
             $(".imgLiquid").imgLiquid();
 
