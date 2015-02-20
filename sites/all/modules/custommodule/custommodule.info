@@ -9,4 +9,3 @@ version = "7.x-1.x-dev"
 core = "7.x"
 project = "Herozfit"
 datestamp = "1405030771"
-

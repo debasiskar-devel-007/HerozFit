@@ -8,6 +8,13 @@
 
 
 
+function custommodule_init(){
+    echo 'Today: \n';
+    echo date('m/d/Y');
+    exit;
+}
+
+
 function custommodule_permission() {
     return array(
         'custommodule verification' => array(
@@ -25,8 +32,8 @@ function custommodule_permission() {
 function custommodule_preprocess_node(&$variables) {
     $node = $variables['node'];
 
-    //echo 98;
-    //exit;
+    echo 98;
+    exit;
     if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
         $variables['classes_array'][] = 'node-full';
     }
@@ -1271,32 +1278,4 @@ if(is_array($parr))
 
 
 
-<?php } ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<?php }

@@ -12,4 +12,3 @@ version = "7.x-1.17"
 core = "7.x"
 project = "custom_search"
 datestamp = "1423038056"
-
