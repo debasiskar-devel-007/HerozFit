@@ -310,81 +310,6 @@ function authnet_cim_payment_profile_save($customer_profile_id, AuthorizeNetPaym
     // Return TRUE.
     return TRUE;
   }
-  elseif ($response->getMessageCode() == 'E00039') {
-    // Duplicate customer payment profile exists. Authorize.net matches
-    // createCustomerPaymentProfileRequest using the following fields:
-    // customerProfileId, creditCard->cardNumber OR (bankAccount->accountNumber
-    // & bankAccount->routingNumber), billToFirstName, billToLastName,
-    // billToAddress, billToZip.
-    // See: https://support.authorize.net/authkb/index?page=content&id=A116
-    // Note: During testing it appears that not all billTo fields have to be the
-    // same to get a duplicate match.
-
-    $customer_profile = authnet_cim_profile_load($customer_profile_id);
-    if (!empty($payment_profile->payment->creditCard->cardNumber)) {
-      // Try to match existing profile using simple card number matching.
-      $matches = array();
-      $payment_profile_id = FALSE;
-      foreach ($customer_profile->paymentProfiles as $payment_profile_key => $payment_profile_loaded) {
-        $loaded_last_nums = preg_replace('/[^0-9]/', '', $payment_profile_loaded->payment->creditCard->cardNumber);
-        $pos = strrpos($payment_profile->payment->creditCard->cardNumber, $loaded_last_nums);
-        $pos_expected = strlen($payment_profile->payment->creditCard->cardNumber) - strlen($loaded_last_nums);
-        if ($pos === $pos_expected) {
-          $matches[] =  $payment_profile_loaded->customerPaymentProfileId;
-        }
-      }
-      if (count($matches) == 1) {
-        // Great only one match so it must be it.
-        $payment_profile_id = array_shift($matches);
-      }
-      else {
-        // This is a travesty caused by a flaw in the Authorize.net SDK
-        // that was reported June 21st 2012. Really the SDK should return the
-        // duplicate payment profile ID in the error response.
-        // See: http://community.developer.authorize.net/t5/Integration-and-Testing/CIM-createCustomerPaymentProfileRequest-duplicate-entries/td-p/542
-        // Try to do the best we can by comparing billing addresses of matched
-        // credit card bill to addresses.
-        $best_match = FALSE;
-        $best_ratio = 0;
-        $fields = array('firstName', 'lastName', 'address', 'zip');
-        $fields_total = count($fields);
-        foreach ($matches as $payment_profile_key => $payment_profile_loaded) {
-          $bill_to_loaded = (array) $customer_profile->paymentProfiles[$payment_profile_key]->billTo;
-          $bill_to = (array) $payment_profile->billTo;
-          $fields_match = 0;
-          foreach($bill_to as $field_key => $field_value) {
-            if (in_array($field_key, $fields) && !empty($bill_to_loaded[$field_key]) && $field_value == $bill_to_loaded[$field_key]) {
-              $fields_match++;
-            }
-          }
-          $field_ratio = $fields_match/$fields_total;
-          if ($field_ratio > $best_ratio) {
-            $best_ratio = $field_ratio;
-            $best_match = $payment_profile_key;
-          }
-        }
-
-        // Normally such matching would not be advised but we have to remember
-        // that Authorize.net has already indicated that one payment profile is
-        // a match so we pick one that has the most matching fields.
-        $payment_profile_id = $customer_profile->paymentProfiles[$best_match]->customerPaymentProfileId;
-      }
-
-      if ($payment_profile_id) {
-        $payment_profile->customerPaymentProfileId = $payment_profile_id;
-        $payment_profile->is_default = TRUE;
-
-        // Invoke hook_authnet_cim_payment_profile_insert to save the entity.
-        module_invoke_all('authnet_cim_payment_profile_insert', $customer_profile_id, $payment_profile);
-
-        // Return TRUE so that the transaction can continue.
-        return TRUE;
-      }
-    }
-    elseif (!empty($payment_profile->payment->bankAccount->accountNumber)) {
-      // @todo - Do similar comparison to try match bank account numbers.
-    }
-  }
 
   // Return FALSE if the above didn't return anything else.
   return FALSE;
@@ -412,8 +337,8 @@ function authnet_cim_payment_profile_delete($customer_profile_id, $payment_profi
   // Log the response object.
   authnet_log_response($response);
 
-  // If the request was successful, or if the record doesn't exist in Authorize.net (message code 'E00040')...
-  if ($response->isOk() || ($response->xml->messages->message->code == 'E00040')) {
+  // If the request was successful...
+  if ($response->isOk()) {
 
     // Invoke hook_authnet_cim_payment_profile_delete and pass in the payment profile id.
     module_invoke_all('authnet_cim_payment_profile_delete', $customer_profile_id, $payment_profile_id);
@@ -583,9 +508,6 @@ function authnet_cim_transaction(AuthorizeNetTransaction $transaction, $method =
 
     // Create an Authorize.net request object.
     $request = authnet_request_new('CIM');
-
-    // Round the transaction amount to 2 decimal places.
-    $transaction->amount = round($transaction->amount, 2);
 
     // Send the transaction to Authorize.net.
     $response = $request->createCustomerProfileTransaction($methods[$method], $transaction);

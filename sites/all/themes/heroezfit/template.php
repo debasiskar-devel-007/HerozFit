@@ -2,8 +2,6 @@
 
 
 
-
-
 function heroezfit_preprocess_node(&$variables) {
     $node = $variables['node'];
 	

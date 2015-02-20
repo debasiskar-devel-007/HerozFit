@@ -71,6 +71,8 @@ var flag1='';
 
             $(".imgLiquid").imgLiquid();
 
+            $('.block-aggregator').find('a').attr('target','_blank');
+
             //var jq = $.noConflict();
 
          $('.imageslider').bxSlider({

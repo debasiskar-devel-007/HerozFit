@@ -21,13 +21,11 @@
  *   An array of fields to add to the transaction.
  * @param $method
  *   The method of transaction to perform. Must be one of the defined AUTHNET_METHOD_* constants (see authnet.module).
- * @param $options
- *   An array of extra options to pass to authnet_request_new().
  *
  * @return
  *   Returns TRUE if the transaction was approved, FALSE otherwise.
  */
-function authnet_aim_transaction($sale, $method = AUTHNET_METHOD_AUTH_CAPTURE, $options = array()) {
+function authnet_aim_transaction($sale, $method = AUTHNET_METHOD_AUTH_CAPTURE) {
 
   // Define the available transaction methods.
   $methods = array(
@@ -43,10 +41,7 @@ function authnet_aim_transaction($sale, $method = AUTHNET_METHOD_AUTH_CAPTURE, $
   if (isset($methods[$method])) {
 
     // Create an Authorize.net request object.
-    $request = authnet_request_new('AIM', $options);
-
-    // Round the sale amount to 2 decimal places.
-    $sale['amount'] = round($sale['amount'], 2);
+    $request = authnet_request_new('AIM');
 
     // Set up the fields on the AIM request object.
     $request->setFields($sale);

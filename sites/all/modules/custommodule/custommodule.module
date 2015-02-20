@@ -172,6 +172,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
         $form['title']['#access'] = FALSE;
         $form['actions']['submit']['#submit'][] = 'Subscribemail_submit';
+        $form['actions']['submit']['#value']='Subscribed';
 
 
     }
@@ -215,6 +216,8 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
 
         //$form['#validate'][] = 'custom_registration_form_validation';
         $form['name']['#attributes']['placeholder'] = t( 'Username' );
+        $form['name']['#description'] = t('');
+        $form['pass']['#description'] = t('');
         $form['pass']['#attributes']['placeholder'] = t( 'Password' );
         $form['#prefix'] = '<div class="loginForm"><h2> <span>Log</span> in</h2>';
         $form['#suffix'] = '<span class="sign-up-text">Forgot Your Password? <a href="'.$GLOBALS['base_url'].'/user/password"> Click Here</a></span></div>';
@@ -426,6 +429,7 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
         //$form['#after_build'][] = 'CUSTOM_MODULE_NODE_TYPE_node_form_after_build';
         $form['actions']['submit']['#submit'][] = 'MYMODULE_submitsendemail';
 
+
     }
 
 
@@ -466,8 +470,10 @@ function custommodule_form_alter(&$form, &$form_state, $form_id) {
     if($form_id=='fit_report_event_mail_node_form'){
 
         $form['field_issend']['#access']=false;
+        $form['actions']['submit']['#value']='Send';
 
         $form['actions']['submit']['#submit'][] = 'MYMODULE_submit6';
+
     }
 
 
@@ -819,7 +825,8 @@ function custommodule_mail($key, &$message, $params) {
 
 function custommodule_testmail() {
 
-
+//echo 1;
+    //exit;
 
     $orderid=@$_GET['orderid'];
     //echo "check out";

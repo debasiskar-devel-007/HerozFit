@@ -18,7 +18,6 @@ define('AUTHNET_METHOD_AUTH_ONLY', 'AUTH_ONLY');
 define('AUTHNET_METHOD_CAPTURE_ONLY', 'CAPTURE_ONLY');
 define('AUTHNET_METHOD_CREDIT', 'CREDIT');
 define('AUTHNET_METHOD_VOID', 'VOID');
-define('AUTHNET_MINIMUM_VERSION', '3.1');
 
 /* ******************************************************************************
  * Includes
@@ -64,45 +63,27 @@ function authnet_menu() {
  * *****************************************************************************/
 
 /**
- * Implements hook_libraries_info()
- */
-function authnet_libraries_info() {
-  return array(
-    'anet_php_sdk' => array(
-      'title' => 'Authorize.net SDK for PHP',
-      'vendor url' => 'https://github.com/AuthorizeNet/sdk-php',
-      'download url' => 'https://github.com/AuthorizeNet/sdk-php/archive/master.zip',
-      'version arguments' => array(
-        'file' => 'lib/AuthorizeNetAIM.php',
-        'pattern' => '/"version" => "([^"\r\n]*)/',
-        'lines' => 100,
-      ),
-      'files' => array(
-        'php' => array(
-          'autoload.php',
-        ),
-      ),
-    ),
-  );
-}
-
-/**
  * Determine the path to the Authorize.net PHP SDK library.
  *
- * @param bool $filename
- *  Boolean to determine whether or not the primary library filename should be
- *  appended to the path before it's returned. Defaults to FALSE.
+ * @param $filename
+ *   Boolean to determine whether or not the primary library filename should be appended to the path before it's returned. Defaults to FALSE.
  *
  * @return
- *  Returns the path to the library.
+ *   Returns the path to the library.
+ *
+ * @todo
+ *   Make this flexible so it doesn't necessarily depend on the Libraries module.
+ *   Look at Colorbox module's colorbox_get_path() for a good example.
  */
 function authnet_sdk_path($filename = FALSE) {
-  $info = libraries_load('anet_php_sdk');
-  $path = $info['library path'];
+
+  // Look for the Authorize.net library in the libraries directory.
+  // The folder should be called 'anet_php_sdk', to match what exists on Authorize.net's site (http://developer.authorize.net/downloads).
+  $path = libraries_get_path('anet_php_sdk');
 
   // Append the filename, if requested.
   if ($filename) {
-    $path .= '/' . key($info['files']['php']);
+    $path .= 'payment_anet/AuthorizeNet.php';
   }
   return $path;
 }
@@ -115,7 +96,7 @@ function authnet_sdk_include() {
   if (!$loaded) {
 
     // Load the library file.
-    require_once('payment_anet/AuthorizeNet.php');
+    require_once(authnet_sdk_path(TRUE));
 
     // Remember that we loaded it already.
     $loaded = TRUE;
@@ -198,8 +179,8 @@ function authnet_log_response($response) {
   // Process the message if it's an error, or if debug mode is on.
   if (!$status['success'] || variable_get('authnet_debug', FALSE)) {
 
-    // Print errors to the screen, if debug mode is on and Drupal's core error_level variable is greater than or equal to 1.
-    if (!$status['success'] && variable_get('authnet_debug', FALSE) && variable_get('error_level', 1) >= 1) {
+    // Print errors to the screen, if Drupal's core error_level variable is greater than or equal to 1.
+    if (!$status['success'] && variable_get('error_level', 1) >= 1) {
       drupal_set_message($status['message'], 'error');
     }
 
@@ -269,6 +250,9 @@ function authnet_set_response($response = NULL) {
  *   An array in the form array('success' => bool, 'message' => string);
  */
 function _authnet_response_status($response) {
+
+//var_dump($response);
+//exit;
 
   // If the response object is an instance of AuthorizeNetCIM_Response...
   if ($response instanceof AuthorizeNetCIM_Response) {

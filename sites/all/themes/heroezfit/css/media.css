@@ -1,6 +1,18 @@
 @media screen and (max-width:1920px) {
 .page-node-2 #block-views-fit-image-block{ width:580px; float:left; margin-left:14%; margin-right:70px; }
+
+.front #node-50{ margin-left:390px; }
+.front #node-54{ margin-left:390px; }
+.page-node-2 #block-views-fit-image-block{ margin-left:388px;  }
 }
+
+@media screen and (max-width:1600px) {
+
+.front #node-50{ margin-left:225px; }
+.front #node-54{ margin-left:225px; }
+.page-node-2 #block-views-fit-image-block{ margin-left:225px;  }
+}
+
 
 @media screen and (max-width:1440px) {
 .front #node-50{ width:754px; float:left;   margin-left:140px; margin-bottom:10px;}
