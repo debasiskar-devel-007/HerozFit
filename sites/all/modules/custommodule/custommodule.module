@@ -32,8 +32,8 @@ function custommodule_permission() {
 function custommodule_preprocess_node(&$variables) {
     $node = $variables['node'];
 
-    echo 98;
-    exit;
+   // echo 98;
+    //exit;
     if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
         $variables['classes_array'][] = 'node-full';
     }

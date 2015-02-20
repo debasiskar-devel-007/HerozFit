@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custommodule.module" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custommodule.module" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1255" column="22" selection-start="36812" selection-end="36812" vertical-scroll-proportion="-5.9615383" vertical-offset="21180" max-vertical-offset="21862">
+            <state line="40" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.5483871" vertical-offset="306" max-vertical-offset="21862">
               <folding>
                 <element signature="e#6#86#0" expanded="true" />
               </folding>
@@ -115,10 +115,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custommodule.install" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custommodule.install" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="466" selection-end="466" vertical-scroll-proportion="0.33009708" vertical-offset="0" max-vertical-offset="721">
+            <state line="14" column="1" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -169,10 +169,10 @@
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
         <option value="$PROJECT_DIR$/sites/default/settings.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/template.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom_search/custom_search.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
       </list>
     </option>
   </component>
@@ -712,15 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1255" column="22" selection-start="36812" selection-end="36812" vertical-scroll-proportion="-5.9615383" vertical-offset="21180" max-vertical-offset="21862">
-          <folding>
-            <element signature="e#6#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom_search/custom_search.info">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="24" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
@@ -737,8 +728,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="466" selection-end="466" vertical-scroll-proportion="0.33009708" vertical-offset="0" max-vertical-offset="721">
+        <state line="14" column="1" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.5483871" vertical-offset="306" max-vertical-offset="21862">
+          <folding>
+            <element signature="e#6#86#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
