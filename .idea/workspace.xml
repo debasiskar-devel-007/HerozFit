@@ -26,16 +26,7 @@
       <file leaf-file-name="search-result.tpl.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/search/search-result.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1479">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="13" selection-end="13" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
               <folding />
             </state>
           </provider>
@@ -44,16 +35,25 @@
       <file leaf-file-name="Common.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="69" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="13158">
+            <state line="392" column="0" selection-start="13724" selection-end="13724" vertical-scroll-proportion="-11.12" vertical-offset="6386" max-vertical-offset="13158">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css">
+      <file leaf-file-name="Common.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/Common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4557" column="23" selection-start="169753" selection-end="169753" vertical-scroll-proportion="0.0" vertical-offset="77356" max-vertical-offset="78098">
+            <state line="388" column="18" selection-start="13801" selection-end="13801" vertical-scroll-proportion="0.1830161" vertical-offset="6471" max-vertical-offset="13379">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="26" selection-start="314" selection-end="317" vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="5100">
               <folding />
             </state>
           </provider>
@@ -64,44 +64,109 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="35" column="0" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="697">
               <folding>
-                <marker date="1415354128000" expanded="true" signature="817:861" placeholder="..." />
+                <marker date="1415312728000" expanded="true" signature="817:861" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/search/search.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="54" selection-start="7243" selection-end="7243" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="23154">
-              <folding>
-                <marker date="1415354128000" expanded="true" signature="8975:9319" placeholder="..." />
-                <marker date="1415354128000" expanded="true" signature="18044:18100" placeholder="SELECT SUM(s..." />
-                <marker date="1415354128000" expanded="true" signature="18611:18733" placeholder="SELECT t.wor..." />
-                <marker date="1415354128000" expanded="true" signature="27231:27282" placeholder="SELECT title..." />
-                <marker date="1415354128000" expanded="true" signature="30148:30226" placeholder="SELECT nid, ..." />
-                <marker date="1415354128000" expanded="true" signature="32272:32328" placeholder="SELECT capti..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custommodule.module" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custommodule.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.5483871" vertical-offset="306" max-vertical-offset="21862">
-              <folding>
-                <element signature="e#6#86#0" expanded="true" />
-              </folding>
+            <state line="16" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom_search.info" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom_search/custom_search.info">
+      <file leaf-file-name="custommodule1.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule1/custommodule1.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+            <state line="28" column="1" selection-start="579" selection-end="579" vertical-scroll-proportion="-4.6666665" vertical-offset="153" max-vertical-offset="19176">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custommodule1.module" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/custommodule1.module">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="645" column="50" selection-start="20026" selection-end="20026" vertical-scroll-proportion="-4.627451" vertical-offset="10644" max-vertical-offset="20672">
+              <folding>
+                <marker date="1424688690879" expanded="true" signature="3537:7278" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3547:7270" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3547:3566" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3551:7261" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3551:7261" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3551:3566" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3575:7253" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3575:7253" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3645:7242" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3655:7234" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3655:3676" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3659:4160" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3659:4160" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3659:3676" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3718:3815" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3718:3815" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3830:3844" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3881:3895" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="3967:4084" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4099:4113" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4167:4591" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4196:4211" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4212:4583" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4212:4583" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4242:4271" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4242:4271" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4379:4492" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4493:4574" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4493:4574" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4598:4763" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4598:4763" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4645:4736" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4771:5509" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4792:5501" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4861:5494" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4871:5486" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4875:5477" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="4904:5011" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5050:5157" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5201:5308" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5351:5458" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5513:6280" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5534:6272" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5600:5629" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5630:6262" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5630:6262" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5640:6254" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5640:6254" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5644:6245" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5673:5780" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5816:5923" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="5971:6078" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6114:6221" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6284:6970" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6331:6346" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6347:6962" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6347:6962" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6424:6496" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6497:6951" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6497:6951" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6507:6943" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6507:6943" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6511:6934" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6540:6563" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6578:6592" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6679:6738" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6753:6767" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6815:6829" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6879:6893" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="6977:7017" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="7024:7225" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="7071:7178" placeholder="..." />
+                <marker date="1424688690879" expanded="true" signature="32642:32871" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +174,7 @@
       <file leaf-file-name="custommodule.info" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="10" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -118,7 +183,7 @@
       <file leaf-file-name="custommodule.install" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="7" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -137,7 +202,6 @@
         <option value="$PROJECT_DIR$/sites/all/themes/theme.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/media.css" />
         <option value="//KTA30-PC/htdocs/drupalold/sites/all/modules/debasis/debasis.module" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/Common.js" />
         <option value="//KTA37-PC/htdocs/herozfitcart/sites/all/themes/heroezfit/theme.info" />
         <option value="$PROJECT_DIR$/sites/all/modules/ubercart/payment/uc_authorizenet/uc_authorizenet.module" />
         <option value="X:/Computer_Authorities/protected/modules/cms/views/page/home.php" />
@@ -165,14 +229,14 @@
         <option value="$PROJECT_DIR$/misc/jquery.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/templates/search-results.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/templates/search-result.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/default/settings.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/heroezfit/template.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom_search/custom_search.info" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.info" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custommodule1/custommodule1.module" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/custommodule1.module" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/Common.js" />
       </list>
     </option>
   </component>
@@ -209,7 +273,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,9 +370,40 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heroezfit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herozfitcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +473,6 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4075521" sideWeight="0.481875" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -392,6 +485,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4075521" sideWeight="0.518125" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4075521" sideWeight="0.481875" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -442,25 +536,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/search/search.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23154">
-          <folding>
-            <marker date="1415354128000" expanded="true" signature="8975:9319" placeholder="..." />
-            <marker date="1415354128000" expanded="true" signature="18044:18100" placeholder="SELECT SUM(s..." />
-            <marker date="1415354128000" expanded="true" signature="18611:18733" placeholder="SELECT t.wor..." />
-            <marker date="1415354128000" expanded="true" signature="27231:27282" placeholder="SELECT title..." />
-            <marker date="1415354128000" expanded="true" signature="30148:30226" placeholder="SELECT nid, ..." />
-            <marker date="1415354128000" expanded="true" signature="32272:32328" placeholder="SELECT capti..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/theme.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="578" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="73" selection-start="3938" selection-end="3938" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3638" />
@@ -536,6 +611,11 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7368422" vertical-offset="1924" max-vertical-offset="9129" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/comment.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
@@ -597,11 +677,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ctools/ctools.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="23" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.84517044" vertical-offset="0" max-vertical-offset="4607" />
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="23" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.84517044" vertical-offset="0" max-vertical-offset="4607" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/ubercart/uc_order/uc_order.info">
@@ -639,11 +719,6 @@
         <state line="13" column="28" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="22" selection-start="10896" selection-end="10896" vertical-scroll-proportion="-19.846153" vertical-offset="4040" max-vertical-offset="5100" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/misc/jquerynew1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="95931" selection-end="95931" vertical-scroll-proportion="0.093406595" vertical-offset="0" max-vertical-offset="728" />
@@ -658,7 +733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1051" selection-end="1051" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="697">
           <folding>
-            <marker date="1415354128000" expanded="true" signature="817:861" placeholder="..." />
+            <marker date="1415312728000" expanded="true" signature="817:861" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -667,12 +742,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="54" selection-start="7243" selection-end="7243" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="23154">
           <folding>
-            <marker date="1415354128000" expanded="true" signature="8975:9319" placeholder="..." />
-            <marker date="1415354128000" expanded="true" signature="18044:18100" placeholder="SELECT SUM(s..." />
-            <marker date="1415354128000" expanded="true" signature="18611:18733" placeholder="SELECT t.wor..." />
-            <marker date="1415354128000" expanded="true" signature="27231:27282" placeholder="SELECT title..." />
-            <marker date="1415354128000" expanded="true" signature="30148:30226" placeholder="SELECT nid, ..." />
-            <marker date="1415354128000" expanded="true" signature="32272:32328" placeholder="SELECT capti..." />
+            <marker date="1415312728000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1415312728000" expanded="true" signature="-1:-1" placeholder="SELECT SUM(s..." />
+            <marker date="1415312728000" expanded="true" signature="-1:-1" placeholder="SELECT t.wor..." />
+            <marker date="1415312728000" expanded="true" signature="-1:-1" placeholder="SELECT title..." />
+            <marker date="1415312728000" expanded="true" signature="-1:-1" placeholder="SELECT nid, ..." />
+            <marker date="1415312728000" expanded="true" signature="-1:-1" placeholder="SELECT capti..." />
           </folding>
         </state>
       </provider>
@@ -684,16 +759,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="69" selection-start="2480" selection-end="2480" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="13158">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/default/settings.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="581" column="0" selection-start="24063" selection-end="24063" vertical-scroll-proportion="0.72357726" vertical-offset="8760" max-vertical-offset="9129">
+        <state line="10" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
@@ -705,40 +787,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="13" selection-end="13" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom_search/custom_search.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule/custommodule.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="29" selection-start="954" selection-end="954" vertical-scroll-proportion="0.5483871" vertical-offset="306" max-vertical-offset="21862">
+        <state line="16" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custommodule1/custommodule1.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="1" selection-start="579" selection-end="579" vertical-scroll-proportion="-4.6666665" vertical-offset="153" max-vertical-offset="19176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/custommodule1.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="645" column="50" selection-start="20026" selection-end="20026" vertical-scroll-proportion="-4.627451" vertical-offset="10644" max-vertical-offset="20672">
           <folding>
-            <element signature="e#6#86#0" expanded="true" />
+            <marker date="1424688690879" expanded="true" signature="3537:7278" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3547:7270" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3547:3566" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3551:7261" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3551:7261" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3551:3566" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3575:7253" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3575:7253" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3645:7242" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3655:7234" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3655:3676" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3659:4160" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3659:4160" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3659:3676" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3718:3815" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3718:3815" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3830:3844" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3881:3895" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="3967:4084" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4099:4113" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4167:4591" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4196:4211" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4212:4583" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4212:4583" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4242:4271" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4242:4271" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4379:4492" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4493:4574" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4493:4574" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4598:4763" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4598:4763" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4645:4736" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4771:5509" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4792:5501" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4861:5494" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4871:5486" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4875:5477" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="4904:5011" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5050:5157" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5201:5308" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5351:5458" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5513:6280" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5534:6272" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5600:5629" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5630:6262" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5630:6262" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5640:6254" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5640:6254" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5644:6245" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5673:5780" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5816:5923" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="5971:6078" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6114:6221" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6284:6970" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6331:6346" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6347:6962" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6347:6962" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6424:6496" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6497:6951" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6497:6951" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6507:6943" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6507:6943" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6511:6934" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6540:6563" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6578:6592" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6679:6738" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6753:6767" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6815:6829" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6879:6893" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="6977:7017" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="7024:7225" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="7071:7178" placeholder="..." />
+            <marker date="1424688690879" expanded="true" signature="32642:32871" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/templates/page.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="314" selection-end="317" vertical-scroll-proportion="-6.5384617" vertical-offset="204" max-vertical-offset="5100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/heroezfit/js/Common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="392" column="0" selection-start="13724" selection-end="13724" vertical-scroll-proportion="-11.12" vertical-offset="6386" max-vertical-offset="13158">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/Common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="388" column="18" selection-start="13801" selection-end="13801" vertical-scroll-proportion="0.1830161" vertical-offset="6471" max-vertical-offset="13379">
+          <folding />
         </state>
       </provider>
     </entry>

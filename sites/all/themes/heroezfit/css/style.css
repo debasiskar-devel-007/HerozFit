@@ -4587,3 +4587,17 @@ padding:0 6px!important;
 }
 
 .more-link{display:block;width:20px;margin:0 auto;}
+
+
+<!--FIT ARTICLE CSS-->
+.page-node-3 .maincontentwrapper {width:50% !important; display:block !important; margin:0 auto !important;}
+.page-node-3 .maincontentwrapper .block-aggregator{background:#e2e2e2 !important; width:72% !important; display:block !important; margin:20px auto !important; padding:5px 0 0 0;}
+.page-node-3 .maincontentwrapper .block-aggregator h2{padding-top:10px !important; font-family: 'bebasregular'; font-size:22px; color:#008081; text-align:left; border-left:55px solid #008081; padding-left:10px;}
+.page-node-3 .maincontentwrapper .block-aggregator .content{padding-bottom:15px !important; text-align:left !important;}
+.page-node-3 .maincontentwrapper .block-aggregator .content .item-list ul li a{text-decoration:none; color:#313131; font-family: 'open_sansregular'; font-size:14px;}
+.page-node-3 .maincontentwrapper .block-aggregator .content ul li ul li a{text-decoration:none; color:#313131; font-family: 'open_sansregular'; font-size:14px;}
+.page-node-3 .maincontentwrapper .block-aggregator .content .item-list ul li{list-style:none; padding:0 0 8px 0;}
+.page-node-3 .maincontentwrapper .block-aggregator .content .more-link{background: none repeat scroll 0 0 #151515; height: 44px; margin: 10px 0 0 25px; width: 130px; display:block; line-height:44px; text-align:center;}
+.page-node-3 .maincontentwrapper .block-aggregator .content .more-link a{text-decoration:none; color:#FFFFFF;}
+.page-node-3 .maincontentwrapper .block-aggregator .content .more-link a:after{content: "►"; padding-left: 10px;}
+<!--FIT ARTICLE CSS-->
